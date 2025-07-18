@@ -1,0 +1,41 @@
+/* import link for the philosopher font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-family: "Philosopher",sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*
+------------------styling for the topbar--------------- 
+*/
+
+.topbar {
+    padding: 0 6vw;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color: #06268b;
+}
+.topbar > .topbar-mail-address {
+    display: flex;
+    gap: 20px;
+}
+.topbar > .topbar-mail-address > a {
+    color: white;
+    font-size: 14px;
+}
