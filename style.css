@@ -274,19 +274,30 @@ body {
 }
 .where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card {
     height: 120px;
-    width: 250px;
+    width: 260px;
     background-color: #06268b;
     display: flex;
     align-items: center;
+    gap: 10px;
     padding: 0 10px;
 }
 .where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-img {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     background-color: cadetblue;
     border-radius: 50%;
     background-size: 100% 100%;
     background-position: center;
+}
+.where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-title > h3 {
+    color: white;
+}
+.where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-title > h3 > span > i {
+    margin-left: 5px;
+    font-size: 20px;
+}
+.where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card:hover .arrow > i{
+   transform: rotateZ(320deg);
 }
 .where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-img1 {
     background-image: url(./assets/images/index-whr-do-we-need-ation/neck-pain.jpg);
@@ -299,4 +310,22 @@ body {
 }
 .where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-img4 {
     background-image: url(./assets/images/index-whr-do-we-need-ation/knee-pain.jpg);
+}
+.where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-img5 {
+    background-image: url(./assets/images/index-whr-do-we-need-ation/elbow-pain.png);
+}
+.where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-img6 {
+    background-image: url(./assets/images/index-whr-do-we-need-ation/tricep-pain.png);
+}
+.where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-img7 {
+    background-image: url(./assets/images/index-whr-do-we-need-ation/hand-pain.jpg);
+}
+.where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-img8 {
+    background-image: url(./assets/images/index-whr-do-we-need-ation/foot-pain.jpg);
+}
+.where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-img9 {
+    background-image: url(./assets/images/index-whr-do-we-need-ation/ankle-pain.jpg);
+}
+.where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-img10 {
+    background-image: url(./assets/images/index-whr-do-we-need-ation/back-pain.png);
 }

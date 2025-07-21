@@ -106,50 +106,80 @@
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img1">
 
                     </div>
+                    <div class="where-do-we-need-ation-card-title">
+                        <h3>Neck Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
+                    </div>
                 </div>
                 <div class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img2">
 
+                    </div>
+                    <div class="where-do-we-need-ation-card-title">
+                        <h3>Shoulder Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
                 </div>
                 <div class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img3">
 
                     </div>
+                    <div class="where-do-we-need-ation-card-title">
+                        <h3>Hip Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
+                    </div>
                 </div>
                 <div class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img4">
 
+                    </div>
+                    <div class="where-do-we-need-ation-card-title">
+                        <h3>Knee Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
                 </div>
                 <div class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img5">
 
                     </div>
+                    <div class="where-do-we-need-ation-card-title">
+                        <h3>Elbow Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
+                    </div>
                 </div>
                 <div class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img6">
 
+                    </div>
+                    <div class="where-do-we-need-ation-card-title">
+                        <h3>Tricep Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
                 </div>
                 <div class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img7">
 
                     </div>
+                    <div class="where-do-we-need-ation-card-title">
+                        <h3>Hand Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
+                    </div>
                 </div>
                 <div class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img8">
 
                     </div>
-                </div>
-                <div class="where-do-we-need-ation-card">
-                    <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img9">
-
+                    <div class="where-do-we-need-ation-card-title">
+                        <h3>Foot Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
                 </div>
                 <div class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img9">
 
+                    </div>
+                    <div class="where-do-we-need-ation-card-title">
+                        <h3>Ankel Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
+                    </div>
+                </div>
+                <div class="where-do-we-need-ation-card">
+                    <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img10">
+
+                    </div>
+                    <div class="where-do-we-need-ation-card-title">
+                        <h3>Back Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
                 </div>
             </div>
