@@ -186,6 +186,31 @@
         </div>
     </div>
 
+
+    <!-- -------------start of the about us section------------  -->
+    <div class="about-section">
+        <div>
+            <div class="workDone-and-happyCustomers-cards">
+                <div class="workDone-and-happyCustomers-card">
+                    <h4>Work Done</h4>
+                    <h1>+20k</h1>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                </div>
+                <div class="workDone-and-happyCustomers-card">
+                    <h4>Happy Customers</h4>
+                    <h1>+10k</h1>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                </div>
+            </div>
+            <div class="about-section-first-img">
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
     <!-- -----------script link for the swiper js------------ -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

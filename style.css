@@ -275,7 +275,7 @@ body {
 .where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card {
     height: 120px;
     width: 260px;
-    background-color: #06268b;
+    background-color: #f6f8ff;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -290,7 +290,7 @@ body {
     background-position: center;
 }
 .where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-title > h3 {
-    color: white;
+    color: #06268b;
 }
 .where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-title > h3 > span > i {
     margin-left: 5px;
@@ -328,4 +328,78 @@ body {
 }
 .where-do-we-need-ation > div > .where-do-we-need-ation-cards > .where-do-we-need-ation-card > .where-do-we-need-ation-card-img10 {
     background-image: url(./assets/images/index-whr-do-we-need-ation/back-pain.png);
+}
+
+
+
+/* 
+------------------styling for the about section-------------------
+*/
+
+.about-section {
+    padding: 50px 5vw;
+}
+.about-section > div {
+    height: 700px;
+    background: linear-gradient(white 0% 15%, #f6f8ff 15% 100%);
+    position: relative;
+}
+.about-section > div > .workDone-and-happyCustomers-cards {
+    display: flex;
+    gap: 10px;
+}
+.about-section > div > .workDone-and-happyCustomers-cards > .workDone-and-happyCustomers-card {
+    height: 220px;
+    width: 220px;
+    background-color: #06268b;
+    color: white;
+    padding: 30px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-section > div > .workDone-and-happyCustomers-cards > .workDone-and-happyCustomers-card > h4 {
+    color: #1b99fe;
+}
+.about-section > div > .workDone-and-happyCustomers-cards > .workDone-and-happyCustomers-card > h1 {
+    font-size: 52px;
+}
+.about-section > div > .workDone-and-happyCustomers-cards > .workDone-and-happyCustomers-card > span {
+    color: #1b99fe;
+    font-size: 20px;
+}
+.about-section > div > .about-section-first-img {
+    height: 250px;
+    width: 250px;
+    background-color: #06268b;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    border-radius: 50%;
+    background-image: url(./assets/images/index-about-section/first-img.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.about-section > div > .about-section-first-img::before {
+    content: '';
+    position: absolute;
+    top: -68px;
+    left: -67px;
+    width: 380px; 
+    height: 380px;
+    background-image: url(./assets/images/index-about-section/shape-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    z-index: 0;
+    animation: rotateCircle 6s linear infinite;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
