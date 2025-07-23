@@ -202,8 +202,10 @@
                     <span><i class="fa-solid fa-circle-check"></i></span>
                 </div>
             </div>
-            <div class="about-section-first-img">
-                
+            <div class="about-section-outer-circle1">
+                <div class="about-section-inside-circle-img1">
+
+                </div>
             </div>
         </div>
     </div>

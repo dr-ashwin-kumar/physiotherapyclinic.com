@@ -338,6 +338,7 @@ body {
 
 .about-section {
     padding: 50px 5vw;
+    overflow: hidden;
 }
 .about-section > div {
     height: 700px;
@@ -369,37 +370,42 @@ body {
     color: #1b99fe;
     font-size: 20px;
 }
-.about-section > div > .about-section-first-img {
-    height: 250px;
-    width: 250px;
-    background-color: #06268b;
+.about-section > div > .about-section-outer-circle1 {
     position: absolute;
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
     top: 5%;
     right: 0;
-    border-radius: 50%;
-    background-image: url(./assets/images/index-about-section/first-img.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.about-section > div > .about-section-first-img::before {
-    content: '';
+.about-section > div > .about-section-outer-circle1::before {
+    content: "";
     position: absolute;
-    top: -68px;
-    left: -67px;
-    width: 380px; 
-    height: 380px;
-    background-image: url(./assets/images/index-about-section/shape-1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 280px;
+    width: 280px;
     border-radius: 50%;
-    z-index: 0;
-    animation: rotateCircle 6s linear infinite;
+    border: 5px dotted #06268b;
+    animation-name: rotateOuterCircle1;
+    animation-timing-function: ease;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
 }
-@keyframes rotateCircle {
+@keyframes rotateOuterCircle1 {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(0%);
     }
     100% {
         transform: rotate(360deg);
     }
+}
+.about-section > div > .about-section-outer-circle1 > .about-section-inside-circle-img1 {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-image: url(./assets/images/index-about-section/first-img.jpg);
+    background-size: 100% 100%;
 }
