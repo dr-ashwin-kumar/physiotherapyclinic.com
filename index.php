@@ -95,7 +95,7 @@
         </div>
     </div>
 
-    
+
     <!-- ----------------start of the where do we need attention----------------- -->
     <div class="where-do-we-need-ation">
         <div>
@@ -207,10 +207,85 @@
 
                 </div>
             </div>
+            <div class="about-us">
+                <div>
+                    <div class="about-us-title">
+                        <h4>About Sri Sai Balaji Physiotherapy Clinic</h4>
+                        <h1>We Treat The Individual, Not Just The Injury</h1>
+                        <p>Many athletes will have negative thoughts and experiences during injury recovery, which may adversely affect their motivation and willingness .</p>
+                    </div>
+                    <div class="about-us-cards">
+                        <ul>
+                            <li>
+                                <h2>Our Mission<span></span></h2>
+                                <p>Our communities as the premier provider of adult rehabilitation care.</p>
+                            </li>
+                            <li>
+                                <h2>Our Vision <span></span></h2>
+                                <p>Our Clinc is committed, to providing an exceptional, patient care experience </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-us-sign">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-section-outer-circle2">
+                <div class="about-section-inside-circle-img2">
+
+                </div>
+            </div>
         </div>
     </div>
 
 
+    <!-- ------------------start of the marquee text---------------------  -->
+    <div class="marquee-text">
+        <div class="marquee-content">
+            <h1>
+                Sri Sai Balaji Physiotherapy Clinic – Manual Therapy
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Electrotherapy
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Pain Relief
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Sports Rehab
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Postural Correction
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Mobility Enhancement
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Injury Recovery
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Strength Training
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Sri Sai Balaji Physiotherapy Clinic
+            </h1>
+            <!-- Duplicate for seamless loop -->
+            <h1>
+                Sri Sai Balaji Physiotherapy Clinic – Manual Therapy
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Electrotherapy
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Pain Relief
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Sports Rehab
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Postural Correction
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Mobility Enhancement
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Injury Recovery
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Strength Training
+                <span><i class="fa-solid fa-snowflake"></i></span>
+                Sri Sai Balaji Physiotherapy Clinic
+            </h1>
+        </div>
+    </div>
 
 
     <!-- -----------script link for the swiper js------------ -->
