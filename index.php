@@ -288,11 +288,49 @@
     </div>
 
 
+    <!-- ---------------start of the services we think differently----------------- -->
+    <div class="services-we-think-difrnt">
+        <div class="services-we-think-difrnt-info">
+            <h4>Services</h4>
+            <h1>We Think Differently.</h1>
+            <p>The human body is exceedingly versatile, which implies that the human body can shockingly be proficiently wasteful</p>
+            <div class="services-we-think-difrnt-cards-nav">
+                
+            </div>
+        </div>
+        <div class="services-we-think-difrnt-cards swiper">
+            <div class="services-we-think-difrnt-card-wrapper swiper-wrapper">
+                <div class="services-we-think-difrnt-card swiper-slide">
+
+                </div>
+                <div class="services-we-think-difrnt-card swiper-slide">
+
+                </div>
+                <div class="services-we-think-difrnt-card swiper-slide">
+
+                </div>
+                <div class="services-we-think-difrnt-card swiper-slide">
+
+                </div>
+                <div class="services-we-think-difrnt-card swiper-slide">
+
+                </div>
+                <div class="services-we-think-difrnt-card swiper-slide">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- -----------script link for the swiper js------------ -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- -----------script link for the hero carousel--------------- -->
     <script src="./index-hero-carousel.js"></script>
+
+    <!-- -----------script link for the services we think differently------------- -->
+    <script src="./index-services-we-think.js"></script>
 
     <!-- -----------script link for the gsap animation of text and cards------------- -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>

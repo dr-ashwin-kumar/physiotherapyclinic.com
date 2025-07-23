@@ -636,3 +636,50 @@ body {
     transform: translateX(-50%);
   }
 }
+
+
+
+/*
+-----------------styling for the services we think differently----------------
+*/
+
+.services-we-think-difrnt {
+    padding: 50px 0vw;
+    display: flex;
+}
+.services-we-think-difrnt > .services-we-think-difrnt-info {
+    width: 25%;
+    height: 500px;
+    background-color: white;
+    color: #06268b;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.services-we-think-difrnt > .services-we-think-difrnt-info > h4 {
+    color: #1b99fe;
+}
+.services-we-think-difrnt > .services-we-think-difrnt-info > h1 {
+    font-size: 3vw;
+}
+.services-we-think-difrnt > .services-we-think-difrnt-info > p {
+    color: gray;
+    font-size: large;
+}
+.services-we-think-difrnt > .services-we-think-difrnt-cards {
+    width: 75%;
+    height: 500px;
+    background-color: aliceblue;
+}
+.services-we-think-difrnt > .services-we-think-difrnt-cards > .services-we-think-difrnt-card-wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.services-we-think-difrnt > .services-we-think-difrnt-cards > .services-we-think-difrnt-card-wrapper > .services-we-think-difrnt-card {
+    height: 400px;
+    width: 300px;
+    background-color: yellowgreen;
+}
