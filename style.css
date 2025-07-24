@@ -644,7 +644,7 @@ body {
 */
 
 .services-we-think-difrnt {
-    padding: 50px 0vw;
+    padding: 50px 5vw;
     display: flex;
 }
 .services-we-think-difrnt > .services-we-think-difrnt-info {
@@ -668,18 +668,64 @@ body {
     color: gray;
     font-size: large;
 }
+.services-we-think-difrnt > .services-we-think-difrnt-info > .services-we-think-difrnt-cards-nav {
+    display: flex;
+    gap: 50px;
+}
+.services-we-think-difrnt > .services-we-think-difrnt-info > .services-we-think-difrnt-cards-nav > .services-we-think-difrnt-card-prev,
+.services-we-think-difrnt > .services-we-think-difrnt-info > .services-we-think-difrnt-cards-nav > .services-we-think-difrnt-card-next {
+    font-size: 42px;
+    color: #1b99fe;
+}
 .services-we-think-difrnt > .services-we-think-difrnt-cards {
     width: 75%;
     height: 500px;
-    background-color: aliceblue;
 }
 .services-we-think-difrnt > .services-we-think-difrnt-cards > .services-we-think-difrnt-card-wrapper {
     display: flex;
     height: 100%;
     align-items: center;
+    flex-grow: 0;
 }
 .services-we-think-difrnt > .services-we-think-difrnt-cards > .services-we-think-difrnt-card-wrapper > .services-we-think-difrnt-card {
     height: 400px;
     width: 300px;
-    background-color: yellowgreen;
+    background-color: cadetblue;
+    position: relative;
+    z-index: 3;
+}
+.services-we-think-difrnt > .services-we-think-difrnt-cards > .services-we-think-difrnt-card-wrapper > .services-we-think-difrnt-card::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-size: 100% 100%;
+}
+.services-we-think-difrnt > .services-we-think-difrnt-cards > .services-we-think-difrnt-card-wrapper > .services-we-think-difrnt-card::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-color: black;
+    opacity: .4;
+}
+.services-we-think-difrnt > .services-we-think-difrnt-cards > .services-we-think-difrnt-card-wrapper > .services-we-think-difrnt-card1::before {
+    background-image: url(./assets/images/index-services-we-think-differ/card1.jpg);
+}
+.services-we-think-difrnt > .services-we-think-difrnt-cards > .services-we-think-difrnt-card-wrapper > .services-we-think-difrnt-card2::before {
+    background-image: url(./assets/images/index-services-we-think-differ/card2.jpg);
+}
+.services-we-think-difrnt > .services-we-think-difrnt-cards > .services-we-think-difrnt-card-wrapper > .services-we-think-difrnt-card3::before {
+    background-image: url(./assets/images/index-services-we-think-differ/card3.jpg);
+}
+.services-we-think-difrnt > .services-we-think-difrnt-cards > .services-we-think-difrnt-card-wrapper > .services-we-think-difrnt-card4::before {
+    background-image: url(./assets/images/index-services-we-think-differ/card4.jpg);
+}
+.services-we-think-difrnt > .services-we-think-difrnt-cards > .services-we-think-difrnt-card-wrapper > .services-we-think-difrnt-card5::before {
+    background-image: url(./assets/images/index-services-we-think-differ/card5.jpg);
+}
+.services-we-think-difrnt > .services-we-think-difrnt-cards > .services-we-think-difrnt-card-wrapper > .services-we-think-difrnt-card6::before {
+    background-image: url(./assets/images/index-services-we-think-differ/card6.jpg);
 }

@@ -295,27 +295,28 @@
             <h1>We Think Differently.</h1>
             <p>The human body is exceedingly versatile, which implies that the human body can shockingly be proficiently wasteful</p>
             <div class="services-we-think-difrnt-cards-nav">
-                
+                <div class="services-we-think-difrnt-card-prev"><i class="fa-solid fa-arrow-left"></i></div>
+                <div class="services-we-think-difrnt-card-next"><i class="fa-solid fa-arrow-right"></i></div>
             </div>
         </div>
         <div class="services-we-think-difrnt-cards swiper">
             <div class="services-we-think-difrnt-card-wrapper swiper-wrapper">
-                <div class="services-we-think-difrnt-card swiper-slide">
+                <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card1">
 
                 </div>
-                <div class="services-we-think-difrnt-card swiper-slide">
+                <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card2">
 
                 </div>
-                <div class="services-we-think-difrnt-card swiper-slide">
+                <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card3">
 
                 </div>
-                <div class="services-we-think-difrnt-card swiper-slide">
+                <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card4">
 
                 </div>
-                <div class="services-we-think-difrnt-card swiper-slide">
+                <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card5">
 
                 </div>
-                <div class="services-we-think-difrnt-card swiper-slide">
+                <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card6">
 
                 </div>
             </div>
