@@ -16,6 +16,10 @@
     <!-- ---------------link for the swiper js for the carousel---------------- -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <!-- ---------------link for the justapose js for the image before and after-------------- -->
+    <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+    <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+
 </head>
 
 <body>
@@ -302,22 +306,118 @@
         <div class="services-we-think-difrnt-cards swiper">
             <div class="services-we-think-difrnt-card-wrapper swiper-wrapper">
                 <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card1">
-
+                    <div class="services-we-think-difrnt-card-content">
+                        <div class="content-title">
+                            <h4>Leg Pain</h4>
+                            <h2>Arthritis</h2>
+                        </div>
+                        <div class="content-img">
+                            <img src="./assets/images/index-services-we-think-differ/icon1.png" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card2">
-
+                    <div class="services-we-think-difrnt-card-content">
+                        <div class="content-title">
+                            <h4>Diathermy</h4>
+                            <h2>Strains and Sprains</h2>
+                        </div>
+                        <div class="content-img">
+                            <img src="./assets/images/index-services-we-think-differ/icon2.png" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card3">
-
+                    <div class="services-we-think-difrnt-card-content">
+                        <div class="content-title">
+                            <h4>Osteopaths</h4>
+                            <h2>Paralysis</h2>
+                        </div>
+                        <div class="content-img">
+                            <img src="./assets/images/index-services-we-think-differ/icon3.png" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card4">
-
+                    <div class="services-we-think-difrnt-card-content">
+                        <div class="content-title">
+                            <h4>Taping</h4>
+                            <h2>Amputations</h2>
+                        </div>
+                        <div class="content-img">
+                            <img src="./assets/images/index-services-we-think-differ/icon4.png" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card5">
-
+                    <div class="services-we-think-difrnt-card-content">
+                        <div class="content-title">
+                            <h4>Diathermy</h4>
+                            <h2>Neurological</h2>
+                        </div>
+                        <div class="content-img">
+                            <img src="./assets/images/index-services-we-think-differ/icon5.png" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card6">
+                    <div class="services-we-think-difrnt-card-content">
+                        <div class="content-title">
+                            <h4>Intermist</h4>
+                            <h2>Brain Injury</h2>
+                        </div>
+                        <div class="content-img">
+                            <img src="./assets/images/index-services-we-think-differ/icon6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+
+
+    <!-- --------------start of the why choose us section---------------- -->
+    <div class="whyChooseUs-section">
+        <div class="why-choose-us">
+            <div class="whyChooseUs-info">
+                <h4>Why Choose Us</h4>
+                <h1>We help you to better manufacturing</h1>
+                <p>Use the latest research in physical therapy to work better, play better—and spend more time on what really matters.</p>
+                <div class="whyChooseUs-info-icons">
+                    <div class="whyChooseUs-info-icon">
+                        <div class="whyChooseUs-info-icon-circle">
+                            <h1><i class="fa-regular fa-thumbs-up"></i></h1>
+                        </div>
+                        <div class="whyChooseUs-info-icon-title">
+                            <h3>Certified & Awards winner</h3>
+                            <p>Researcher in Neuro Physiotherapy' Global Outreach Healthcare Award 2023.</p>
+                        </div>
+                    </div>
+                    <div class="whyChooseUs-info-icon">
+                        <div class="whyChooseUs-info-icon-circle">
+                            <h1><i class="fa-regular fa-handshake"></i></i></h1>
+                        </div>
+                        <div class="whyChooseUs-info-icon-title">
+                            <h3>Innovative Product Solutions</h3>
+                            <p>An effective campaign demands a great deal of time and planning run a marketing.</p>
+                        </div>
+                    </div>
+                    <div class="whyChooseUs-info-icon">
+                        <div class="whyChooseUs-info-icon-circle">
+                            <h1><i class="fa-regular fa-face-smile"></i></h1>
+                        </div>
+                        <div class="whyChooseUs-info-icon-title">
+                            <h3>We will definitely be back!</h3>
+                            <p>Physiotherapy is frequently advised as a component of a larger pain management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="whyChooseUs-image">
+                <div id="whyChooseUs-comparison" class="juxtapose whyChooseUs-slider">
+                    <img id="img-before" class="custom-image" src="./assets/images/index-why-choose-us/before.jpg" data-label="Before" />
+                    <img id="img-after" class="custom-image" src="./assets/images/index-why-choose-us/after.jpg" data-label="After" />
                 </div>
             </div>
         </div>
@@ -339,6 +439,15 @@
 
     <!-- ------------script link for the animation of text and cards------------- -->
     <script src="./index-animation.js"></script>
+
+
+    <!-- REMOVE this block entirely -->
+    <script>
+        window.addEventListener('load', function() {
+            new juxtapose.JXSlider('#whyChooseUs-comparison');
+        });
+    </script>
+
 
 </body>
 

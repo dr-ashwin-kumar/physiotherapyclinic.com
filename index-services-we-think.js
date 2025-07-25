@@ -15,13 +15,16 @@ var swiper = new Swiper(".services-we-think-difrnt-cards", {
         prevEl: ".services-we-think-difrnt-card-next",
     },
     breakpoints: {
-        1024: {
+        1500: {
             slidesPerView: 4
         },
-        768: {
+        1000: {
             slidesPerView: 3
         },
-        480: {
+        700: {
+            slidesPerView: 2
+        },
+        320: {
             slidesPerView: 1
         },
     },
