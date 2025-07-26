@@ -484,15 +484,17 @@
 
     <!-- ------------start of the what is therapy process-------------- -->
     <div class="therapy-process-section">
-        <div class="therapy-process-section">
+        <div class="therapy-process">
             <div class="therapy-process-title">
-                <div>
+                <div class="therapy-process-title-title" >
                     <h1>What is Therapy Process</h1>
                     <p>Many researchers view therapeutic process as evidently <br> consisting of the interactions and communications</p>
                 </div>
-                <a href="#">
-                    Schedule an <br> Appointment
-                </a>
+                <div class="therapy-process-title-button">
+                    <a href="#">
+                        Schedule an <br> Appointment
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -516,31 +518,30 @@
     <!-- ------------script for the justapose js for before and after images -->
     <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-        const container = document.querySelector("#whyChooseUs-comparison");
+        document.addEventListener("DOMContentLoaded", function() {
+            const container = document.querySelector("#whyChooseUs-comparison");
 
-        if (container) {
-        new juxtapose.JXSlider("#whyChooseUs-comparison", [
-            {
-            src: "./assets/images/index-why-choose-us/before.jpg",
-            label: ""
-            },
-            {
-            src: "./assets/images/index-why-choose-us/after.jpg",
-            label: ""
+            if (container) {
+                new juxtapose.JXSlider("#whyChooseUs-comparison", [{
+                        src: "./assets/images/index-why-choose-us/before.jpg",
+                        label: ""
+                    },
+                    {
+                        src: "./assets/images/index-why-choose-us/after.jpg",
+                        label: ""
+                    }
+                ], {
+                    animate: true,
+                    showLabels: false,
+                    showCredits: false,
+                    startingPosition: "50%",
+                    makeResponsive: true
+                });
+            } else {
+                console.error("#whyChooseUs-comparison element not found.");
             }
-        ], {
-            animate: true,
-            showLabels: false,
-            showCredits: false,
-            startingPosition: "50%",
-            makeResponsive: true
         });
-        } else {
-        console.error("#whyChooseUs-comparison element not found.");
-        }
-    });
-  </script>
+    </script>
 
 
 </body>
