@@ -18,7 +18,7 @@
 
     <!-- ---------------link for the justapose js for the image before and after-------------- -->
     <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
-    <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+
 
 </head>
 
@@ -414,15 +414,88 @@
                     </div>
                 </div>
             </div>
-            <div class="whyChooseUs-image">
-                <div id="whyChooseUs-comparison" class="juxtapose whyChooseUs-slider">
-                    <img id="img-before" class="custom-image" src="./assets/images/index-why-choose-us/before.jpg" data-label="Before" />
-                    <img id="img-after" class="custom-image" src="./assets/images/index-why-choose-us/after.jpg" data-label="After" />
+            <div id="whyChooseUs-comparison" class="juxtapose"></div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ----------------start of the stories for patients---------------- -->
+    <div class="stories-for-patient">
+        <div class="patient-stories">
+            <div class="stories-title">
+                <h4>Stories For Patients</h4>
+                <h1>See Our Latest Case Studies</h1>
+            </div>
+            <div class="stories-cards">
+                <div class="stories-card stories-card1">
+                    <div class="stories-card-title">
+                        <h4>Back Pain</h4>
+                        <h2>Cost of Physiotherapy In India</h2>
+                    </div>
+                </div>
+                <div class="stories-card stories-card2">
+                    <div class="stories-card-title">
+                        <h4>Back Pain, Elbow Pain</h4>
+                        <h2>Physiotherapy Sub Specialities</h2>
+                    </div>
+                </div>
+                <div class="stories-card stories-card3">
+                    <div class="stories-card-title">
+                        <h4>Elbow Pain, Hand Pain</h4>
+                        <h2>Women’s Health physiotherapist</h2>
+                    </div>
+                </div>
+                <div class="stories-card stories-card4">
+                    <div class="stories-card-title">
+                        <h4>Hand Pain, Knee Pain</h4>
+                        <h2>Phoenix Physical Therapy</h2>
+                    </div>
+                </div>
+                <div class="stories-card stories-card5">
+                    <div class="stories-card-title">
+                        <h4>Knee Pain</h4>
+                        <h2>Personal Best Physical Therapy</h2>
+                    </div>
+                </div>
+                <div class="stories-card stories-card6">
+                    <div class="stories-card-title">
+                        <h4>Shoulder Pain</h4>
+                        <h2>Creating a high-impact program</h2>
+                    </div>
+                </div>
+                <div class="stories-card stories-card7">
+                    <div class="stories-card-title">
+                        <h4>Back Pain, Elbow Pain, Hand Pain</h4>
+                        <h2>Measuring social impact</h2>
+                    </div>
+                </div>
+                <div class="stories-card stories-card8">
+                    <div class="stories-card-title">
+                        <h4>Back Pain</h4>
+                        <h2>Obsessive compulsive disorder</h2>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+
+    <!-- ------------start of the what is therapy process-------------- -->
+    <div class="therapy-process-section">
+        <div class="therapy-process-section">
+            <div class="therapy-process-title">
+                <div>
+                    <h1>What is Therapy Process</h1>
+                    <p>Many researchers view therapeutic process as evidently <br> consisting of the interactions and communications</p>
+                </div>
+                <a href="#">
+                    Schedule an <br> Appointment
+                </a>
+            </div>
+        </div>
+    </div>
 
     <!-- -----------script link for the swiper js------------ -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -440,13 +513,34 @@
     <!-- ------------script link for the animation of text and cards------------- -->
     <script src="./index-animation.js"></script>
 
-
-    <!-- REMOVE this block entirely -->
+    <!-- ------------script for the justapose js for before and after images -->
+    <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
     <script>
-        window.addEventListener('load', function() {
-            new juxtapose.JXSlider('#whyChooseUs-comparison');
+        document.addEventListener("DOMContentLoaded", function () {
+        const container = document.querySelector("#whyChooseUs-comparison");
+
+        if (container) {
+        new juxtapose.JXSlider("#whyChooseUs-comparison", [
+            {
+            src: "./assets/images/index-why-choose-us/before.jpg",
+            label: ""
+            },
+            {
+            src: "./assets/images/index-why-choose-us/after.jpg",
+            label: ""
+            }
+        ], {
+            animate: true,
+            showLabels: false,
+            showCredits: false,
+            startingPosition: "50%",
+            makeResponsive: true
         });
-    </script>
+        } else {
+        console.error("#whyChooseUs-comparison element not found.");
+        }
+    });
+  </script>
 
 
 </body>
