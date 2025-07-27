@@ -496,6 +496,56 @@
                     </a>
                 </div>
             </div>
+            <div class="therapy-process-steps">
+                <div class="therapy-process-step therapy-process-step1">
+                    <div class="therapy-process-step-image">
+                        <div class="therapy-process-step-img therapy-process-step-img1">
+                            
+                        </div>
+                    </div>
+                    <div class="therapy-process-step-info">
+                        <h2>Get Paired With a Therapist</h2>
+                        <p>Although psychotherapy takes many different forms.</p>
+                        <h3>Step 01</h3>
+                    </div>
+                </div>
+                <div class="therapy-process-step therapy-process-step2">
+                    <div class="therapy-process-step-image">
+                        <div class="therapy-process-step-img therapy-process-step-img2">
+                            
+                        </div>
+                    </div>
+                    <div class="therapy-process-step-info">
+                        <h3>Step 02</h3>
+                        <h2>Choose Your Preferred Way To Receive Care</h2>
+                        <p>All of them aim to support individuals in overcoming.</p>
+                    </div>
+                </div>
+                <div class="therapy-process-step therapy-process-step3">
+                    <div class="therapy-process-step-image">
+                        <div class="therapy-process-step-img therapy-process-step-img3">
+                            
+                        </div>
+                    </div>
+                    <div class="therapy-process-step-info">
+                        <h2>We Help You Get Better, Faster!</h2>
+                        <p>Creating coping mechanisms, and happier and healthier lives.</p>
+                        <h3>Step 03</h3>
+                    </div>
+                </div>
+                <div class="therapy-process-step therapy-process-step4">
+                    <div class="therapy-process-step-image">
+                        <div class="therapy-process-step-img therapy-process-step-img4">
+                            
+                        </div>
+                    </div>
+                    <div class="therapy-process-step-info">
+                        <h3>Step 04</h3>
+                        <h2>What Psychotherapy Can Help With</h2>
+                        <p>A skilled and experienced who is certified to evaluate.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

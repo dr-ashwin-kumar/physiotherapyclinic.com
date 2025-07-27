@@ -1083,6 +1083,11 @@ body {
 .therapy-process-section {
     padding: 50px 5vw;
 }
+.therapy-process-section > .therapy-process {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
 .therapy-process-section > .therapy-process > .therapy-process-title {
     display: flex;
     justify-content: space-between;
@@ -1133,4 +1138,91 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 2;
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step {
+    height: 500px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    gap: 50px;
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step2,
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step4 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 3px dotted #1b99fe;
+    animation-name: therapyProcessStepCircle;
+    animation-timing-function: linear;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    opacity: 0;
+}
+@keyframes therapyProcessStepCircle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step:hover .therapy-process-step-image::before {
+    opacity: 1;
+    transition: opacity .5s linear;
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image > .therapy-process-step-img {
+    height: 230px;
+    width: 230px;
+    background-color: #1b99fe;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image > .therapy-process-step-img1 {
+    background-image: url(./assets/images/index-therapy-process/step1.jpg);
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image > .therapy-process-step-img2 {
+    background-image: url(./assets/images/index-therapy-process/step2.jpg);
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image > .therapy-process-step-img3 {
+    background-image: url(./assets/images/index-therapy-process/step3.jpg);
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image > .therapy-process-step-img4 {
+    background-image: url(./assets/images/index-therapy-process/step4.jpg);
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-info > h2 {
+    color: #06268b;
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-info > p {
+    color: gray;
+}
+.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-info > h3 {
+    color: #1b99fe;
 }
