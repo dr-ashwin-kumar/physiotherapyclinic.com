@@ -486,7 +486,7 @@
     <div class="therapy-process-section">
         <div class="therapy-process">
             <div class="therapy-process-title">
-                <div class="therapy-process-title-title" >
+                <div class="therapy-process-title-title">
                     <h1>What is Therapy Process</h1>
                     <p>Many researchers view therapeutic process as evidently <br> consisting of the interactions and communications</p>
                 </div>
@@ -500,7 +500,7 @@
                 <div class="therapy-process-step therapy-process-step1">
                     <div class="therapy-process-step-image">
                         <div class="therapy-process-step-img therapy-process-step-img1">
-                            
+
                         </div>
                     </div>
                     <div class="therapy-process-step-info">
@@ -512,7 +512,7 @@
                 <div class="therapy-process-step therapy-process-step2">
                     <div class="therapy-process-step-image">
                         <div class="therapy-process-step-img therapy-process-step-img2">
-                            
+
                         </div>
                     </div>
                     <div class="therapy-process-step-info">
@@ -524,7 +524,7 @@
                 <div class="therapy-process-step therapy-process-step3">
                     <div class="therapy-process-step-image">
                         <div class="therapy-process-step-img therapy-process-step-img3">
-                            
+
                         </div>
                     </div>
                     <div class="therapy-process-step-info">
@@ -536,7 +536,7 @@
                 <div class="therapy-process-step therapy-process-step4">
                     <div class="therapy-process-step-image">
                         <div class="therapy-process-step-img therapy-process-step-img4">
-                            
+
                         </div>
                     </div>
                     <div class="therapy-process-step-info">
@@ -548,6 +548,44 @@
             </div>
         </div>
     </div>
+
+
+
+
+    <!-- --------------start of the footer section----------------- -->
+    <footer>
+        <div>
+           <div class="footer-rocket-image">
+                <img src="./assets/images/index-footer/rocket.png" alt="">
+           </div>
+           <div class="footer-subscribe-input">
+                <h1>Subscribe to Our Newsletter</h1>
+                <div class="subscribe-input">
+                    <input type="text" placeholder="Your email address"><span>Subscribe</span>
+                </div>
+                <div class="footer-social-media">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+           </div>
+           <div class="footer-content">
+                <div class="footer-content-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Thindlu, Bengaluru 560097</p>
+                    <div class="footer-contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.4957978454386!2d77.56361027489685!3d13.06773381276367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae192620bac1f9%3A0x943d7105c31d87b!2sSri%20Sai%20Balaji%20Physiotherapy%20Clinic-%20Advanced%20Physiotherapy%20center!5e0!3m2!1sen!2sin!4v1753694330808!5m2!1sen!2sin" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <p><i class="fa-solid fa-phone-flip"></i>&nbsp;&nbsp;+91 96633 14071</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+
+
 
     <!-- -----------script link for the swiper js------------ -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

@@ -304,19 +304,20 @@ body {
 }
 
 .where-do-we-need-ation>div>.where-do-we-need-ation-cards {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 20px;
+    justify-content: center;
 }
 
 .where-do-we-need-ation>div>.where-do-we-need-ation-cards>.where-do-we-need-ation-card {
     height: 120px;
-    width: 260px;
     background-color: #f6f8ff;
     display: flex;
     align-items: center;
     gap: 10px;
     padding: 0 10px;
+    box-sizing: border-box;
 }
 
 .where-do-we-need-ation>div>.where-do-we-need-ation-cards>.where-do-we-need-ation-card>.where-do-we-need-ation-card-img {
@@ -385,19 +386,32 @@ body {
 
 /* responsive design for the where do we need attention of mobile and tab screens */
 
-@media (min-width: 320px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 500px) {
     .where-do-we-need-ation>div>h1 {
         font-size: 8vw;
     }
-
-    .where-do-we-need-ation>div>.where-do-we-need-ation-cards>.where-do-we-need-ation-card {
-        width: 100%;
+}
+@media (min-width: 501px) and (max-width: 600px) {
+    .where-do-we-need-ation>div>h1 {
+        font-size: 8vw;
     }
 }
-
-@media (min-width: 601px) and (max-width: 1000px) {
+@media (min-width: 601px) and (max-width: 800px) {
     .where-do-we-need-ation>div>h1 {
-        font-size: 6vw;
+        font-size: 5vw;
+    }
+}
+@media (min-width: 801px) and (max-width: 1000px) {
+    .where-do-we-need-ation>div>h1 {
+        font-size: 4vw;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1298px) {
+    .where-do-we-need-ation {
+        padding: 50px 5vw;
+    }
+    .where-do-we-need-ation>div>h1 {
+        font-size: 3vw;
     }
 }
 
@@ -412,12 +426,12 @@ body {
 .about-section {
     padding: 50px 5vw;
     overflow: hidden;
+    background: linear-gradient(white 0% 15%, #f6f8ff 15% 100%);
 }
 
 .about-section>div {
     height: auto;
     width: 100%;
-    background: linear-gradient(white 0% 15%, #f6f8ff 15% 100%);
     position: relative;
 }
 
@@ -1140,14 +1154,13 @@ body {
     z-index: 2;
 }
 .therapy-process-section > .therapy-process > .therapy-process-steps {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 10px;
     justify-content: center;
 }
 .therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step {
     height: 500px;
-    width: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1228,3 +1241,103 @@ body {
 }
 
 
+
+
+/* 
+-----------------styling for the footer section---------------
+*/
+
+footer {
+    padding: 50px 5vw;
+    background: linear-gradient(white 0% 13%, #f6f8ff 13% 100%);
+}
+footer > div {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer > div > .footer-rocket-image {
+    display: flex;
+    justify-content: center;
+}
+footer > div > .footer-rocket-image > img {
+    height: 100px;
+    width: 250px;
+}
+footer > div > .footer-subscribe-input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+footer > div > .footer-subscribe-input > h1 {
+    color: #06268b;
+    font-size: 3vw;
+}
+footer > div > .footer-subscribe-input > .subscribe-input > input {
+    height: 50px;
+    width: 500px;
+    outline: none;
+    border: none;
+    padding: 20px;
+}
+footer > div > .footer-subscribe-input > .subscribe-input > input::placeholder {
+    color: gray;
+    font-size: medium;
+}
+footer > div > .footer-subscribe-input > .subscribe-input > span {
+    color: white;
+    background-color: #1b99fe;
+    padding: 16px 50px;
+}
+footer > div > .footer-subscribe-input > .subscribe-input > span:hover {
+    background-color: #06268b;
+    transition: background-color .5s ease;
+}
+footer > div > .footer-subscribe-input > .footer-social-media {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+footer > div > .footer-subscribe-input > .footer-social-media > a {
+    background-color: #06268b;
+    color: #1b99fe;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > div > .footer-subscribe-input > .footer-social-media > a:hover {
+    color: white;
+    background-color: #1b99fe;
+    transition: background-color .5s ease, color .5s ease, transform .5s ease-in-out;
+    transform: translateY(-5px);
+}
+footer > div > .footer-content {
+    margin-top: 10px;
+}
+footer > div > .footer-content > .footer-content-contact {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer > div > .footer-content > .footer-content-contact > h3 {
+    color: #06268b;
+}
+footer > div > .footer-content > .footer-content-contact > p {
+    color: gray;
+    font-size: large;
+}
+footer > div > .footer-content > .footer-content-contact > p > i {
+    color: #1b99fe;
+}
+footer > div > .footer-content > .footer-content-contact > .footer-contact-map > iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
