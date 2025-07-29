@@ -134,6 +134,36 @@ body {
 
 
 
+/* responsive design for the navbar of mobile and tab screens */
+
+@media (max-width: 900px) {
+    .navbar {
+        display: none;
+    }
+}
+
+
+/*
+--------------styling for the sidebar----------------
+*/
+.sidebar {
+    padding: 0px 5vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.sidebar > .sidebar-logo-button-hamburger {
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar > .sidebar-logo-button-hamburger > .sidebar-logo > img {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+
 /*
 ----------------styling for the hero carousel container---------------- 
 */
@@ -391,25 +421,30 @@ body {
         font-size: 8vw;
     }
 }
+
 @media (min-width: 501px) and (max-width: 600px) {
     .where-do-we-need-ation>div>h1 {
         font-size: 8vw;
     }
 }
+
 @media (min-width: 601px) and (max-width: 800px) {
     .where-do-we-need-ation>div>h1 {
         font-size: 5vw;
     }
 }
+
 @media (min-width: 801px) and (max-width: 1000px) {
     .where-do-we-need-ation>div>h1 {
         font-size: 4vw;
     }
 }
+
 @media (min-width: 1001px) and (max-width: 1298px) {
     .where-do-we-need-ation {
         padding: 50px 5vw;
     }
+
     .where-do-we-need-ation>div>h1 {
         font-size: 3vw;
     }
@@ -964,12 +999,14 @@ body {
     color: gray;
     font-size: large;
 }
+
 #whyChooseUs-comparison {
     width: 50%;
     max-width: 800px;
     aspect-ratio: 16 / 9;
     margin: auto;
 }
+
 .juxtapose .jx-knightlab,
 .juxtapose .juxtapose-credit,
 .juxtapose .juxtapose-label {
@@ -986,54 +1023,64 @@ body {
 .stories-for-patient {
     padding: 50px 5vw;
 }
-.stories-for-patient > .patient-stories {
+
+.stories-for-patient>.patient-stories {
     display: flex;
     flex-direction: column;
     height: auto;
     gap: 50px;
 }
-.stories-for-patient > .patient-stories > .stories-title {
+
+.stories-for-patient>.patient-stories>.stories-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
 }
-.stories-for-patient > .patient-stories > .stories-title h4 {
+
+.stories-for-patient>.patient-stories>.stories-title h4 {
     color: #1b99fe;
 }
-.stories-for-patient > .patient-stories > .stories-title h1 {
+
+.stories-for-patient>.patient-stories>.stories-title h1 {
     color: #06268b;
     font-size: 3vw;
 }
-.stories-for-patient > .patient-stories > .stories-cards {
+
+.stories-for-patient>.patient-stories>.stories-cards {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
 }
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card {
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card {
     height: 200px;
     width: 300px;
     background-color: aliceblue;
     position: relative;
     overflow: hidden;
 }
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card:hover::before {
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card:hover::before {
     transform: scale(1);
     transition: all .5s ease;
 }
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card::before {
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card::before {
     content: '';
     position: absolute;
     inset: 0;
     background-size: 100% 100%;
     transform: scale(1.05);
 }
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card:hover  .stories-card-title {
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card:hover .stories-card-title {
     transform: translateX(0%);
     opacity: 1;
 }
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card > .stories-card-title {
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card>.stories-card-title {
     position: absolute;
     z-index: 2;
     background-color: white;
@@ -1047,43 +1094,55 @@ body {
     opacity: 0;
     transition: transform .5s linear, opacity .5s linear;
 }
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card > .stories-card-title h4 {
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card>.stories-card-title h4 {
     color: #1b99fe;
 }
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card > .stories-card-title h2 {
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card>.stories-card-title h2 {
     color: #06268b;
     margin-top: 5px;
 }
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card1::before {
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card1::before {
     background-image: url(./assets/images/index-stories-for-patient/card1.jpg);
-} 
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card2::before {
+}
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card2::before {
     background-image: url(./assets/images/index-stories-for-patient/card2.png);
-} 
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card3::before {
+}
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card3::before {
     background-image: url(./assets/images/index-stories-for-patient/card3.jpg);
-} 
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card4::before {
+}
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card4::before {
     background-image: url(./assets/images/index-stories-for-patient/card4.jpg);
-} 
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card5::before {
+}
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card5::before {
     background-image: url(./assets/images/index-stories-for-patient/card5.jpg);
-} 
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card6::before {
+}
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card6::before {
     background-image: url(./assets/images/index-stories-for-patient/card6.jpg);
-} 
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card7::before {
+}
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card7::before {
     background-image: url(./assets/images/index-stories-for-patient/card7.jpg);
-} 
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card8::before {
+}
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card8::before {
     background-image: url(./assets/images/index-stories-for-patient/card8.png);
-} 
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card9::before {
+}
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card9::before {
     background-image: url(./assets/images/index-stories-for-patient/card9.png);
-} 
-.stories-for-patient > .patient-stories > .stories-cards > .stories-card10::before {
+}
+
+.stories-for-patient>.patient-stories>.stories-cards>.stories-card10::before {
     background-image: url(./assets/images/index-stories-for-patient/card10.jpg);
-} 
+}
 
 
 
@@ -1097,31 +1156,37 @@ body {
 .therapy-process-section {
     padding: 50px 5vw;
 }
-.therapy-process-section > .therapy-process {
+
+.therapy-process-section>.therapy-process {
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
-.therapy-process-section > .therapy-process > .therapy-process-title {
+
+.therapy-process-section>.therapy-process>.therapy-process-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.therapy-process-section > .therapy-process > .therapy-process-title > .therapy-process-title-title > h1 {
+
+.therapy-process-section>.therapy-process>.therapy-process-title>.therapy-process-title-title>h1 {
     color: #06268b;
     font-size: 3vw;
 }
-.therapy-process-section > .therapy-process > .therapy-process-title > .therapy-process-title-title > p {
+
+.therapy-process-section>.therapy-process>.therapy-process-title>.therapy-process-title-title>p {
     color: gray;
     font-size: large;
     margin-top: 20px;
 }
-.therapy-process-section > .therapy-process > .therapy-process-title > .therapy-process-title-button {
+
+.therapy-process-section>.therapy-process>.therapy-process-title>.therapy-process-title-button {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.therapy-process-section > .therapy-process > .therapy-process-title > .therapy-process-title-button::before {
+
+.therapy-process-section>.therapy-process>.therapy-process-title>.therapy-process-title-button::before {
     content: '';
     position: absolute;
     height: 150px;
@@ -1134,15 +1199,18 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+
 @keyframes therapyProcessTitleButton {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
 }
-.therapy-process-section > .therapy-process > .therapy-process-title > .therapy-process-title-button > a {
+
+.therapy-process-section>.therapy-process>.therapy-process-title>.therapy-process-title-button>a {
     color: #f6f8ff;
     background-color: #1b99fe;
     height: 130px;
@@ -1153,13 +1221,15 @@ body {
     align-items: center;
     z-index: 2;
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 10px;
     justify-content: center;
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step {
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -1168,17 +1238,20 @@ body {
     position: relative;
     gap: 50px;
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step2,
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step4 {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step2,
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step4 {
     display: flex;
     flex-direction: column-reverse;
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image::before {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-image::before {
     content: '';
     position: absolute;
     z-index: 0;
@@ -1193,50 +1266,62 @@ body {
     animation-play-state: running;
     opacity: 0;
 }
+
 @keyframes therapyProcessStepCircle {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step:hover .therapy-process-step-image::before {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step:hover .therapy-process-step-image::before {
     opacity: 1;
     transition: opacity .5s linear;
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image > .therapy-process-step-img {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-image>.therapy-process-step-img {
     height: 230px;
     width: 230px;
     background-color: #1b99fe;
     border-radius: 50%;
     background-size: 100% 100%;
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image > .therapy-process-step-img1 {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-image>.therapy-process-step-img1 {
     background-image: url(./assets/images/index-therapy-process/step1.jpg);
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image > .therapy-process-step-img2 {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-image>.therapy-process-step-img2 {
     background-image: url(./assets/images/index-therapy-process/step2.jpg);
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image > .therapy-process-step-img3 {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-image>.therapy-process-step-img3 {
     background-image: url(./assets/images/index-therapy-process/step3.jpg);
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-image > .therapy-process-step-img4 {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-image>.therapy-process-step-img4 {
     background-image: url(./assets/images/index-therapy-process/step4.jpg);
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-info {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-info {
     display: flex;
     flex-direction: column;
     gap: 20px;
     text-align: center;
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-info > h2 {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-info>h2 {
     color: #06268b;
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-info > p {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-info>p {
     color: gray;
 }
-.therapy-process-section > .therapy-process > .therapy-process-steps > .therapy-process-step > .therapy-process-step-info > h3 {
+
+.therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-info>h3 {
     color: #1b99fe;
 }
 
@@ -1251,57 +1336,68 @@ footer {
     padding: 50px 5vw;
     background: linear-gradient(white 0% 13%, #f6f8ff 13% 100%);
 }
-footer > div {
-    height: 600px;
+
+footer>div {
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-footer > div > .footer-rocket-image {
+
+footer>div>.footer-rocket-image {
     display: flex;
     justify-content: center;
 }
-footer > div > .footer-rocket-image > img {
+
+footer>div>.footer-rocket-image>img {
     height: 100px;
     width: 250px;
 }
-footer > div > .footer-subscribe-input {
+
+footer>div>.footer-subscribe-input {
     display: flex;
     flex-direction: column;
     gap: 20px;
     text-align: center;
     align-items: center;
 }
-footer > div > .footer-subscribe-input > h1 {
+
+footer>div>.footer-subscribe-input>h1 {
     color: #06268b;
     font-size: 3vw;
 }
-footer > div > .footer-subscribe-input > .subscribe-input > input {
+
+footer>div>.footer-subscribe-input>.subscribe-input>input {
     height: 50px;
     width: 500px;
     outline: none;
     border: none;
     padding: 20px;
 }
-footer > div > .footer-subscribe-input > .subscribe-input > input::placeholder {
+
+footer>div>.footer-subscribe-input>.subscribe-input>input::placeholder {
     color: gray;
     font-size: medium;
 }
-footer > div > .footer-subscribe-input > .subscribe-input > span {
+
+footer>div>.footer-subscribe-input>.subscribe-input>span {
     color: white;
     background-color: #1b99fe;
     padding: 16px 50px;
 }
-footer > div > .footer-subscribe-input > .subscribe-input > span:hover {
+
+footer>div>.footer-subscribe-input>.subscribe-input>span:hover {
     background-color: #06268b;
     transition: background-color .5s ease;
 }
-footer > div > .footer-subscribe-input > .footer-social-media {
+
+footer>div>.footer-subscribe-input>.footer-social-media {
     display: flex;
     gap: 15px;
     font-size: 18px;
 }
-footer > div > .footer-subscribe-input > .footer-social-media > a {
+
+footer>div>.footer-subscribe-input>.footer-social-media>a {
     background-color: #06268b;
     color: #1b99fe;
     height: 40px;
@@ -1311,33 +1407,64 @@ footer > div > .footer-subscribe-input > .footer-social-media > a {
     justify-content: center;
     align-items: center;
 }
-footer > div > .footer-subscribe-input > .footer-social-media > a:hover {
+
+footer>div>.footer-subscribe-input>.footer-social-media>a:hover {
     color: white;
     background-color: #1b99fe;
     transition: background-color .5s ease, color .5s ease, transform .5s ease-in-out;
     transform: translateY(-5px);
 }
-footer > div > .footer-content {
+
+footer>div>.footer-content {
     margin-top: 10px;
+    display: flex;
+    gap: 20px;
 }
-footer > div > .footer-content > .footer-content-contact {
+
+footer>div>.footer-content>.footer-content-contact {
     width: 25%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-footer > div > .footer-content > .footer-content-contact > h3 {
+
+footer>div>.footer-content>.footer-content-contact>h3 {
     color: #06268b;
 }
-footer > div > .footer-content > .footer-content-contact > p {
+
+footer>div>.footer-content>.footer-content-contact>p {
     color: gray;
     font-size: large;
 }
-footer > div > .footer-content > .footer-content-contact > p > i {
+
+footer>div>.footer-content>.footer-content-contact>p>i {
     color: #1b99fe;
 }
-footer > div > .footer-content > .footer-content-contact > .footer-contact-map > iframe {
+
+footer>div>.footer-content>.footer-content-contact>.footer-contact-map>iframe {
     width: 100%;
     height: 200px;
     border-radius: 10px;
+}
+
+footer>div>.footer-content>.footer-content-page-links {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer>div>.footer-content>.footer-content-page-links>h3 {
+    color: #06268b;
+}
+
+footer>div>.footer-content>.footer-content-page-links>a {
+    color: gray;
+    font-size: large;
+}
+
+footer>div>.footer-content>.footer-content-page-links>a:hover {
+    color: #1b99fe;
+    transform: translateY(-5px);
+    transition: color .3s ease-in-out, transform .3s ease-in-out;
 }

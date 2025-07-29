@@ -1,3 +1,5 @@
+<!-- ----------start of the navbar------------ -->
+
 <div class="navbar">
     <div class="navbar-logo">
         <img src="./assets/images/logo.png" alt="">
@@ -13,5 +15,17 @@
     </div>
     <div class="navbar-button">
         <a href="#">Book Appointment&nbsp;&nbsp;></a>
+    </div>
+</div>
+
+
+<!-- -------------start of the sidebar-------------- -->
+
+<div class="sidebar">
+    <div class="sidebar-logo-button-hamburger">
+        <div class="sidebar-logo">
+            <img src="./assets/images/logo.png" alt="">
+        </div>
+        .
     </div>
 </div>
