@@ -26,6 +26,13 @@
         <div class="sidebar-logo">
             <img src="./assets/images/logo.png" alt="">
         </div>
-        .
+        <div class="sidebar-button-hamburger">
+            <div class="sidebar-button">
+                <a href="#">Book Appointment&nbsp;&nbsp;></a>
+            </div>
+            <div class="sidebar-hamburger">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </div>
+        </div>
     </div>
 </div>
