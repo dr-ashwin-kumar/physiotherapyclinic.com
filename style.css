@@ -1056,6 +1056,30 @@ body {
 }
 
 
+/* responsive design for the services we think differently of mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .services-we-think-difrnt {
+        flex-direction: column;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info {
+        width: 100%;
+        height: auto;
+        padding: 20px 20px 10px 20px;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info > h1 {
+        font-size: 8vw;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-cards {
+        width: 80%;
+    }
+    .services-we-think-difrnt>.services-we-think-difrnt-cards>.services-we-think-difrnt-card-wrapper>.services-we-think-difrnt-card>.services-we-think-difrnt-card-content {
+        padding: 10px;
+    }
+}
+
+
+
 
 /* 
 -----------------styling for the why choose us section-------------------
@@ -1560,6 +1584,7 @@ footer>div>.footer-content {
     margin-top: 10px;
     display: flex;
     gap: 20px;
+    justify-content: space-between;
 }
 
 footer>div>.footer-content>.footer-content-contact {
@@ -1589,7 +1614,7 @@ footer>div>.footer-content>.footer-content-contact>.footer-contact-map>iframe {
 }
 
 footer>div>.footer-content>.footer-content-page-links {
-    width: 25%;
+    width: fit-content;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1605,6 +1630,24 @@ footer>div>.footer-content>.footer-content-page-links>a {
 }
 
 footer>div>.footer-content>.footer-content-page-links>a:hover {
+    color: #1b99fe;
+    transform: translateY(-5px);
+    transition: color .3s ease-in-out, transform .3s ease-in-out;
+}
+footer > div > .footer-content > .footer-content-useful-links {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer > div > .footer-content > .footer-content-useful-links > h3 {
+    color: #06268b;
+}
+footer > div > .footer-content > .footer-content-useful-links > a {
+    color: gray;
+    font-size: large;
+}
+footer > div > .footer-content > .footer-content-useful-links > a:hover {
     color: #1b99fe;
     transform: translateY(-5px);
     transition: color .3s ease-in-out, transform .3s ease-in-out;

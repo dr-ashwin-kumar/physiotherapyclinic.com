@@ -580,6 +580,23 @@
                     </div>
                     <p><i class="fa-solid fa-phone-flip"></i>&nbsp;&nbsp;+91 96633 14071</p>
                 </div>
+                <div class="footer-content-page-links">
+                    <h3>Page Llinks</h3>
+                    <a href="#">Home</a>
+                    <a href="#">Services</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="footer-content-useful-links">
+                    <h3>Useful Links</h3>
+                    <a href="#">Neck Pain</a>
+                    <a href="#">Back Pain</a>
+                    <a href="#">Knee Pain</a>
+                    <a href="#">Leg Pain</a>
+                    <a href="#">Back Pain</a>
+                    <a href="#">Hip Pain</a>
+                </div>
            </div>
         </div>
     </footer>
