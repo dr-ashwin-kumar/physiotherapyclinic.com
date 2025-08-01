@@ -1,0 +1,95 @@
+/* 
+----------------styling for the sidebar services lists----------------
+*/
+
+.sidebar-services-lists {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-services-lists > a {
+    background-color: #f6f8ff;
+    padding: 18px 30px;
+    color: #06268b;
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar-services-lists > a:hover {
+    background-color: #1b99fe;
+    color: white;
+}
+
+
+/* 
+-------------styling for the sidebar download buttons--------------------
+*/
+
+.sidebar-download-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sidebar-download-buttons > a {
+    padding: 16px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar-download-buttons > a:nth-child(1) {
+    color: white;
+    background-color: #06268b;
+}
+.sidebar-download-buttons > a:nth-child(1):hover {
+    background-color: #1b99fe;
+}
+.sidebar-download-buttons > a:nth-child(2) {
+    color: #1b99fe;
+    border: 2px solid #1b99fe;
+}
+.sidebar-download-buttons > a:nth-child(2):hover {
+    background-color: #06268b;
+    border: 2px solid #06268b;
+    color: white;
+}
+
+
+
+/* 
+---------------start of the sidebar banner image--------------
+*/
+
+.sidebar-banner-image {
+    height: 450px;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    inset: 0;
+    align-items: flex-start;
+}
+.sidebar-banner-image > .sidebar-banner-img > * {
+    z-index: 3;
+}
+.sidebar-banner-image > .sidebar-banner-img {
+    position: relative;
+    z-index: 2;
+    padding: 30px 20px; 
+    color: white;
+    text-align: center;
+}
+.sidebar-banner-image > .sidebar-banner-img > h2 {
+    margin-top: 10px;
+}
+.sidebar-banner-image > .sidebar-banner-img > img {
+    height: 90px;
+    width: 90px;
+    
+}
+.sidebar-banner-image::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(./assets/images/services/sidebar/banner-3.png);
+    background-size: 100% 100%;
+    z-index: 0;
+}

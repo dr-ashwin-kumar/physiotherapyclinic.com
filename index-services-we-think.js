@@ -1,5 +1,5 @@
 var swiper = new Swiper(".services-we-think-difrnt-cards", {
-    slidesPerView: aut,
+    slidesPerView: 4,
     spaceBetween: 10,
     loop: true,
     autoplay: {

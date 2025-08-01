@@ -1,0 +1,101 @@
+/* import link for the philosopher font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* 
+------------------start of the page title section----------------- 
+*/
+
+.page-title-section > .page-title {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+.page-title-section > .page-title > * {
+    z-index: 4;
+    color: white;
+    
+}
+.page-title-section > .page-title > h1 {
+    font-size: 3vw;
+}
+.page-title-section > .page-title > .page-title-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.page-title-section > .page-title > .page-title-nav > a {
+    color: white;
+}
+.page-title-section > .page-title::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-image: url(./assets/images/services/orthopedic/title-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.page-title-section > .page-title::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgba(7, 20, 59, .45);
+} 
+
+
+/* 
+----------------start of the page content section----------------
+*/
+
+.page-content-section {
+    display: flex;
+    gap: 50px;
+    padding: 50px 5vw;
+}
+.page-content-section > .page-content-sidebar {
+    width: 30%;
+    height: auto;
+    padding: 0px 30px;
+}
+.page-content-section > .page-content-sidebar > .sidebar-content-first-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.page-content-section > .page-content-info {
+    width: 70%;
+    height: 700px;
+    background-color: beige;
+}

@@ -6,8 +6,20 @@
     </div>
     <div class="navbar-menu-items">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="./index.php">Home</a></li>
+            <li><a href="#">Services&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                <ul>
+                    <li><span></span><a href="./orthopedic.php">Orthopedic</a></li>
+                    <li><span></span><a href="#">Exercise</a></li>
+                    <li><span></span><a href="#">Strains and sprains</a></li>
+                    <li><span></span><a href="#">Paralysis</a></li>
+                    <li><span></span><a href="#">Amputations</a></li>
+                    <li><span></span><a href="#">Neurological</a></li>
+                    <li><span></span><a href="#">Brain injury</a></li>
+                    <li><span></span><a href="#">Arthritis</a></li>
+                    <li><span></span><a href="#">Joint Mobilization</a></li>
+                </ul>
+            </li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>

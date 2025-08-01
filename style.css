@@ -93,7 +93,57 @@ body {
 .navbar>.navbar-menu-items>ul>li>a {
     color: #06268b;
 }
-
+.navbar>.navbar-menu-items>ul>li>a:hover {
+    color: #1b99fe;
+}
+.navbar>.navbar-menu-items>ul>li:nth-child(1) > a {
+    color: #1b99fe;
+}
+.navbar>.navbar-menu-items>ul>li {
+    position: relative;
+}
+.navbar>.navbar-menu-items>ul>li:nth-child(2):hover ul {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto; 
+}
+.navbar>.navbar-menu-items>ul>li > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: block; 
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+    padding: 1rem 0;
+    pointer-events: none;
+}
+.navbar>.navbar-menu-items>ul>li > ul > li {
+    padding: 8px 20px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+}
+.navbar>.navbar-menu-items>ul>li > ul > li > a {
+    color: #06268b;
+}
+.navbar>.navbar-menu-items>ul>li > ul > li > span {
+    height: 1px;
+    width: 20px;
+    background-color: #1b99fe;
+    display: none;
+}
+.navbar>.navbar-menu-items>ul>li > ul > li:hover a {
+    margin-left: 10px;
+    color: #1b99fe;
+    transition: margin-left .2s ease-in-out;
+}
+.navbar>.navbar-menu-items>ul>li > ul > li:hover span {
+    display: block;
+}
 .navbar>.navbar-button>a {
     color: white;
     background-color: #1b99fe;
