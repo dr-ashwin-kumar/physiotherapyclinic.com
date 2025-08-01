@@ -37,9 +37,11 @@
 .sidebar-download-buttons > a:nth-child(1) {
     color: white;
     background-color: #06268b;
+    border: 2px solid #06268b;
 }
 .sidebar-download-buttons > a:nth-child(1):hover {
     background-color: #1b99fe;
+    border: 2px solid #1b99fe;
 }
 .sidebar-download-buttons > a:nth-child(2) {
     color: #1b99fe;
