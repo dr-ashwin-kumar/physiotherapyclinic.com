@@ -10,14 +10,14 @@
             <li><a href="#">Services&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></a>
                 <ul>
                     <li><a href="./orthopedic.php"><span></span>Orthopedic</a></li>
-                    <li><a href="#"><span></span>Exercise</a></li>
-                    <li><a href="#"><span></span>Strains and sprains</a></li>
-                    <li><a href="#"><span></span>Paralysis</a></li>
-                    <li><a href="#"><span></span>Amputations</a></li>
-                    <li><a href="#"><span></span>Neurological</a></li>
-                    <li><a href="#"><span></span>Brain injury</a></li>
-                    <li><a href="#"><span></span>Arthritis</a></li>
-                    <li><a href="#"><span></span>Joint Mobilization</a></li>
+                    <li><a href="./exercise.php"><span></span>Exercise</a></li>
+                    <li><a href="./strains-and-sprains.php"><span></span>Strains and sprains</a></li>
+                    <li><a href="./paralysis.php"><span></span>Paralysis</a></li>
+                    <li><a href="./amputations.php"><span></span>Amputations</a></li>
+                    <li><a href="./neurological.php"><span></span>Neurological</a></li>
+                    <li><a href="./brain-injury.php"><span></span>Brain injury</a></li>
+                    <li><a href="./arthritis.php"><span></span>Arthritis</a></li>
+                    <li><a href="./joint-mobilization.php"><span></span>Joint Mobilization</a></li>
                 </ul>
             </li>
             <li><a href="#">About Us</a></li>
