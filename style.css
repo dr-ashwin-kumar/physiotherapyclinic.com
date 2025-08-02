@@ -129,15 +129,18 @@ body {
 }
 .navbar>.navbar-menu-items>ul>li > ul > li > a {
     color: #06268b;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
-.navbar>.navbar-menu-items>ul>li > ul > li > span {
+.navbar>.navbar-menu-items>ul>li > ul > li > a > span {
     height: 1px;
     width: 20px;
     background-color: #1b99fe;
     display: none;
 }
 .navbar>.navbar-menu-items>ul>li > ul > li:hover a {
-    margin-left: 10px;
+    margin-left: 5px;
     color: #1b99fe;
     transition: margin-left .2s ease-in-out;
 }

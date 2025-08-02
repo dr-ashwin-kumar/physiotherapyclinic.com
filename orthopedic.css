@@ -21,6 +21,7 @@ body {
     font-family: "Philosopher", sans-serif;
     font-weight: 700;
     font-style: normal;
+    line-height: 1.5rem;
 }
 
 
@@ -38,7 +39,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 15px;
+    gap: 20px;
 }
 .page-title-section > .page-title > * {
     z-index: 4;
@@ -87,7 +88,7 @@ body {
 .page-content-section > .page-content-sidebar {
     width: 30%;
     height: auto;
-    padding: 0px 30px;
+    padding: 0px 50px;
 }
 .page-content-section > .page-content-sidebar > .sidebar-content-first-section {
     display: flex;
@@ -95,7 +96,116 @@ body {
     gap: 50px;
 }
 .page-content-section > .page-content-info {
-    width: 70%;
-    height: 700px;
-    background-color: beige;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.page-content-section > .page-content-info > .page-content-info-hero-image {
+    height: 550px;
+    width: 100%;
+    background-image: url(./assets/images/services/orthopedic/hero-image.jpg);
+    background-size: 100% 100%;
+}
+.page-content-section > .page-content-info > .page-content-info-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: gray;
+}
+.page-content-section > .page-content-info > .page-content-info-title > h1 {
+    color: #06268b;
+}
+.page-content-section > .page-content-info > .page-content-info-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+.page-content-section > .page-content-info > .page-content-info-images > .page-content-info-image {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.page-content-section > .page-content-info > .page-content-info-images > .page-content-info-image:hover::before {
+    transform: scale(1);
+    transition: transform .3s ease-in-out;
+}
+.page-content-section > .page-content-info > .page-content-info-images > .page-content-info-image::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-size: 100% 100%;
+    transform: scale(1.05);
+}
+.page-content-section > .page-content-info > .page-content-info-images > .page-content-info-image1::before {
+    background-image: url(./assets/images/services/orthopedic/sub-image1.jpg);
+}
+.page-content-section > .page-content-info > .page-content-info-images > .page-content-info-image2::before {
+    background-image: url(./assets/images/services/orthopedic/sub-image2.jpg);
+}
+.page-content-section > .page-content-info > .page-content-info-points > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.page-content-section > .page-content-info > .page-content-info-points > ul > li {
+    display: flex;
+    gap: 15px;
+}
+.page-content-section > .page-content-info > .page-content-info-points > ul > li > span > i {
+    color: #1b99fe;
+}
+
+/* === FAQ Section Styling === */
+.page-content-section > .page-content-info > .page-content-info-faq > h1 {
+    color: #06268b;
+}
+.page-content-section > .page-content-info > .page-content-info-faq > p {
+    margin-top: 20px;
+    color: gray;
+}
+.page-content-section > .page-content-info > .page-content-info-faq > .faq-section {
+    margin-top: 40px;
+}
+.page-content-section > .page-content-info > .page-content-info-faq > .faq-section > .faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.page-content-section > .page-content-info > .page-content-info-faq > .faq-section > .faq-item > .faq-question {
+    background: none;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    padding: 10px 0;
+    position: relative;
+    color: #1b99fe;
+}
+
+.page-content-section > .page-content-info > .page-content-info-faq > .faq-section > .faq-item > .faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 22px;
+    transition: transform 0.3s ease;
+}
+
+.page-content-section > .page-content-info > .page-content-info-faq > .faq-section > .faq-item.active > .faq-question::after {
+    content: '-';
+}
+
+.page-content-section > .page-content-info > .page-content-info-faq > .faq-section > .faq-item > .faq-answer {
+    display: none;
+    padding: 10px 0 0;
+    font-size: 16px;
+    color: gray;
+}
+
+.page-content-section > .page-content-info > .page-content-info-faq > .faq-section > .faq-item.active > .faq-answer {
+    display: block;
 }
