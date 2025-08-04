@@ -22,7 +22,7 @@
             </li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="./contact-us.php">Contact</a></li>
         </ul>
     </div>
     <div class="navbar-button">

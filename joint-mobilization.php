@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orthopedic | Sri Sai Balaji Physiotherapy Clinic</title>
+    <title>Joint Mobilization | Sri Sai Balaji Physiotherapy Clinic</title>
     <link rel="icon" href="./assets/images/favicon.png" type="x-image/icon">
 
     <!-- --------------link for the styling service page--------------- -->

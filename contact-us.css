@@ -1,0 +1,321 @@
+/* import link for the philosopher font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* 
+--------------styling for the page contact us title-----------------
+*/
+
+.page-contactus-title-section {
+    height: 350px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-contactus-title-section::before {
+    content: '';
+    position: absolute;
+    background-image: url(./assets/images/contact-us/title-image.jpg);
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+}
+.page-contactus-title-section::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(7, 20, 59, .45);
+    inset: 0;
+    z-index: 1;
+}
+.page-contactus-title-section > .page-contactus-title {
+    z-index: 5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.page-contactus-title-section > .page-contactus-title > h1 {
+    font-size: 3vw;
+}
+.page-contactus-title-section > .page-contactus-title > .page-contactus-title-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.page-contactus-title-section > .page-contactus-title > .page-contactus-title-nav > a {
+    color: white;
+}
+
+
+
+/* 
+-----------------styling for the page contact form section-----------------
+*/
+
+.page-contact-form-section {
+    padding: 50px 5vw;
+}
+.page-contact-form-section > .contactImage-and-contactForm {
+    display: flex;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-img {
+    height: 600px;
+    width: 450px;
+    position: relative;
+    z-index: 0;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-img > * {
+    position: relative; 
+    z-index: 3;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-img::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(./assets/images/contact-us/contact-form.jpg);
+    background-size: 100% 100%;
+    z-index: 0;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-img > .open-timings {
+    height: 120px;
+    width: 100%;
+    background-color: #06268b;
+    z-index: 4;
+    position: absolute;
+    bottom: 0;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-img > .open-timings > .open-timings-icon {
+    color: #1b99fe;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-img > .open-timings > .open-timings-icon > span > i {
+    font-size: 38px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-img > .open-timings > .open-timings-info {
+    color: #1b99fe;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-img > .open-timings > .open-timings-info > P {
+    color: white;
+    margin-top: 15px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-image-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    z-index: 3;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-image-circle::before {
+    content: '';
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border: 3px dotted #06268b;
+    border-radius: 50%;
+    animation-name: contactFormImageCircle;
+    animation-duration: 25s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes contactFormImageCircle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-image-circle > a {
+    color: #f6f8ff;
+    background-color: #1b99fe;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    text-align: center;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form {
+    width: 45%;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-title > h4 {
+    color: #1b99fe;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-title > h1 {
+    color: #06268b;
+    font-size: 3vw;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-title > p {
+    color: gray;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-icons > .form-icon > .icon {
+    height: 70px;
+    width: 70px;
+    background-color: #06268b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-icons > .form-icon {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-icons > .form-icon > .icon > h2 {
+    color: #1b99fe;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-icons > .form-icon > .icon-info > h4 {
+    color: #1b99fe;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-icons > .form-icon > .icon-info > p {
+    color: #06268b;
+    margin-top: 10px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-name-and-email {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-name-and-email > input {
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #f6f8ff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-name-and-email > input::placeholder {
+    color: #000;
+    font-weight: bold;
+    font-family: "Philosopher", sans-serif;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-phone-and-subject {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-phone-and-subject > input {
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #f6f8ff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-phone-and-subject > input::placeholder {
+    color: #000;
+    font-weight: bold;
+    font-family: "Philosopher", sans-serif;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-textarea-message > textarea {
+    background-color: #f6f8ff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-textarea-message > textarea::placeholder {
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Philosopher", sans-serif;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-submit-button > a {
+    color: white;
+    background-color: #1b99fe;
+    padding: 12px 30px;
+    border-radius: 5px;
+    z-index: 1;
+    position: relative;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-submit-button > a::before,
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-submit-button > a::after {
+    content: '';
+    height: 0;
+    width: 0;
+    z-index: -1;
+    background-color: #06268b;
+    position: absolute;
+    transition: height .4s ease-in-out, width .4s ease-in-out;
+    border-radius: 5px;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-submit-button > a::before {
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-submit-button > a::after {
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+}
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-submit-button > a:hover::before,
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-submit-button > a:hover:after {
+    height: 100%;
+    width: 100%;
+}
