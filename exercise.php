@@ -37,13 +37,13 @@
     <div class="page-title-section">
         <div class="page-title">
             <h3>SERVICE</h3>
-            <h1>Orthopedic</h1>
+            <h1>Exercise</h1>
             <div class="page-title-nav">
                 <a href="./index.php">Home</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
                 <a href="#">Services</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="#">Orthopedic</a>
+                <a href="#">Exercise</a>
             </div>
         </div>
     </div>
