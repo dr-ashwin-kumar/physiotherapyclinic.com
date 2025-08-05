@@ -20,7 +20,7 @@
                     <li><a href="./joint-mobilization.php"><span></span>Joint Mobilization</a></li>
                 </ul>
             </li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="./about-us.php">About Us</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="./contact-us.php">Contact</a></li>
         </ul>

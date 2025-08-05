@@ -96,22 +96,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-inputs">
+                    <form class="form-inputs" id="contactForm">
                         <div class="input-name-and-email">
-                            <input type="text" placeholder="Name">
-                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Name" name="name">
+                            <input type="email" placeholder="Email" name="email">
                         </div>
                         <div class="input-phone-and-subject">
-                            <input type="phone" placeholder="Phone">
-                            <input type="text" placeholder="Subject">
+                            <input type="phone" placeholder="Phone" name="phone">
+                            <input type="text" placeholder="Subject" name="subject">
                         </div>
                         <div class="input-textarea-message">
-                            <textarea name="" id="" placeholder="Message"></textarea>
+                            <textarea name="message" id="" placeholder="Message"></textarea>
                         </div>
                         <div class="input-submit-button">
-                            <a href="#">Submit</a>
+                            <a href="#" id="submitBtn">Submit</a>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -133,6 +133,27 @@
 
     <!-- --------------start of the footer section----------------- -->
     <?php include './footer.php' ?> 
+
+
+    <!-- --------------script for calling the submit form php-------------- -->
+    <script>
+        document.getElementById("submitBtn").onclick = function(e) {
+            e.preventDefault();
+
+            var form = document.getElementById("contactForm");
+            var formData = new FormData(form);
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "submit_form.php", true);
+            xhr.onload = function() {
+                alert(xhr.responseText);
+                if (xhr.status == 200) {
+                    form.reset();
+                }
+            };
+            xhr.send(formData);
+        };
+    </script>
 
 
 </body>

@@ -219,6 +219,10 @@ body {
     border-bottom: 1px solid lightgray;
     padding-bottom: 20px;
 }
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-icons > .form-icon:hover {
+    transform: translateY(-5px);
+    transition: transform .5s ease-in-out;
+}
 .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-icons > .form-icon > .icon > h2 {
     color: #1b99fe;
 }
