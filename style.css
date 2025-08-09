@@ -1111,17 +1111,22 @@ body {
 
 /* responsive design for the services we think differently of mobile and tab screens */
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 450px) {
     .services-we-think-difrnt {
         flex-direction: column;
     }
     .services-we-think-difrnt > .services-we-think-difrnt-info {
         width: 100%;
         height: auto;
-        padding: 20px 20px 10px 20px;
+        padding: 0 10px;
+        text-align: center;
     }
     .services-we-think-difrnt > .services-we-think-difrnt-info > h1 {
         font-size: 8vw;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info > .services-we-think-difrnt-cards-nav {
+        display: flex;
+        justify-content: center;
     }
     .services-we-think-difrnt > .services-we-think-difrnt-cards {
         width: 80%;
@@ -1130,9 +1135,104 @@ body {
         padding: 10px;
     }
 }
-
-
-
+@media (min-width: 450px) and (max-width: 600px) {
+    .services-we-think-difrnt {
+        flex-direction: column;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 0 5vw;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info > h1 {
+        font-size: 7vw;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info > .services-we-think-difrnt-cards-nav {
+        display: flex;
+        justify-content: center;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-cards {
+        width: 70%;
+    }
+    .services-we-think-difrnt>.services-we-think-difrnt-cards>.services-we-think-difrnt-card-wrapper>.services-we-think-difrnt-card>.services-we-think-difrnt-card-content {
+        padding: 10px;
+    }
+}
+@media (min-width: 601px) and (max-width: 700px) {
+    .services-we-think-difrnt > .services-we-think-difrnt-info {
+        width: 50%;
+        height: auto;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info > h1 {
+        font-size: 7vw;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-cards {
+        width: 50%;
+    }
+    .services-we-think-difrnt>.services-we-think-difrnt-cards>.services-we-think-difrnt-card-wrapper>.services-we-think-difrnt-card>.services-we-think-difrnt-card-content {
+        padding: 10px;
+    }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+    .services-we-think-difrnt {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info {
+        width: 80%;
+        height: auto;
+        text-align: center;
+        padding: 0 5vw;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info > h1 {
+        font-size: 6.5vw;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info > .services-we-think-difrnt-cards-nav {
+        display: flex;
+        justify-content: center;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-cards {
+        width: 80%;
+    }
+    .services-we-think-difrnt>.services-we-think-difrnt-cards>.services-we-think-difrnt-card-wrapper>.services-we-think-difrnt-card>.services-we-think-difrnt-card-content {
+        padding: 10px;
+    }
+}
+@media (min-width: 901px) and (max-width: 1000px) {
+    .services-we-think-difrnt > .services-we-think-difrnt-info {
+        width: 40%;
+        height: auto;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info > h1 {
+        font-size: 5vw;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-cards {
+        width: 60%;
+    }
+    .services-we-think-difrnt>.services-we-think-difrnt-cards>.services-we-think-difrnt-card-wrapper>.services-we-think-difrnt-card>.services-we-think-difrnt-card-content {
+        padding: 10px;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1250px) {
+    .services-we-think-difrnt {
+        padding: 5vw;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info {
+        width: 30%;
+        height: auto;
+        padding:  0 3vw 0 0;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-info > h1 {
+        font-size: 4vw;
+    }
+    .services-we-think-difrnt > .services-we-think-difrnt-cards {
+        width: 70%;
+    }
+    .services-we-think-difrnt>.services-we-think-difrnt-cards>.services-we-think-difrnt-card-wrapper>.services-we-think-difrnt-card>.services-we-think-difrnt-card-content {
+        padding: 10px;
+    }
+}
 
 /* 
 -----------------styling for the why choose us section-------------------
@@ -1552,7 +1652,7 @@ body {
 
 footer {
     padding: 50px 5vw;
-    background: linear-gradient(white 0% 13%, #f6f8ff 13% 100%);
+    background: linear-gradient(white 0% 12%, #f6f8ff 12% 100%);
 }
 
 footer>div {
@@ -1638,6 +1738,8 @@ footer>div>.footer-content {
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 25px;
 }
 
 footer>div>.footer-content>.footer-content-contact {
@@ -1704,4 +1806,56 @@ footer > div > .footer-content > .footer-content-useful-links > a:hover {
     color: #1b99fe;
     transform: translateY(-5px);
     transition: color .3s ease-in-out, transform .3s ease-in-out;
+}
+footer > div > .footer-content > .footer-content-opening-hours {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer > div > .footer-content > .footer-content-opening-hours > h3 {
+    color: #06268b;
+}
+footer > div > .footer-content > .footer-content-opening-hours > div > .day-and-timings {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+footer > div > .footer-content > .footer-content-opening-hours > div > .day-and-timings > .day > a {
+    color: gray;
+    pointer-events: none;
+}
+footer > div > .footer-content > .footer-content-opening-hours > div > .day-and-timings > .timings > a {
+    color: gray;
+    pointer-events: none;
+}
+footer > div > .footer-content > .footer-content-opening-hours > div > .day-and-timings:hover .day > a {
+    color: #1b99fe;
+}
+footer > div > .footer-content > .footer-content-opening-hours > div > .day-and-timings:hover .timings > a {
+    color: #1b99fe;
+}
+footer > div > .footer-copyrights-and-privacy {
+    display: flex;
+    justify-content: space-between;
+}
+footer > div > .footer-copyrights-and-privacy > .footer-copy-rights > p {
+    color: gray;
+}
+footer > div > .footer-copyrights-and-privacy > .footer-copy-rights > p > a {
+    color: #06268b;
+}
+footer > div > .footer-copyrights-and-privacy > .footer-copy-rights > p > a:hover {
+    color: #1b99fe;
+}
+footer > div > .footer-copyrights-and-privacy > .privacy-and-policy > a {
+    color: gray;
+}
+footer > div > .footer-copyrights-and-privacy > .privacy-and-policy {
+    display: flex;
+    gap: 20px;
+}
+footer > div > .footer-copyrights-and-privacy > .privacy-and-policy > a:hover {
+    color: #1b99fe;
 }

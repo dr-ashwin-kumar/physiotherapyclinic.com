@@ -26,7 +26,7 @@
         </ul>
     </div>
     <div class="navbar-button">
-        <a href="#">Book Appointment&nbsp;&nbsp;></a>
+        <a href="./contact-us.php">Book Appointment&nbsp;&nbsp;></a>
     </div>
 </div>
 

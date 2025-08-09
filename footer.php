@@ -39,8 +39,46 @@
                 <a href="#">Back Pain</a>
                 <a href="#">Knee Pain</a>
                 <a href="#">Leg Pain</a>
-                <a href="#">Back Pain</a>
+                <a href="#">Wrist Pain</a>
                 <a href="#">Hip Pain</a>
+            </div>
+            <div class="footer-content-opening-hours">
+                <h3>Opening Hours</h3>
+                <div>
+                    <div class="day-and-timings">
+                        <div class="day">
+                            <a href="#">Mon - Thu:</a>
+                        </div>
+                        <div class="timings">
+                            <a href="#">8am - 9pm</a>
+                        </div>
+                    </div>
+                    <div class="day-and-timings">
+                        <div class="day">
+                            <a href="#">Fri - Sat:</a>
+                        </div>
+                        <div class="timings">
+                            <a href="#">8am - 1am</a>
+                        </div>
+                    </div>
+                    <div class="day-and-timings">
+                        <div class="day">
+                            <a href="#">Sun:</a>
+                        </div>
+                        <div class="timings">
+                            <a href="#">8am - 10pm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyrights-and-privacy">
+            <div class="footer-copy-rights">
+                <p><span><i class="fa-regular fa-copyright"></i></span>&nbsp;2025 <a href="#">TheSiteCrafts</a>, All rights reserved</p>
+            </div>
+            <div class="privacy-and-policy">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of use</a>
             </div>
         </div>
     </div>
