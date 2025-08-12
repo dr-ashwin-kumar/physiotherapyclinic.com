@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="footer-content">
-            <div class="footer-content-contact">
+            <div class="footer-content-contact footer-card">
                 <h3>Contact Us</h3>
                 <p><i class="fa-solid fa-location-dot"></i><span>Thindlu, Bengaluru 560097</span></p>
                 <div class="footer-contact-map">
@@ -25,7 +25,7 @@
                 </div>
                 <p><i class="fa-solid fa-phone-flip"></i><span>+91 96633 14071</span></p>
             </div>
-            <div class="footer-content-page-links">
+            <div class="footer-content-page-links footer-card">
                 <h3>Page Llinks</h3>
                 <a href="#">Home</a>
                 <a href="#">Services</a>
@@ -33,7 +33,7 @@
                 <a href="#">Blog</a>
                 <a href="#">Contact Us</a>
             </div>
-            <div class="footer-content-useful-links">
+            <div class="footer-content-useful-links footer-card">
                 <h3>Useful Links</h3>
                 <a href="#">Neck Pain</a>
                 <a href="#">Back Pain</a>
@@ -42,7 +42,7 @@
                 <a href="#">Wrist Pain</a>
                 <a href="#">Hip Pain</a>
             </div>
-            <div class="footer-content-opening-hours">
+            <div class="footer-content-opening-hours footer-card">
                 <h3>Opening Hours</h3>
                 <div>
                     <div class="day-and-timings">

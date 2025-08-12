@@ -1764,6 +1764,19 @@ body {
 }
 
 
+/* responsive design for the therapy process section of mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .therapy-process-section>.therapy-process>.therapy-process-title {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .therapy-process-section>.therapy-process>.therapy-process-title>.therapy-process-title-title>h1 {
+        font-size: 8vw;
+    }
+}
+
+
 
 
 /* 
@@ -1981,4 +1994,83 @@ footer > div > .footer-copyrights-and-privacy > .privacy-and-policy {
 }
 footer > div > .footer-copyrights-and-privacy > .privacy-and-policy > a:hover {
     color: #1b99fe;
+}
+
+
+/* responsive design for the footer section of mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 500px) {
+    footer {
+        background: linear-gradient(white 0% 6%, #f6f8ff 6% 100%);
+    }
+    footer > div > .footer-subscribe-input > h1 {
+        font-size: 8vw;
+    }
+    footer > div > .footer-content {
+        flex-direction: column;
+    }
+    footer > div > .footer-content > .footer-card {
+        border-bottom: 1px solid lightgray;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    footer > div > .footer-content > .footer-card:nth-child(4) {
+        border: none;
+    }
+    footer > div > .footer-subscribe-input > .subscribe-input {
+        display: flex;
+    }
+    footer > div > .footer-subscribe-input > .subscribe-input > input {
+        width: 100%;
+    }
+    footer > div > .footer-subscribe-input > .subscribe-input > span {
+        padding: 16px 15px;
+    }
+    footer > div > .footer-content > .footer-content-opening-hours > div > .day-and-timings:nth-child(3) {
+        border-bottom: none;
+    }
+    footer > div > .footer-copyrights-and-privacy {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media (min-width: 501px) and (max-width: 600px) {
+    footer {
+        background: linear-gradient(white 0% 8%, #f6f8ff 8% 100%);
+    }
+    footer > div > .footer-subscribe-input > h1 {
+        font-size: 8vw;
+    }
+    footer > div > .footer-content > .footer-card {
+        border-bottom: 1px solid lightgray;
+        width: 45%;
+        padding-bottom: 20px;
+    }
+    footer > div > .footer-content > .footer-card:nth-child(4) {
+        border: none;
+    }
+    footer > div > .footer-content > .footer-card:nth-child(3) {
+        border: none;
+    }
+    footer > div > .footer-subscribe-input > .subscribe-input {
+        display: flex;
+    }
+    footer > div > .footer-subscribe-input > .subscribe-input > input {
+        width: 100%;
+    }
+    footer > div > .footer-subscribe-input > .subscribe-input > span {
+        padding: 16px 20px;
+    }
+    footer > div > .footer-content > .footer-content-opening-hours > div > .day-and-timings:nth-child(3) {
+        border-bottom: none;
+    }
+    footer > div > .footer-copyrights-and-privacy {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    footer > div > .footer-content > .footer-content-opening-hours > div > .day-and-timings {
+        padding: 20px 0px;
+    }
 }
