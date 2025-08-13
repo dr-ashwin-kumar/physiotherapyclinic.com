@@ -4,7 +4,7 @@
             <img src="./assets/images/index-footer/rocket.png" alt="">
         </div>
         <div class="footer-subscribe-input">
-            <h1>Subscribe to Our Newsletter</h1>
+            <h2>Subscribe to Our Newsletter</h2>
             <div class="subscribe-input">
                 <input type="text" placeholder="Your email address"><span>Subscribe</span>
             </div>

@@ -4,22 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sri Sai Balaji Physiotherapy Clinic</title>
-    <link rel="icon" href="./assets/images/favicon.png" type="x-image/icon">
+    <title>Best Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic</title>
+    <meta name="description" content="Get expert physiotherapy in Bangalore at Sri Sai Balaji Physiotherapy Clinic. Pain relief, sports injury recovery, and post-surgery rehab with personalized care.">
+    <meta name="theme-color" content="#ffffff">
+    
+
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png">
+    <link rel="canonical" href="https://physiotherapybangalore.com/">
+    
+    
+    <meta property="og:title" content="Best Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
+    <meta property="og:description" content="Pain relief, sports injury recovery, and post-surgery rehab with personalized care in Bangalore.">
+    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/clinic.jpg">
+    <meta property="og:url" content="https://physiotherapybangalore.com/">
+    <meta property="og:type" content="website">
+
 
     <!-- --------------link for the styling index page--------------- -->
+    <link rel="preload" href="./style.css" as="style">
     <link rel="stylesheet" href="./style.css">
 
     <!-- --------------link for the font awesome icons--------------- -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" as="style" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin>
 
     <!-- ---------------link for the swiper js for the carousel---------------- -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" as="style" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" crossorigin>
+
 
     <!-- ---------------link for the justapose js for the image before and after-------------- -->
     <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 
 
+    <!-- ---------------local business schema for seo-------------- -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Physiotherapy",
+            "name": "Sri Sai Balaji Physiotherapy Clinic",
+            "image": "https://physiotherapybangalore.com/assets/images/clinic.jpg",
+            "@id": "",
+            "url": "https://physiotherapybangalore.com/",
+            "telephone": "+91-XXXXXXXXXX",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "123, Your Street Name",
+                "addressLocality": "Bangalore",
+                "addressRegion": "KA",
+                "postalCode": "5600XX",
+                "addressCountry": "IN"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 12.9716,
+                "longitude": 77.5946
+            },
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "opens": "09:00",
+                "closes": "20:00"
+            }],
+            "sameAs": [
+                "https://www.facebook.com/yourpage",
+                "https://www.instagram.com/yourpage",
+                "https://g.page/your-google-business-link"
+            ]
+        }
+    </script>
 </head>
 
 <body>
@@ -35,44 +95,44 @@
     <div class="swiper hero-carousel">
         <div class="swiper-wrapper hero-carousel-wrapper">
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-1.jpg" />
+                <img src="./assets/images/index-hero-carousel/hero-1.jpg" loading="lazy" alt="Personalized therapy session in bangalore"/>
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Personalized Therapy</small>
-                        <h1>You&rsquo;re In Good Hands.</h1>
+                        <h2>You&rsquo;re In Good Hands.</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br class="hero-carousel-slide-break"> Minus illum adipisci provident laborum ad quidem.</p>
                         <a href="#">Get Quote &nbsp;&nbsp;></a>
                     </div>
                 </div>
             </div>
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-2.jpg" />
+                <img src="./assets/images/index-hero-carousel/hero-2.jpg" loading="lazy" alt="Get personal therapist for you in bangalore" />
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Personal Therapist</small>
-                        <h1>Our goal is preserve lives</h1>
+                        <h2>Our goal is preserve lives</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br class="hero-carousel-slide-break"> Minus illum adipisci provident laborum ad quidem.</p>
                         <a href="#">Get Quote &nbsp;&nbsp;></a>
                     </div>
                 </div>
             </div>
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-3.jpg" />
+                <img src="./assets/images/index-hero-carousel/hero-3.jpg" loading="lazy" alt="Best physiotherapy health clinic"/>
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Physiotherapy Health Clinics</small>
-                        <h1>Therapeutic Exercises.</h1>
+                        <h2>Therapeutic Exercises.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br class="hero-carousel-slide-break"> Minus illum adipisci provident laborum ad quidem.</p>
                         <a href="#">Get Quote &nbsp;&nbsp;></a>
                     </div>
                 </div>
             </div>
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-4.jpg" />
+                <img src="./assets/images/index-hero-carousel/hero-4.jpg" loading="lazy" alt="Best wellness and support in bangalore"/>
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Wellness & Support</small>
-                        <h1>Home Exercise Plans.</h1>
+                        <h2>Home Exercise Plans.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br class="hero-carousel-slide-break"> Minus illum adipisci provident laborum ad quidem.</p>
                         <a href="#">Get Quote &nbsp;&nbsp;></a>
                     </div>
@@ -85,16 +145,16 @@
     <div thumbsSlider="" class="swiper hero-carousel-thumbnail">
         <div class="swiper-wrapper hero-carousel-thumbnail-wrapper">
             <div class="swiper-slide hero-thumbnail-slide">
-                <img src="./assets/images/index-hero-carousel/hero-1.jpg" />
+                <img src="./assets/images/index-hero-carousel/hero-1.jpg" loading="lazy" alt="Personalized therapy session in bangalore"/>
             </div>
             <div class="swiper-slide hero-thumbnail-slide">
-                <img src="./assets/images/index-hero-carousel/hero-2.jpg" />
+                <img src="./assets/images/index-hero-carousel/hero-2.jpg" loading="lazy" alt="Get personal therapist for you in bangalore"/>
             </div>
             <div class="swiper-slide hero-thumbnail-slide">
-                <img src="./assets/images/index-hero-carousel/hero-3.jpg" />
+                <img src="./assets/images/index-hero-carousel/hero-3.jpg" loading="lazy" alt="Best physiotherapy health clinic"/>
             </div>
             <div class="swiper-slide hero-thumbnail-slide">
-                <img src="./assets/images/index-hero-carousel/hero-4.jpg" />
+                <img src="./assets/images/index-hero-carousel/hero-4.jpg" loading="lazy" alt="Best wellness and support in bangalore"/>
             </div>
         </div>
     </div>
@@ -104,88 +164,88 @@
     <div class="where-do-we-need-ation">
         <div>
             <h4>Active Life Rehabilitation </h4>
-            <h1>Where do we need attention?</h1>
+            <h2>Where do we need attention?</h2>
             <div class="where-do-we-need-ation-cards">
-                <div class="where-do-we-need-ation-card">
+                <a href="#" class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img1">
 
                     </div>
                     <div class="where-do-we-need-ation-card-title">
                         <h3>Neck Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
-                </div>
-                <div class="where-do-we-need-ation-card">
+                </a>
+                <a href="#" class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img2">
 
                     </div>
                     <div class="where-do-we-need-ation-card-title">
                         <h3>Shoulder Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
-                </div>
-                <div class="where-do-we-need-ation-card">
+                </a>
+                <a href="#" class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img3">
 
                     </div>
                     <div class="where-do-we-need-ation-card-title">
                         <h3>Hip Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
-                </div>
-                <div class="where-do-we-need-ation-card">
+                </a>
+                <a href="#" class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img4">
 
                     </div>
                     <div class="where-do-we-need-ation-card-title">
                         <h3>Knee Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
-                </div>
-                <div class="where-do-we-need-ation-card">
+                </a>
+                <a href="#" class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img5">
 
                     </div>
                     <div class="where-do-we-need-ation-card-title">
                         <h3>Elbow Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
-                </div>
-                <div class="where-do-we-need-ation-card">
+                </a>
+                <a href="#" class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img6">
 
                     </div>
                     <div class="where-do-we-need-ation-card-title">
                         <h3>Tricep Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
-                </div>
-                <div class="where-do-we-need-ation-card">
+                </a>
+                <a href="#" class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img7">
 
                     </div>
                     <div class="where-do-we-need-ation-card-title">
                         <h3>Hand Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
-                </div>
-                <div class="where-do-we-need-ation-card">
+                </a>
+                <a href="#" class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img8">
 
                     </div>
                     <div class="where-do-we-need-ation-card-title">
                         <h3>Foot Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
-                </div>
-                <div class="where-do-we-need-ation-card">
+                </a>
+                <a href="#" class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img9">
 
                     </div>
                     <div class="where-do-we-need-ation-card-title">
                         <h3>Ankel Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
-                </div>
-                <div class="where-do-we-need-ation-card">
+                </a>
+                <a href="#" class="where-do-we-need-ation-card">
                     <div class="where-do-we-need-ation-card-img where-do-we-need-ation-card-img10">
 
                     </div>
                     <div class="where-do-we-need-ation-card-title">
                         <h3>Back Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -197,12 +257,12 @@
             <div class="workDone-and-happyCustomers-cards">
                 <div class="workDone-and-happyCustomers-card">
                     <h4>Work Done</h4>
-                    <h1>+20k</h1>
+                    <h2>+20k</h2>
                     <span><i class="fa-solid fa-circle-check"></i></span>
                 </div>
                 <div class="workDone-and-happyCustomers-card">
                     <h4>Happy Customers</h4>
-                    <h1>+10k</h1>
+                    <h2>+10k</h2>
                     <span><i class="fa-solid fa-circle-check"></i></span>
                 </div>
             </div>
@@ -215,7 +275,7 @@
                 <div>
                     <div class="about-us-title">
                         <h4>About Sri Sai Balaji Physiotherapy Clinic</h4>
-                        <h1>We Treat The Individual, Not Just The Injury</h1>
+                        <h2>We Treat The Individual, Not Just The Injury</h2>
                         <p>Many athletes will have negative thoughts and experiences during injury recovery, which may adversely affect their motivation and willingness .</p>
                     </div>
                     <div class="about-us-cards">
@@ -226,7 +286,7 @@
                             </li>
                             <li>
                                 <h2>Our Vision <span></span></h2>
-                                <p>Our Clinc is committed, to providing an exceptional, patient care experience </p>
+                                <p>Our Clinc is committed, to providing an exceptional, patient care experience</p>
                             </li>
                         </ul>
                     </div>
@@ -249,7 +309,7 @@
     <!-- ------------------start of the marquee text---------------------  -->
     <div class="marquee-text">
         <div class="marquee-content">
-            <h1>
+            <h2>
                 Sri Sai Balaji Physiotherapy Clinic – Manual Therapy
                 <span><i class="fa-solid fa-snowflake"></i></span>
                 Electrotherapy
@@ -267,9 +327,9 @@
                 Strength Training
                 <span><i class="fa-solid fa-snowflake"></i></span>
                 Sri Sai Balaji Physiotherapy Clinic
-            </h1>
+            </h2>
             <!-- Duplicate for seamless loop -->
-            <h1>
+            <h2>
                 Sri Sai Balaji Physiotherapy Clinic – Manual Therapy
                 <span><i class="fa-solid fa-snowflake"></i></span>
                 Electrotherapy
@@ -287,7 +347,7 @@
                 Strength Training
                 <span><i class="fa-solid fa-snowflake"></i></span>
                 Sri Sai Balaji Physiotherapy Clinic
-            </h1>
+            <h2>
         </div>
     </div>
 
@@ -296,7 +356,7 @@
     <div class="services-we-think-difrnt">
         <div class="services-we-think-difrnt-info">
             <h4>Services</h4>
-            <h1>We Think Differently.</h1>
+            <h2>We Think Differently.</h2>
             <p>The human body is exceedingly versatile, which implies that the human body can shockingly be proficiently wasteful</p>
             <div class="services-we-think-difrnt-cards-nav">
                 <div class="services-we-think-difrnt-card-prev"><i class="fa-solid fa-arrow-left"></i></div>
@@ -305,7 +365,7 @@
         </div>
         <div class="services-we-think-difrnt-cards swiper">
             <div class="services-we-think-difrnt-card-wrapper swiper-wrapper">
-                <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card1">
+                <a href="#" class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card1">
                     <div class="services-we-think-difrnt-card-content">
                         <div class="content-title">
                             <h4>Leg Pain</h4>
@@ -315,8 +375,8 @@
                             <img src="./assets/images/index-services-we-think-differ/icon1.png" alt="">
                         </div>
                     </div>
-                </div>
-                <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card2">
+                </a>
+                <a href="#" class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card2">
                     <div class="services-we-think-difrnt-card-content">
                         <div class="content-title">
                             <h4>Diathermy</h4>
@@ -326,8 +386,8 @@
                             <img src="./assets/images/index-services-we-think-differ/icon2.png" alt="">
                         </div>
                     </div>
-                </div>
-                <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card3">
+                </a>
+                <a href="#" class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card3">
                     <div class="services-we-think-difrnt-card-content">
                         <div class="content-title">
                             <h4>Osteopaths</h4>
@@ -337,8 +397,8 @@
                             <img src="./assets/images/index-services-we-think-differ/icon3.png" alt="">
                         </div>
                     </div>
-                </div>
-                <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card4">
+                </a>
+                <a href="#" class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card4">
                     <div class="services-we-think-difrnt-card-content">
                         <div class="content-title">
                             <h4>Taping</h4>
@@ -348,8 +408,8 @@
                             <img src="./assets/images/index-services-we-think-differ/icon4.png" alt="">
                         </div>
                     </div>
-                </div>
-                <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card5">
+                </a>
+                <a href="#" class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card5">
                     <div class="services-we-think-difrnt-card-content">
                         <div class="content-title">
                             <h4>Diathermy</h4>
@@ -359,8 +419,8 @@
                             <img src="./assets/images/index-services-we-think-differ/icon5.png" alt="">
                         </div>
                     </div>
-                </div>
-                <div class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card6">
+                </a>
+                <a href="#" class="services-we-think-difrnt-card swiper-slide services-we-think-difrnt-card6">
                     <div class="services-we-think-difrnt-card-content">
                         <div class="content-title">
                             <h4>Intermist</h4>
@@ -370,7 +430,7 @@
                             <img src="./assets/images/index-services-we-think-differ/icon6.png" alt="">
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -382,12 +442,12 @@
         <div class="why-choose-us">
             <div class="whyChooseUs-info">
                 <h4>Why Choose Us</h4>
-                <h1>We help you to better manufacturing</h1>
+                <h2>We help you to better manufacturing</h2>
                 <p>Use the latest research in physical therapy to work better, play better—and spend more time on what really matters.</p>
                 <div class="whyChooseUs-info-icons">
                     <div class="whyChooseUs-info-icon">
                         <div class="whyChooseUs-info-icon-circle">
-                            <h1><i class="fa-regular fa-thumbs-up"></i></h1>
+                            <h2><i class="fa-regular fa-thumbs-up"></i></h2>
                         </div>
                         <div class="whyChooseUs-info-icon-title">
                             <h3>Certified & Awards winner</h3>
@@ -396,7 +456,7 @@
                     </div>
                     <div class="whyChooseUs-info-icon">
                         <div class="whyChooseUs-info-icon-circle">
-                            <h1><i class="fa-regular fa-handshake"></i></i></h1>
+                            <h2><i class="fa-regular fa-handshake"></i></i></h2>
                         </div>
                         <div class="whyChooseUs-info-icon-title">
                             <h3>Innovative Product Solutions</h3>
@@ -405,7 +465,7 @@
                     </div>
                     <div class="whyChooseUs-info-icon">
                         <div class="whyChooseUs-info-icon-circle">
-                            <h1><i class="fa-regular fa-face-smile"></i></h1>
+                            <h2><i class="fa-regular fa-face-smile"></i></h2>
                         </div>
                         <div class="whyChooseUs-info-icon-title">
                             <h3>We will definitely be back!</h3>
@@ -426,7 +486,7 @@
         <div class="patient-stories">
             <div class="stories-title">
                 <h4>Stories For Patients</h4>
-                <h1>See Our Latest Case Studies</h1>
+                <h2>See Our Latest Case Studies</h2>
             </div>
             <div class="stories-cards">
                 <div class="stories-card stories-card1">
@@ -444,7 +504,7 @@
                 <div class="stories-card stories-card3">
                     <div class="stories-card-title">
                         <h4>Elbow Pain, Hand Pain</h4>
-                        <h2>Women’s Health physiotherapist</h2>
+                        <h2>Women&rsquo;s Health physiotherapist</h2>
                     </div>
                 </div>
                 <div class="stories-card stories-card4">
@@ -487,7 +547,7 @@
         <div class="therapy-process">
             <div class="therapy-process-title">
                 <div class="therapy-process-title-title">
-                    <h1>What is Therapy Process</h1>
+                    <h2>What is Therapy Process</h2>
                     <p>Many researchers view therapeutic process as evidently <br> consisting of the interactions and communications</p>
                 </div>
                 <div class="therapy-process-title-button">
@@ -546,7 +606,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 
@@ -554,7 +614,7 @@
 
 
     <!-- --------------start of the footer section----------------- -->
-    <?php include './footer.php' ?> 
+    <?php include './footer.php' ?>
 
 
 
