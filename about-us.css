@@ -228,3 +228,169 @@ body {
 .page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-missions > .page-our-approach-missions-cards > .page-our-approach-missions-card > h2 {
     color: #1b99fe;
 }
+
+
+/* 
+---------------styling for the our commitment section--------------------
+*/
+
+.page-our-commitment-section {
+    padding: 50px 5vw;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info {
+    display: flex;
+    gap: 20px;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-image > .page-our-commitment-img {
+    width: 500px;
+    height: 650px;
+    position: relative;
+    border-radius: 20px;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-image > .page-our-commitment-img::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-image: url(./assets/images/about-us/our-commitment/our-commitment.png);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > h4 {
+    color: #1b99fe;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > h2 {
+    color: #06268b;
+    font-size: 3vw;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > P {
+    color: gray;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards > .page-our-commitment-info-card {
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards > .page-our-commitment-info-card > .page-our-commitment-info-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} 
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards > .page-our-commitment-info-card > .page-our-commitment-info-card-info > h3 {
+    color: #06268b;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards > .page-our-commitment-info-card > .page-our-commitment-info-card-info > p {
+    font-weight: normal;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards > .page-our-commitment-info-card:nth-child(1) {
+    background-color: aliceblue;
+    border-radius: 20px 0px 0px 20px;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards > .page-our-commitment-info-card:nth-child(2) {
+    background-color: #6699CC;
+    border-radius: 0px 20px 20px 0px;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards > .page-our-commitment-info-card > img {
+    height: 60px;
+    width: 60px;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > ul > li {
+    display: flex;
+    align-items: center;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > ul > li > span {
+    color: #1b99fe;
+    font-size: 20px;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > ul > li > p {
+    margin-left: 10px;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-button {
+    margin-top: 10px;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-button > a {
+    padding: 15px 20px;
+    background-color: #1b99fe;
+    color: white;
+    z-index: 1;
+    position: relative;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-button > a::before,
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-button > a::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    background-color: #06268b;
+    z-index: -1;
+    transition: height .4s ease-in-out, width .4s ease-in-out;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-button > a::before {
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-button > a::after {
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+}
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-button > a:hover::before,
+.page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-button > a:hover::after {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* 
+---------------styling for the page our feature section---------------------
+*/
+
+.page-our-feature-section {
+    padding: 50px 5vw;
+}
+.page-our-feature-section > .page-our-feature {
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+.page-our-feature-section > .page-our-feature::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(./assets/images/about-us/our-feature/background.png);
+    background-size: 100% 100%;
+    border-radius: 50px;
+    z-index: 0;
+}
+.page-our-feature-section > .page-our-feature::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50px;
+    background-color: black;
+    opacity: .5;
+}

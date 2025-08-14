@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <div class="page-about-us-info-button">
-                    <a href="#">Book Appointments&nbsp;&nbsp;></a>
+                    <a href="./contact-us.php">Book Appointments&nbsp;&nbsp;></a>
                 </div>
             </div>
         </div>
@@ -90,19 +90,19 @@
             <div class="page-our-approach-missions">
                 <div class="page-our-approach-missions-cards">
                     <div class="page-our-approach-missions-card">
-                        <img src="./assets/images/about-us/our-approach-icon1.png" alt="">
+                        <img src="./assets/images/about-us/our-approach/our-approach-icon1.png" alt="">
                         <h2>Our Mission</h2>
                     </div>
                     <div class="page-our-approach-missions-card">
-                        <img src="./assets/images/about-us/our-approach-icon2.png" alt="">
+                        <img src="./assets/images/about-us/our-approach/our-approach-icon2.png" alt="">
                         <h2>Our Vision</h2>
                     </div>
                     <div class="page-our-approach-missions-card">
-                        <img src="./assets/images/about-us/our-approach-icon3.png" alt="">
+                        <img src="./assets/images/about-us/our-approach/our-approach-icon3.png" alt="">
                         <h2>Our Goals</h2>
                     </div>
                     <div class="page-our-approach-missions-card">
-                        <img src="./assets/images/about-us/our-approach-icon4.png" alt="">
+                        <img src="./assets/images/about-us/our-approach/our-approach-icon4.png" alt="">
                         <h2>Our Strategy</h2>
                     </div>
                 </div>
@@ -110,7 +110,57 @@
         </div>
     </div>
 
-    <!--  -->
+
+
+
+    <!-- --------------start of the page our commitment--------------- -->
+    <div class="page-our-commitment-section">
+        <div class="page-our-commitment-image-and-info">
+            <div class="page-our-commitment-image">
+                <div class="page-our-commitment-img">
+
+                </div>
+            </div>
+            <div class="page-our-commitment-info">
+                <h4>Our Commitment</h4>
+                <h2>Healing you beyond the physical</h2>
+                <p>At our physiotherapy clinic, we’re dedicated to helping you heal, move better, and feel your best personalized treatment plans, expert therapists.</p>
+                <div class="page-our-commitment-info-cards">
+                    <div class="page-our-commitment-info-card">
+                        <img src="./assets/images/about-us/our-commitment/icon1.png" alt="">
+                        <div class="page-our-commitment-info-card-info">
+                            <h3>Comfort First</h3>
+                            <p>Guided therapy for lasting relief.</p>
+                        </div>
+                    </div>
+                    <div class="page-our-commitment-info-card">
+                        <img src="./assets/images/about-us/our-commitment/icon2.png" alt="">
+                        <div class="page-our-commitment-info-card-info">
+                            <h3>Better Days</h3>
+                            <p>Guided therapy for lasting relief.</p>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li><span><i class="fa-solid fa-square-check"></i></span><p>Thorough initial consultation & personalize assessment.</p></li>
+                    <li><span><i class="fa-solid fa-square-check"></i></span><p>In-depth consultation & clinical assesment tailored.</p></li>
+                </ul>
+                <div class="page-our-commitment-info-button">
+                    <a href="./contact-us.php">Know more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -------------start of the page our feature section-------------- -->
+    <div class="page-our-feature-section">
+        <div class="page-our-feature">
+            
+        </div>
+    </div>
+
+
     <!-- --------------start of the footer section----------------- -->
     <?php include './footer.php' ?>
 </body>
