@@ -1,0 +1,230 @@
+/* import link for the philosopher font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    line-height: 1.5rem;
+}
+body {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* 
+------------------styling for the page title section----------------- 
+*/
+
+.page-title-section > .page-title {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+}
+.page-title-section > .page-title > * {
+    z-index: 4;
+}
+.page-title-section > .page-title > h2 {
+    font-size: 3vw;
+}
+.page-title-section > .page-title::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-image: url(./assets/images/services/orthopedic/title-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.page-title-section > .page-title::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgba(7, 20, 59, .45);
+} 
+.page-title-section > .page-title > h2 {
+    color: white;
+}
+.page-title-section > .page-title > .page-title-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.page-title-section > .page-title > .page-title-nav > a {
+    color: white;
+}
+.page-title-section > .page-title > .page-title-nav > span {
+    color: white;
+}
+
+
+
+/* 
+-------------------styling for the page about us section------------------
+*/
+
+.page-about-us-section {
+    padding: 50px 5vw;
+}
+.page-about-us-section > .page-about-image-and-info {
+    display: flex;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-image > img {
+    height: 450px;
+    width: 600px;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-image {
+    width: 50%;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > h4 {
+    color: #1b99fe;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > h2 {
+    color: #06268b;
+    font-size: 3vw;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > p {
+    color: gray;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-cards > .page-about-us-info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-cards > .page-about-us-info-card > li {
+    display: flex;
+    align-items: center;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-cards > .page-about-us-info-card > li > span {
+    color: #1b99fe;
+    font-size: 20px;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-cards > .page-about-us-info-card > li > h3 {
+    margin-left: 10px;
+    font-weight: normal;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-cards > .page-about-us-info-card > li > p {
+    color: gray;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-button {
+    margin-top: 10px;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-button > a {
+    background-color: #1b99fe;
+    padding: 15px 25px;
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-button > a::before,
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-button > a::after {
+    content: '';
+    height: 0;
+    width: 0;
+    position: absolute;
+    transition: height .4s ease-in-out, width .4s ease-in-out;
+    background-color: #06268b;
+    z-index: -1;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-button > a::before {
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-button > a::after {
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-button > a:hover::before,
+.page-about-us-section > .page-about-image-and-info > .page-about-us-info > .page-about-us-info-button > a:hover::after {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* 
+-----------------styling for the page our approach section--------------------
+*/
+.page-our-approach-section {
+    padding: 50px 5vw;
+}
+.page-our-approach-section > .page-our-approach-info-and-missions {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-info > h4 {
+    color: #1b99fe;
+}
+.page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-info > h2 {
+    color: #06268b;
+    font-size: 3vw;
+}
+.page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-info > p {
+    color: gray;
+}
+.page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-missions {
+    width: 70%;
+}
+.page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-missions > .page-our-approach-missions-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-missions > .page-our-approach-missions-cards > .page-our-approach-missions-card {
+    height: 200px;
+    background-color: aliceblue;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 20px;
+}
+.page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-missions > .page-our-approach-missions-cards > .page-our-approach-missions-card > img {
+    height: 70px;
+    width: 70px;
+}
+.page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-missions > .page-our-approach-missions-cards > .page-our-approach-missions-card > h2 {
+    color: #1b99fe;
+}

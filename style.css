@@ -96,9 +96,9 @@ body {
 .navbar>.navbar-menu-items>ul>li>a:hover {
     color: #1b99fe;
 }
-.navbar>.navbar-menu-items>ul>li:nth-child(1) > a {
+/* .navbar>.navbar-menu-items>ul>li:nth-child(1) > a {
     color: #1b99fe;
-}
+} */
 .navbar>.navbar-menu-items>ul>li {
     position: relative;
 }

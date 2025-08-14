@@ -632,7 +632,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
-    <!-- ------------script link for the animation of text and cards------------- -->
+    <!-- ------------script link for the carousel animation of text and cards------------- -->
     <script src="./index-animation.js"></script>
 
     <!-- ------------script for the justapose js for before and after images -->

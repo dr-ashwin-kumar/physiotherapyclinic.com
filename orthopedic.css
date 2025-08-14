@@ -26,7 +26,7 @@ body {
 
 
 /* 
-------------------start of the page title section----------------- 
+------------------styling for the page title section----------------- 
 */
 
 .page-title-section > .page-title {
@@ -39,7 +39,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 20px;
+    gap: 25px;
 }
 .page-title-section > .page-title > * {
     z-index: 4;
