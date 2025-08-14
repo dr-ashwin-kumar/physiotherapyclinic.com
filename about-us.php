@@ -156,7 +156,51 @@
     <!-- -------------start of the page our feature section-------------- -->
     <div class="page-our-feature-section">
         <div class="page-our-feature">
-            
+            <h3>Our Feature</h3>
+            <h2>Our feature as means choosing <br> exceptional features</h2>
+            <div class="page-our-feature-cards">
+                <div class="page-our-feature-card">
+                    <img src="./assets/images/about-us/our-feature/icon1.png" alt="">
+                    <h3>Pain Relief Therapy</h3>
+                    <p>Our Pain Relief Therapy focuses reducing discomfort.</p>
+                </div>
+                <div class="page-our-feature-card">
+                    <img src="./assets/images/about-us/our-feature/icon2.png" alt="">
+                    <h3>Post Surgery Care </h3>
+                    <p>Our Post Surgery Care focuses reducing discomfort.</p>
+                </div>
+                <div class="page-our-feature-card">
+                    <img src="./assets/images/about-us/our-feature/icon3.png" alt="">
+                    <h3>Flexible Scheduling </h3>
+                    <p>Our Flexible Scheduling focuses reducing discomfort.</p>
+                </div>
+                <div class="page-our-feature-card">
+                    <img src="./assets/images/about-us/our-feature/icon4.png" alt="">
+                    <h3>One-on-One Support </h3>
+                    <p>Our One-on-One Support focuses reducing discomfort.</p>   
+                </div>
+            </div>
+            <div class="page-our-feature-insights">
+                <div class="page-our-feature-insight">
+                    <p>Interesting and Unexpected Facts You Didn't Know About Physiotherapy</p>
+                </div>
+                <div class="page-our-feature-insight">
+                    <h2>5k</h2>
+                    <p>Happy Customer</p>
+                </div>
+                <div class="page-our-feature-insight">
+                    <h2>20+</h2>
+                    <p>Experience Doctor</p>
+                </div>
+                <div class="page-our-feature-insight">
+                    <h2>98%</h2>
+                    <p>Positive customer review</p>
+                </div>
+                <div class="page-our-feature-insight">
+                    <h2>30+</h2>
+                    <p>Project Complete</p>
+                </div>
+            </div>
         </div>
     </div>
 
