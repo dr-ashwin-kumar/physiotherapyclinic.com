@@ -8,7 +8,7 @@ var swiper2 = new Swiper(".hero-carousel", {
     spaceBetween: 10,
     loop: true,
     autoplay: {
-        delay: 9000, 
+        delay: 5000, 
         disableOnInteraction: false, 
     },
     navigation: {

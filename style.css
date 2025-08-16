@@ -1,7 +1,3 @@
-/* import link for the philosopher font from google font */
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-
 * {
     margin: 0;
     padding: 0;
@@ -657,7 +653,7 @@ body {
     height: 280px;
     width: 280px;
     border-radius: 50%;
-    background-image: url(./assets/images/index-about-section/first-img.jpg);
+    background-image: url(./assets/images/index-about-section/first-img.webp);
     background-size: 100% 100%;
 }
 
@@ -749,7 +745,7 @@ body {
 .about-section>div>.about-us>div>.about-us-sign>div {
     height: 100px;
     width: 200px;
-    background-image: url(./assets/images/index-about-section/signature.png);
+    background-image: url(./assets/images/index-about-section/signature.webp);
     background-size: 100% 100%;
 }
 
@@ -790,7 +786,7 @@ body {
     height: 280px;
     width: 280px;
     border-radius: 50%;
-    background-image: url(./assets/images/index-about-section/image.png);
+    background-image: url(./assets/images/index-about-section/image.webp);
     background-size: 100% 100%;
 }
 
@@ -817,9 +813,6 @@ body {
     .about-section>div>.about-section-outer-circle1>.about-section-inside-circle-img1 {
         height: 45vw;
         width: 45vw;
-        border-radius: 50%;
-        background-image: url(./assets/images/index-about-section/first-img.jpg);
-        background-size: 100% 100%;
     }
 
     .about-section>div>.workDone-and-happyCustomers-cards>.workDone-and-happyCustomers-card {
@@ -1731,19 +1724,19 @@ body {
 }
 
 .therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-image>.therapy-process-step-img1 {
-    background-image: url(./assets/images/index-therapy-process/step1.jpg);
+    background-image: url(./assets/images/index-therapy-process/step1.webp);
 }
 
 .therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-image>.therapy-process-step-img2 {
-    background-image: url(./assets/images/index-therapy-process/step2.jpg);
+    background-image: url(./assets/images/index-therapy-process/step2.webp);
 }
 
 .therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-image>.therapy-process-step-img3 {
-    background-image: url(./assets/images/index-therapy-process/step3.jpg);
+    background-image: url(./assets/images/index-therapy-process/step3.webp);
 }
 
 .therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-image>.therapy-process-step-img4 {
-    background-image: url(./assets/images/index-therapy-process/step4.jpg);
+    background-image: url(./assets/images/index-therapy-process/step4.webp);
 }
 
 .therapy-process-section>.therapy-process>.therapy-process-steps>.therapy-process-step>.therapy-process-step-info {

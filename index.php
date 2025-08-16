@@ -7,12 +7,12 @@
     <title>Best Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic</title>
     <meta name="description" content="Get expert physiotherapy in Bangalore at Sri Sai Balaji Physiotherapy Clinic. Pain relief, sports injury recovery, and post-surgery rehab with personalized care.">
     <meta name="theme-color" content="#ffffff">
-    
+
 
     <link rel="icon" href="./assets/images/favicon.png" type="image/png">
     <link rel="canonical" href="https://physiotherapybangalore.com/">
-    
-    
+
+
     <meta property="og:title" content="Best Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
     <meta property="og:description" content="Pain relief, sports injury recovery, and post-surgery rehab with personalized care in Bangalore.">
     <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/clinic.jpg">
@@ -22,7 +22,17 @@
 
     <!-- --------------link for the styling index page--------------- -->
     <link rel="preload" href="./style.css" as="style">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" media="all">
+
+
+    <!-- Preconnect improves font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Philosopher font -->
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
 
     <!-- --------------link for the font awesome icons--------------- -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" as="style" crossorigin>
@@ -95,7 +105,7 @@
     <div class="swiper hero-carousel">
         <div class="swiper-wrapper hero-carousel-wrapper">
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-1.webp" alt="Personalized therapy session in bangalore"/>
+                <img src="./assets/images/index-hero-carousel/hero-1.webp" alt="Personalized therapy session in bangalore" />
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Personalized Therapy</small>
@@ -106,7 +116,7 @@
                 </div>
             </div>
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-2.webp" alt="Get personal therapist for you in bangalore" />
+                <img src="./assets/images/index-hero-carousel/hero-2.webp" alt="Get personal therapist for you in bangalore" loading="lazy" />
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Personal Therapist</small>
@@ -117,7 +127,7 @@
                 </div>
             </div>
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-3.webp" alt="Best physiotherapy health clinic"/>
+                <img src="./assets/images/index-hero-carousel/hero-3.webp" alt="Best physiotherapy health clinic" loading="lazy"/>
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Physiotherapy Health Clinics</small>
@@ -128,7 +138,7 @@
                 </div>
             </div>
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-4.webp" alt="Best wellness and support in bangalore"/>
+                <img src="./assets/images/index-hero-carousel/hero-4.webp" alt="Best wellness and support in bangalore" loading="lazy"/>
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Wellness & Support</small>
@@ -145,16 +155,16 @@
     <div thumbsSlider="" class="swiper hero-carousel-thumbnail">
         <div class="swiper-wrapper hero-carousel-thumbnail-wrapper">
             <div class="swiper-slide hero-thumbnail-slide">
-                <img src="./assets/images/index-hero-carousel/hero-1.webp" loading="lazy" alt="Personalized therapy session in bangalore"/>
+                <img src="./assets/images/index-hero-carousel/hero-1.webp" loading="lazy" alt="Personalized therapy session in bangalore" />
             </div>
             <div class="swiper-slide hero-thumbnail-slide">
-                <img src="./assets/images/index-hero-carousel/hero-2.webp" loading="lazy" alt="Get personal therapist for you in bangalore"/>
+                <img src="./assets/images/index-hero-carousel/hero-2.webp" loading="lazy" alt="Get personal therapist for you in bangalore" />
             </div>
             <div class="swiper-slide hero-thumbnail-slide">
-                <img src="./assets/images/index-hero-carousel/hero-3.webp" loading="lazy" alt="Best physiotherapy health clinic"/>
+                <img src="./assets/images/index-hero-carousel/hero-3.webp" loading="lazy" alt="Best physiotherapy health clinic" />
             </div>
             <div class="swiper-slide hero-thumbnail-slide">
-                <img src="./assets/images/index-hero-carousel/hero-4.webp" loading="lazy" alt="Best wellness and support in bangalore"/>
+                <img src="./assets/images/index-hero-carousel/hero-4.webp" loading="lazy" alt="Best wellness and support in bangalore" />
             </div>
         </div>
     </div>
@@ -347,7 +357,7 @@
                 Strength Training
                 <span><i class="fa-solid fa-snowflake"></i></span>
                 Sri Sai Balaji Physiotherapy Clinic
-            <h2>
+                <h2>
         </div>
     </div>
 
