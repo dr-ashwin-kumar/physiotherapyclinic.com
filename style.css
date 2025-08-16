@@ -1085,27 +1085,27 @@ body {
 }
 
 .services-we-think-difrnt>.services-we-think-difrnt-cards>.services-we-think-difrnt-card-wrapper>.services-we-think-difrnt-card1::before {
-    background-image: url(./assets/images/index-services-we-think-differ/card1.jpg);
+    background-image: url(./assets/images/index-services-we-think-differ/card1.webp);
 }
 
 .services-we-think-difrnt>.services-we-think-difrnt-cards>.services-we-think-difrnt-card-wrapper>.services-we-think-difrnt-card2::before {
-    background-image: url(./assets/images/index-services-we-think-differ/card2.jpg);
+    background-image: url(./assets/images/index-services-we-think-differ/card2.webp);
 }
 
 .services-we-think-difrnt>.services-we-think-difrnt-cards>.services-we-think-difrnt-card-wrapper>.services-we-think-difrnt-card3::before {
-    background-image: url(./assets/images/index-services-we-think-differ/card3.jpg);
+    background-image: url(./assets/images/index-services-we-think-differ/card3.webp);
 }
 
 .services-we-think-difrnt>.services-we-think-difrnt-cards>.services-we-think-difrnt-card-wrapper>.services-we-think-difrnt-card4::before {
-    background-image: url(./assets/images/index-services-we-think-differ/card4.jpg);
+    background-image: url(./assets/images/index-services-we-think-differ/card4.webp);
 }
 
 .services-we-think-difrnt>.services-we-think-difrnt-cards>.services-we-think-difrnt-card-wrapper>.services-we-think-difrnt-card5::before {
-    background-image: url(./assets/images/index-services-we-think-differ/card5.jpg);
+    background-image: url(./assets/images/index-services-we-think-differ/card5.webp);
 }
 
 .services-we-think-difrnt>.services-we-think-difrnt-cards>.services-we-think-difrnt-card-wrapper>.services-we-think-difrnt-card6::before {
-    background-image: url(./assets/images/index-services-we-think-differ/card6.jpg);
+    background-image: url(./assets/images/index-services-we-think-differ/card6.webp);
 }
 
 
@@ -1328,9 +1328,9 @@ body {
     margin: auto;
 }
 
-.juxtapose .jx-knightlab,
-.juxtapose .juxtapose-credit,
-.juxtapose .juxtapose-label {
+#whyChooseUs-comparison .jx-knightlab,
+#whyChooseUs-comparison .juxtapose-credit,
+#whyChooseUs-comparison .juxtapose-label {
     display: none !important;
 }
 

@@ -95,7 +95,7 @@
     <div class="swiper hero-carousel">
         <div class="swiper-wrapper hero-carousel-wrapper">
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-1.jpg" loading="lazy" alt="Personalized therapy session in bangalore"/>
+                <img src="./assets/images/index-hero-carousel/hero-1.webp" alt="Personalized therapy session in bangalore"/>
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Personalized Therapy</small>
@@ -106,7 +106,7 @@
                 </div>
             </div>
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-2.jpg" loading="lazy" alt="Get personal therapist for you in bangalore" />
+                <img src="./assets/images/index-hero-carousel/hero-2.webp" alt="Get personal therapist for you in bangalore" />
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Personal Therapist</small>
@@ -117,7 +117,7 @@
                 </div>
             </div>
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-3.jpg" loading="lazy" alt="Best physiotherapy health clinic"/>
+                <img src="./assets/images/index-hero-carousel/hero-3.webp" alt="Best physiotherapy health clinic"/>
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Physiotherapy Health Clinics</small>
@@ -128,7 +128,7 @@
                 </div>
             </div>
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-4.jpg" loading="lazy" alt="Best wellness and support in bangalore"/>
+                <img src="./assets/images/index-hero-carousel/hero-4.webp" alt="Best wellness and support in bangalore"/>
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Wellness & Support</small>
@@ -474,7 +474,7 @@
                     </div>
                 </div>
             </div>
-            <div id="whyChooseUs-comparison" class="juxtapose"></div>
+            <div id="whyChooseUs-comparison"></div>
         </div>
     </div>
 

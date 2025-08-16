@@ -22,19 +22,19 @@ function splitTextToSpans(element) {
     element.dataset.split = "true"; // Mark as split
 }
 function animateCharacters(slide) {
-    const h1 = slide.querySelector('.hero-carousel-text-onebyone h1');
+    const h2 = slide.querySelector('.hero-carousel-text-onebyone h2');
     const p = slide.querySelector('.hero-carousel-text-onebyone p');
 
-    if (!h1 || !p) return;
+    if (!h2 || !p) return;
 
-    splitTextToSpans(h1); // Do only if not already split
+    splitTextToSpans(h2); // Do only if not already split
 
     // Reset span positions
-    gsap.set(h1.querySelectorAll('span'), { opacity: 0, x: 0 });
+    gsap.set(h2.querySelectorAll('span'), { opacity: 0, x: 0 });
     gsap.set(p, { opacity: 0, y: 20 });
 
-    // Animate h1 characters
-    gsap.to(h1.querySelectorAll('span'), {
+    // Animate h2 characters
+    gsap.to(h2.querySelectorAll('span'), {
         opacity: 1,
         y: 0,
         stagger: 0.03,
