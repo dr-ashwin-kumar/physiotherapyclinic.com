@@ -145,16 +145,16 @@
     <div thumbsSlider="" class="swiper hero-carousel-thumbnail">
         <div class="swiper-wrapper hero-carousel-thumbnail-wrapper">
             <div class="swiper-slide hero-thumbnail-slide">
-                <img src="./assets/images/index-hero-carousel/hero-1.jpg" loading="lazy" alt="Personalized therapy session in bangalore"/>
+                <img src="./assets/images/index-hero-carousel/hero-1.webp" loading="lazy" alt="Personalized therapy session in bangalore"/>
             </div>
             <div class="swiper-slide hero-thumbnail-slide">
-                <img src="./assets/images/index-hero-carousel/hero-2.jpg" loading="lazy" alt="Get personal therapist for you in bangalore"/>
+                <img src="./assets/images/index-hero-carousel/hero-2.webp" loading="lazy" alt="Get personal therapist for you in bangalore"/>
             </div>
             <div class="swiper-slide hero-thumbnail-slide">
-                <img src="./assets/images/index-hero-carousel/hero-3.jpg" loading="lazy" alt="Best physiotherapy health clinic"/>
+                <img src="./assets/images/index-hero-carousel/hero-3.webp" loading="lazy" alt="Best physiotherapy health clinic"/>
             </div>
             <div class="swiper-slide hero-thumbnail-slide">
-                <img src="./assets/images/index-hero-carousel/hero-4.jpg" loading="lazy" alt="Best wellness and support in bangalore"/>
+                <img src="./assets/images/index-hero-carousel/hero-4.webp" loading="lazy" alt="Best wellness and support in bangalore"/>
             </div>
         </div>
     </div>
@@ -643,11 +643,11 @@
 
             if (container) {
                 new juxtapose.JXSlider("#whyChooseUs-comparison", [{
-                        src: "./assets/images/index-why-choose-us/before.jpg",
+                        src: "./assets/images/index-why-choose-us/before.webp",
                         label: ""
                     },
                     {
-                        src: "./assets/images/index-why-choose-us/after.jpg",
+                        src: "./assets/images/index-why-choose-us/after.webp",
                         label: ""
                     }
                 ], {
