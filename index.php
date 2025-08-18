@@ -627,7 +627,9 @@
     <?php include './footer.php' ?>
 
 
-
+    
+    <!-- -----------script link for the navbar and sidebar-------------- -->
+    <script src="./navbar-sidebar.js"></script>
 
     <!-- -----------script link for the swiper js------------ -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

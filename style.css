@@ -92,9 +92,6 @@ body {
 .navbar>.navbar-menu-items>ul>li>a:hover {
     color: #1b99fe;
 }
-/* .navbar>.navbar-menu-items>ul>li:nth-child(1) > a {
-    color: #1b99fe;
-} */
 .navbar>.navbar-menu-items>ul>li {
     position: relative;
 }
@@ -199,9 +196,11 @@ body {
     padding: 0px 5vw;
     height: 100px;
     background-color: white;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
-    z-index: 999;
+    z-index: 1001;
+    overflow: hidden;
 }
 .sidebar > .sidebar-logo-button-hamburger {
     width: 100%;
@@ -259,6 +258,24 @@ body {
     font-size: 30px;
     color: #35739e;
 }
+.sidebar > .sidebar-menu-items {
+    position: fixed;          
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: white;
+    transition: height 0.3s;
+    z-index: 998;
+}
+.sidebar > .sidebar-menu-items.open {
+    height: calc(100vh - 100px);
+}
+.no-scroll {
+    overflow: hidden;   
+    height: 100vh;     
+}
 
 
 
@@ -272,6 +289,9 @@ body {
 @media (min-width: 320px) and (max-width: 500px) {
     .sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > .sidebar-button > a {
         display: none;
+    }
+    body {
+        padding-top: 100px;
     }
 }
 

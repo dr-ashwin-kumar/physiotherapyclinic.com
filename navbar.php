@@ -21,7 +21,7 @@
                 </ul>
             </li>
             <li><a href="./about-us.php">About Us</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="./blog.php">Blog</a></li>
             <li><a href="./contact-us.php">Contact</a></li>
         </ul>
     </div>
@@ -46,5 +46,14 @@
                 <span><i class="fa-solid fa-bars"></i></span>
             </div>
         </div>
+    </div>
+    <div class="sidebar-menu-items">
+        <ul>
+            <li><a href="./index.php">Home</a></li>
+            <li><a href="./index.php">Services</a></li>
+            <li><a href="./index.php">About Us</a></li>
+            <li><a href="./index.php">Blog</a></li>
+            <li><a href="./index.php">Contact Us</a></li>
+        </ul>
     </div>
 </div>

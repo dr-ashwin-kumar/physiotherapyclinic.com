@@ -16,12 +16,13 @@ a {
     text-decoration: none;
     color: black;
 }
-
+p {
+    line-height: 1.5rem;
+}
 body {
     font-family: "Philosopher", sans-serif;
     font-weight: 700;
     font-style: normal;
-    line-height: 1.5rem;
 }
 
 

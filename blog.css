@@ -1,0 +1,162 @@
+/* import link for the philosopher font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    line-height: 1.5rem;
+}
+body {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* 
+------------------start of the page title section----------------- 
+*/
+
+.page-title-section > .page-title {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+}
+.page-title-section > .page-title > * {
+    z-index: 4;
+    color: white;
+    
+}
+.page-title-section > .page-title > h2 {
+    font-size: 3vw;
+}
+.page-title-section > .page-title > .page-title-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.page-title-section > .page-title > .page-title-nav > a {
+    color: white;
+}
+.page-title-section > .page-title::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-image: url(./assets/images/contact-us/title-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.page-title-section > .page-title::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgba(7, 20, 59, .45);
+} 
+
+
+/* 
+------------styling for the page blog section-----------------
+*/
+
+.page-blog-section {
+    padding: 50px 5vw;
+}
+.page-blog-section > .page-blog-cards-section {
+    padding: 0px 3vw;
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card {
+    height: 400px; 
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img {
+    height: 270px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-info > h2 {
+    color: #06268b;
+    font-weight: normal;
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-info > a {
+    color: #1b99fe;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-info > a > span {
+    font-size: 22px;
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img:hover::before {
+    transform: scale(1);
+    transition: transform .5s ease-in-out;
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    transform: scale(1.05);
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img1::before {
+    background-image: url(./assets/images/blog-page/card1.png);
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img2::before {
+    background-image: url(./assets/images/blog-page/card2.png);
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img3::before {
+    background-image: url(./assets/images/blog-page/card3.png);
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img4::before {
+    background-image: url(./assets/images/blog-page/card4.png);
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img5::before {
+    background-image: url(./assets/images/blog-page/card5.png);
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img6::before {
+    background-image: url(./assets/images/blog-page/card6.png);
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img7::before {
+    background-image: url(./assets/images/blog-page/card7.png);
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img8::before {
+    background-image: url(./assets/images/blog-page/card8.png);
+}
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img9::before {
+    background-image: url(./assets/images/blog-page/card9.png);
+}
