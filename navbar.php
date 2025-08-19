@@ -46,7 +46,20 @@
     <div class="sidebar-menu-items">
         <ul>
             <li><a href="./index.php">Home</a></li>
-            <li><a href="#">Services</a></li>
+            <li class="services-submenu">Services<span><i class="fa-solid fa-plus"></i></span>
+                <ul class="services-submenu-items">
+                    <li><a href="#">Page1</a></li>
+                    <li><a href="#">Page2</a></li>
+                    <li><a href="#">Page3</a></li>
+                    <li><a href="#">Page4</a></li>
+                    <li><a href="#">Page5</a></li>
+                    <li><a href="#">Page6</a></li>
+                    <li><a href="#">Page7</a></li>
+                    <li><a href="#">Page8</a></li>
+                    <li><a href="#">Page9</a></li>
+                    <li><a href="#">Page10</a></li>
+                </ul>
+            </li>
             <li><a href="./about-us.php">About Us</a></li>
             <li><a href="./blog.php">Blog</a></li>
             <li><a href="./contact-us.php">Contact Us</a></li>

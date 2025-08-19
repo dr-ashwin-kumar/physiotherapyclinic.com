@@ -258,14 +258,66 @@ body {
     height: 100dvh;
     background: white;
     width: 100%;                
-    transform: translateX(100%);
+    transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
     overflow: hidden;
-    padding: 30px 5vw;  
+    padding: 10px 5vw;  
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 .sidebar > .sidebar-menu-items.active {
     transform: translateX(0);
 }
+.sidebar > .sidebar-menu-items > ul {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar > .sidebar-menu-items > ul > li {
+    padding: 18px 0;
+    border-bottom: 1px solid lightgray;
+    color: #06268b;
+}
+.sidebar > .sidebar-menu-items > ul > li:hover {
+    color: #1b99fe;
+}
+.sidebar > .sidebar-menu-items > ul > li > a {
+    color: #06268b;
+}
+.sidebar > .sidebar-menu-items > ul > li > a:hover {
+    color: #1b99fe;
+}
+.sidebar > .sidebar-menu-items > ul > li:last-child {
+    border: none;
+}
+.no-scroll {
+    overflow: hidden;
+}
+.sidebar > .sidebar-menu-items > ul > li:nth-child(2) > span {
+    margin-left: 10px;
+}
+.sidebar > .sidebar-menu-items > ul > li:nth-child(2) > ul {
+    display: none;
+    padding-left: 30px;
+}
+.sidebar > .sidebar-menu-items > ul > li:nth-child(2) > ul > li {
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+.sidebar > .sidebar-menu-items > ul > li:nth-child(2) > ul > li > a {
+    color: #06268b;
+}
+.sidebar > .sidebar-menu-items > ul > li:nth-child(2) > ul > li > a:hover {
+    color: #1b99fe;
+}
+.sidebar > .sidebar-menu-items > ul > li:nth-child(2) > ul > li:last-child {
+    border: none;
+}
+.sidebar > .sidebar-menu-items > ul > li:nth-child(2) > ul.open {
+    display: block;
+}
+
+
+
 
 
 /* responsive design for the side  */
@@ -1766,13 +1818,27 @@ body {
 
 /* responsive design for the therapy process section of mobile and tab screens */
 
-@media (min-width: 320px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 589px) {
+    .therapy-process-section>.therapy-process>.therapy-process-title {
+        gap: 20px;
+    }
     .therapy-process-section>.therapy-process>.therapy-process-title {
         flex-direction: column;
-        gap: 20px;
     }
     .therapy-process-section>.therapy-process>.therapy-process-title>.therapy-process-title-title>h2 {
         font-size: 8vw;
+    }
+    .therapy-process-section > .therapy-process > .therapy-process-steps  >.therapy-process-step:nth-child(1) {
+        flex-direction: column-reverse;
+    }
+    .therapy-process-section > .therapy-process > .therapy-process-steps  >.therapy-process-step:nth-child(1) > .therapy-process-step-info > h3 {
+        order: -1;
+    }
+    .therapy-process-section > .therapy-process > .therapy-process-steps  >.therapy-process-step:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+    .therapy-process-section > .therapy-process > .therapy-process-steps  >.therapy-process-step:nth-child(3) > .therapy-process-step-info > h3 {
+        order: -1;
     }
 }
 
