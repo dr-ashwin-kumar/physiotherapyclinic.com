@@ -2,7 +2,7 @@
 
 <div class="navbar">
     <div class="navbar-logo">
-        <img src="./assets/images/logo.png" alt="">
+        <a href="./index.php"><img src="./assets/images/logo.png" alt="Sri Sai Balaji physiotherapy Clinic"></a>
     </div>
     <div class="navbar-menu-items">
         <ul>
@@ -36,24 +36,20 @@
 <div class="sidebar">
     <div class="sidebar-logo-button-hamburger">
         <div class="sidebar-logo">
-            <img src="./assets/images/logo.png" alt="">
+            <a href="./index.php"><img src="./assets/images/logo.png" alt="Sri Sai Balaji Physiotherapy Clinic"></a>
         </div>
         <div class="sidebar-button-hamburger">
-            <div class="sidebar-button">
-                <a href="#">Book Appointment&nbsp;&nbsp;></a>
-            </div>
-            <div class="sidebar-hamburger">
-                <span><i class="fa-solid fa-bars"></i></span>
-            </div>
+            <li><a href="./contact-us.php">Book Appointment&nbsp;&nbsp;></a></li>
+            <li class="hamburger"><span><i class="fa-solid fa-bars"></i></span></li>
         </div>
     </div>
     <div class="sidebar-menu-items">
         <ul>
             <li><a href="./index.php">Home</a></li>
-            <li><a href="./index.php">Services</a></li>
-            <li><a href="./index.php">About Us</a></li>
-            <li><a href="./index.php">Blog</a></li>
-            <li><a href="./index.php">Contact Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="./about-us.php">About Us</a></li>
+            <li><a href="./blog.php">Blog</a></li>
+            <li><a href="./contact-us.php">Contact Us</a></li>
         </ul>
     </div>
 </div>

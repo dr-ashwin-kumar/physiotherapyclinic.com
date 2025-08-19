@@ -76,7 +76,7 @@ body {
     z-index: 999;
 }
 
-.navbar>.navbar-logo>img {
+.navbar > .navbar-logo > a > img {
     height: 80px;
     width: 80px;
 }
@@ -193,90 +193,79 @@ body {
 --------------styling for the sidebar----------------
 */
 .sidebar {
-    padding: 0px 5vw;
-    height: 100px;
     background-color: white;
-    position: fixed;
-    width: 100%;
+    position: sticky;
     top: 0;
     z-index: 1001;
-    overflow: hidden;
+    width: 100%;
 }
 .sidebar > .sidebar-logo-button-hamburger {
+    height: 100px;
     width: 100%;
-    height: 100%;
+    padding: 0px 5vw;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
-.sidebar > .sidebar-logo-button-hamburger > .sidebar-logo > img {
-    height: 80px;
+.sidebar > .sidebar-logo-button-hamburger > .sidebar-logo > a > img {
+    height: 80px; 
     width: 80px;
 }
 .sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
 }
-.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > .sidebar-button > a {
-    color: white;
+.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > li > a {
     background-color: #1b99fe;
-    padding: 15px 30px;
+    padding: 12px 10px;
+    color: white;
     position: relative;
     z-index: 1;
-    transition: color .5s ease-out;
 }
-.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > .sidebar-button > a::before,
-.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > .sidebar-button > a::after {
+.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > li > a::before,
+.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > li > a::after {
     content: '';
     position: absolute;
-    z-index: -1;
     height: 0;
     width: 0;
+    z-index: -1;
     background-color: #06268b;
-    transition: height .5s ease-out, width .5s ease-out;
+    transition: height .5s ease-in-out, width .5s ease-in-out;
 }
-
-.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > .sidebar-button > a::before {
+.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > li > a::before {
     top: 0;
     left: 0;
     transform-origin: top left;
 }
-
-.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > .sidebar-button > a::after {
+.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > li > a::after {
     bottom: 0;
     right: 0;
     transform-origin: bottom right;
 }
-
-.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > .sidebar-button > a:hover::before,
-.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > .sidebar-button > a:hover::after {
-    width: 100%;
+.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > li > a:hover:before,
+.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > li > a:hover:after {
     height: 100%;
+    width: 100%;
 }
-.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > .sidebar-hamburger > span {
+.sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > li > span {
+    color: #396f9e;
     font-size: 30px;
-    color: #35739e;
 }
 .sidebar > .sidebar-menu-items {
-    position: fixed;          
-    top: 100px;
-    left: 0;
-    width: 100%;
-    height: 0;
+    position: absolute;
+    top: 100%; 
+    height: 100dvh;
+    background: white;
+    width: 100%;                
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
     overflow: hidden;
-    background-color: white;
-    transition: height 0.3s;
-    z-index: 998;
+    padding: 30px 5vw;  
 }
-.sidebar > .sidebar-menu-items.open {
-    height: calc(100vh - 100px);
+.sidebar > .sidebar-menu-items.active {
+    transform: translateX(0);
 }
-.no-scroll {
-    overflow: hidden;   
-    height: 100vh;     
-}
-
 
 
 /* responsive design for the side  */
@@ -286,12 +275,9 @@ body {
         display: none;
     }
 }
-@media (min-width: 320px) and (max-width: 500px) {
-    .sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > .sidebar-button > a {
+@media (min-width: 320px) and (max-width: 360px) {
+    .sidebar > .sidebar-logo-button-hamburger > .sidebar-button-hamburger > li:first-child {
         display: none;
-    }
-    body {
-        padding-top: 100px;
     }
 }
 
@@ -435,7 +421,6 @@ body {
     .hero-carousel>.hero-carousel-wrapper>.hero-carousel-slide>.hero-carousel-slide-info>div>a {
         padding: 6px 20px;
     }
-
     .hero-carousel>.swiper-button-next,
     .hero-carousel>.swiper-button-prev {
         pointer-events: none;

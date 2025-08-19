@@ -207,5 +207,8 @@
 
     <!-- --------------start of the footer section----------------- -->
     <?php include './footer.php' ?>
+
+    <!-- -----------script link for the navbar and sidebar-------------- -->
+    <script src="./navbar-sidebar.js"></script>
 </body>
 </html>

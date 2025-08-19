@@ -152,7 +152,8 @@
     </script>
 
 
-
+    <!-- -----------script link for the navbar and sidebar-------------- -->
+    <script src="./navbar-sidebar.js"></script>
 </body>
 
 </html>
