@@ -105,7 +105,7 @@
     <div class="swiper hero-carousel">
         <div class="swiper-wrapper hero-carousel-wrapper">
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-1.webp" alt="Personalized therapy session in bangalore" />
+                <img src="./assets/images/index-hero-carousel/hero-1.webp" alt="Personalized therapy session in bangalore" loading="lazy" />
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Personalized Therapy</small>

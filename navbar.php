@@ -48,16 +48,15 @@
             <li><a href="./index.php">Home</a></li>
             <li class="services-submenu">Services<span><i class="fa-solid fa-plus"></i></span>
                 <ul class="services-submenu-items">
-                    <li><a href="#">Page1</a></li>
-                    <li><a href="#">Page2</a></li>
-                    <li><a href="#">Page3</a></li>
-                    <li><a href="#">Page4</a></li>
-                    <li><a href="#">Page5</a></li>
-                    <li><a href="#">Page6</a></li>
-                    <li><a href="#">Page7</a></li>
-                    <li><a href="#">Page8</a></li>
-                    <li><a href="#">Page9</a></li>
-                    <li><a href="#">Page10</a></li>
+                    <li><a href="./orthopedic.php">Orthopedic</a></li>
+                    <li><a href="./exercise.php">Exercise</a></li>
+                    <li><a href="./strains-and-sprains.php">Strains and sprains</a></li>
+                    <li><a href="./paralysis.php">Paralysis</a></li>
+                    <li><a href="./amputations.php">Amputations</a></li>
+                    <li><a href="./neurological.php">Neurological</a></li>
+                    <li><a href="./brain-injury.php">Brain injury</a></li>
+                    <li><a href="./arthritis.php">Arthritis</a></li>
+                    <li><a href="./joint-mobilization.php">Joint Mobilization</a></li>
                 </ul>
             </li>
             <li><a href="./about-us.php">About Us</a></li>

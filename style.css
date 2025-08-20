@@ -1535,6 +1535,7 @@ body {
 .stories-for-patient > .patient-stories > .stories-title h2 {
     color: #06268b;
     font-size: 3vw;
+    text-align: center;
 }
 
 .stories-for-patient > .patient-stories > .stories-cards {
@@ -1635,6 +1636,24 @@ body {
 }
 
 
+
+/* responsive design for the stories of the patient of mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .stories-for-patient > .patient-stories > .stories-title h2 {
+        font-size: 8vw;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+    .stories-for-patient > .patient-stories > .stories-title h2 {
+        font-size: 7vw;
+    }
+}
+@media (min-width: 801px) and (max-width: 1000px) {
+    .stories-for-patient > .patient-stories > .stories-title h2 {
+        font-size: 6vw;
+    }
+}
 
 
 
