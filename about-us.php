@@ -54,7 +54,9 @@
     <div class="page-about-us-section">
         <div class="page-about-image-and-info">
             <div class="page-about-us-image">
-                <img src="./assets/images/about-us/about-section.png" alt="">
+                <div class="page-about-us-img">
+
+                </div>
             </div>
             <div class="page-about-us-info">
                 <h4>About Sri Sai Balaji Physiotherapy Clinic</h4>

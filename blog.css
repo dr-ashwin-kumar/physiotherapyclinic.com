@@ -76,6 +76,33 @@ body {
     background-color: rgba(7, 20, 59, .45);
 } 
 
+/* responsive design for the page title section of the mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-title-section > .page-title {
+        height: 300px;
+    }
+    .page-title-section > .page-title > h2 {
+        font-size: 8vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+    .page-title-section > .page-title {
+        height: 300px;
+    }
+    .page-title-section > .page-title > h2 {
+        font-size: 6vw;
+    }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+    .page-title-section > .page-title > h2 {
+        font-size: 5vw;
+    }
+}
+
+
+
+
 
 /* 
 ------------styling for the page blog section-----------------
@@ -89,7 +116,7 @@ body {
 }
 .page-blog-section > .page-blog-cards-section > .page-blog-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 25px;
 }
 .page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card {

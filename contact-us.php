@@ -25,15 +25,15 @@
 
 
     <!-- --------------start of the page contact us title section--------------- -->
-    <div class="page-contactus-title-section">
-        <div class="page-contactus-title">
-            <h1>Contact Us</h1>
-            <div class="page-contactus-title-nav">
+    <div class="page-title-section">
+        <div class="page-title">
+            <h2>Contact Us</h2>
+            <div class="page-title-nav">
                 <a href="./index.php">Home</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="./orthopedic.php">Services</a>
+                <a href="#">Services</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="./contact-us.php">Contact Us</a>
+                <a href="#">Contact Us</a>
             </div>
         </div>
     </div>
@@ -64,7 +64,7 @@
                 <div class="form">
                     <div class="form-title">
                         <h4>Get in touch </h4>
-                        <h1>Start Your Wellness Journey Today!</h1>
+                        <h2>Start Your Wellness Journey Today!</h2>
                         <p>Use the latest research in physical therapy to work better, play better—and spend more time on what matters.</p>
                     </div>
                     <div class="form-icons">

@@ -47,12 +47,12 @@ body {
     color: white;
     
 }
-.page-title-section > .page-title > h1 {
+.page-title-section > .page-title > h2 {
     font-size: 3vw;
 }
 .page-title-section > .page-title > .page-title-nav {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
 }
 .page-title-section > .page-title > .page-title-nav > a {
@@ -75,6 +75,32 @@ body {
     z-index: 1;
     background-color: rgba(7, 20, 59, .45);
 } 
+
+
+
+/* responsive design for the page title section of the mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-title-section > .page-title {
+        height: 300px;
+    }
+    .page-title-section > .page-title > h2 {
+        font-size: 8vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+    .page-title-section > .page-title {
+        height: 300px;
+    }
+    .page-title-section > .page-title > h2 {
+        font-size: 6vw;
+    }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+    .page-title-section > .page-title > h2 {
+        font-size: 5vw;
+    }
+}
 
 
 /* 

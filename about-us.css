@@ -79,6 +79,30 @@ body {
 }
 
 
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-title-section > .page-title {
+        width: 100%;
+        height: 300px;
+    }
+    .page-title-section > .page-title > h2 {
+        font-size: 8vw;
+    }
+}
+@media (min-width: 500px) and (max-width: 700px) {
+    .page-title-section > .page-title {
+        width: 100%;
+        height: 350px;
+    }
+    .page-title-section > .page-title > h2 {
+        font-size: 6vw;
+    }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+    .page-title-section > .page-title > h2 {
+        font-size: 5vw;
+    }
+}
+
 
 /* 
 -------------------styling for the page about us section------------------
@@ -90,9 +114,15 @@ body {
 .page-about-us-section > .page-about-image-and-info {
     display: flex;
 }
-.page-about-us-section > .page-about-image-and-info > .page-about-us-image > img {
-    height: 450px;
+.page-about-us-section > .page-about-image-and-info > .page-about-us-image {
+    display: flex;
+    justify-content: center;
+}
+.page-about-us-section > .page-about-image-and-info > .page-about-us-image > .page-about-us-img {
+    height: 400px;
     width: 600px;
+    background-image: url(./assets/images/about-us/about-section/hero.png);
+    background-size: 100% 100%;
 }
 .page-about-us-section > .page-about-image-and-info > .page-about-us-image {
     width: 50%;
@@ -175,6 +205,54 @@ body {
 
 
 
+/* responsive design for the page about us section of the mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-about-us-section > .page-about-image-and-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .page-about-us-section > .page-about-image-and-info > .page-about-us-image {
+        width: 100%;
+    }
+    .page-about-us-section > .page-about-image-and-info > .page-about-us-image > .page-about-us-img {
+        height: auto;
+        width: 100%;
+        min-height: 300px;
+    }
+    .page-about-us-section > .page-about-image-and-info > .page-about-us-info {
+        width: 100%;
+    }
+    .page-about-us-section > .page-about-image-and-info > .page-about-us-info > h2 {
+        font-size: 8vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 750px) {
+    .page-about-us-section > .page-about-image-and-info {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .page-about-us-section > .page-about-image-and-info > .page-about-us-image {
+        width: 90%;
+    }
+    .page-about-us-section > .page-about-image-and-info > .page-about-us-image > .page-about-us-img {
+        height: auto;
+        width: 100%;
+        min-height: 350px;
+    }
+    .page-about-us-section > .page-about-image-and-info > .page-about-us-info {
+        width: 90%;
+        align-items: center;
+    }
+    .page-about-us-section > .page-about-image-and-info > .page-about-us-info > h2 {
+        font-size: 7vw;
+        text-align: center;
+    }
+}
+
+
+
 /* 
 -----------------styling for the page our approach section--------------------
 */
@@ -230,6 +308,39 @@ body {
 }
 
 
+/* responsive design for the page our approach section of mobile and tab screens*/
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-our-approach-section > .page-our-approach-info-and-missions {
+        flex-direction: column;
+    }
+    .page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-info {
+        width: 100%;
+    }
+    .page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-info > h2 {
+        font-size: 8vw;
+    }
+    .page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-missions {
+        width: 100%;
+    }
+}
+@media (min-width: 501px) and (max-width: 750px) {
+    .page-our-approach-section > .page-our-approach-info-and-missions {
+        flex-direction: column;
+    }
+    .page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-info {
+        width: 100%;
+    }
+    .page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-info > h2 {
+        font-size: 7vw;
+    }
+    .page-our-approach-section > .page-our-approach-info-and-missions > .page-our-approach-missions {
+        width: 100%;
+    }
+}
+
+
+
 /* 
 ---------------styling for the our commitment section--------------------
 */
@@ -279,7 +390,7 @@ body {
 }
 .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards > .page-our-commitment-info-card {
     height: 200px;
@@ -301,11 +412,11 @@ body {
 }
 .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards > .page-our-commitment-info-card:nth-child(1) {
     background-color: aliceblue;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 50px 0px 0px 50px;
 }
 .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards > .page-our-commitment-info-card:nth-child(2) {
     background-color: #6699CC;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 50px 50px 0px;
 }
 .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > .page-our-commitment-info-cards > .page-our-commitment-info-card > img {
     height: 60px;
@@ -364,6 +475,70 @@ body {
 }
 
 
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-our-commitment-section > .page-our-commitment-image-and-info {
+        flex-direction: column;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-image {
+        width: 100%;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info {
+        width: 100%;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-image > .page-our-commitment-img {
+        height: 450px;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > h2 {
+        font-size: 8vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 750px) {
+    .page-our-commitment-section > .page-our-commitment-image-and-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-image {
+        width: 80%;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info {
+        width: 80%;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-image > .page-our-commitment-img {
+        height: 85vw;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > h2 {
+        font-size: 7vw;
+    }
+}
+@media (min-width: 751px) and (max-width: 900px) {
+    .page-our-commitment-section > .page-our-commitment-image-and-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-image {
+        width: 70%;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info {
+        width: 70%;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-image > .page-our-commitment-img {
+        height: 85vw;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info > h2 {
+        font-size: 6vw;
+    }
+}
+@media (min-width: 901px) and (max-width: 100px) {
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-image {
+        width: 50%;
+    }
+    .page-our-commitment-section > .page-our-commitment-image-and-info > .page-our-commitment-info {
+        width: 50%;
+    }
+}
+
+
 /* 
 ---------------styling for the page our feature section---------------------
 */
@@ -373,7 +548,6 @@ body {
 }
 .page-our-feature-section > .page-our-feature {
     height: auto;
-    min-height: 800px;
     width: 100%;
     position: relative;
     border-radius: 20px;
@@ -382,7 +556,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     padding: 50px;
     justify-content: space-between;
 }
@@ -417,15 +591,15 @@ body {
 }
 .page-our-feature-section > .page-our-feature > .page-our-feature-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
 }
 .page-our-feature-section > .page-our-feature > .page-our-feature-cards > .page-our-feature-card {
-    height: 250px;
+    height: 220px;
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
     border-radius: 20px;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -444,14 +618,32 @@ body {
     gap: 20px;
 }
 .page-our-feature-section > .page-our-feature > .page-our-feature-insights > .page-our-feature-insight {
-    height: 200px;
+    height: 150px;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 .page-our-feature-section > .page-our-feature > .page-our-feature-insights > .page-our-feature-insight > h2 {
     font-size: 48px;
+}
+
+
+
+/* responsive design for the page our feature section of mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-our-feature-section > .page-our-feature {
+        padding: 20px 10px;
+    }
+    .page-our-feature-section > .page-our-feature > h2 {
+        font-size: 8vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+    .page-our-feature-section > .page-our-feature > h2 {
+        font-size: 6vw;
+    }
 }

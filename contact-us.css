@@ -28,48 +28,76 @@ body {
 --------------styling for the page contact us title-----------------
 */
 
-.page-contactus-title-section {
-    height: 350px;
+.page-title-section > .page-title {
+    height: 400px;
     width: 100%;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.page-contactus-title-section::before {
-    content: '';
-    position: absolute;
-    background-image: url(./assets/images/contact-us/title-image.jpg);
-    inset: 0;
-    background-size: cover;
-    background-position: center;
-}
-.page-contactus-title-section::after {
-    content: '';
-    position: absolute;
-    background-color: rgba(7, 20, 59, .45);
-    inset: 0;
-    z-index: 1;
-}
-.page-contactus-title-section > .page-contactus-title {
-    z-index: 5;
-    color: white;
+    z-index: 4;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    gap: 25px;
 }
-.page-contactus-title-section > .page-contactus-title > h1 {
+.page-title-section > .page-title > * {
+    z-index: 4;
+    color: white;
+    
+}
+.page-title-section > .page-title > h2 {
     font-size: 3vw;
 }
-.page-contactus-title-section > .page-contactus-title > .page-contactus-title-nav {
+.page-title-section > .page-title > .page-title-nav {
     display: flex;
     gap: 20px;
     align-items: center;
 }
-.page-contactus-title-section > .page-contactus-title > .page-contactus-title-nav > a {
+.page-title-section > .page-title > .page-title-nav > a {
     color: white;
 }
+.page-title-section > .page-title::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-image: url(./assets/images/contact-us/title-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.page-title-section > .page-title::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgba(7, 20, 59, .45);
+} 
+
+/* responsive design for the page title section of the mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-title-section > .page-title {
+        height: 300px;
+    }
+    .page-title-section > .page-title > h2 {
+        font-size: 8vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+    .page-title-section > .page-title {
+        height: 300px;
+    }
+    .page-title-section > .page-title > h2 {
+        font-size: 6vw;
+    }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+    .page-title-section > .page-title > h2 {
+        font-size: 5vw;
+    }
+}
+
 
 
 
@@ -191,7 +219,7 @@ body {
 .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-title > h4 {
     color: #1b99fe;
 }
-.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-title > h1 {
+.page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-title > h2 {
     color: #06268b;
     font-size: 3vw;
 }
@@ -211,6 +239,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    flex-shrink: 0;
 }
 .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-icons > .form-icon {
     display: flex;
@@ -240,7 +269,7 @@ body {
 }
 .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-name-and-email {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 15px;
 }
 .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-name-and-email > input {
@@ -258,7 +287,7 @@ body {
 }
 .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-phone-and-subject {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 15px;
 }
 .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-phone-and-subject > input {
@@ -322,6 +351,66 @@ body {
 .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-inputs > .input-submit-button > a:hover:after {
     height: 100%;
     width: 100%;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-contact-form-section > .contactImage-and-contactForm {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-image {
+        width: 100%;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-image-circle {
+        top: 32%;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-img {
+        width: 100%;
+        height: 500px;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form {
+        width: 100%;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-title > h2 {
+        font-size: 8vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+    .page-contact-form-section > .contactImage-and-contactForm {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-image {
+        width: 100%;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-image-circle {
+        top: 32%;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form {
+        width: 100%;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-title > h2 {
+        font-size: 6vw;
+    }
+}
+@media (min-width: 701px) and (max-width: 1100px) {
+    .page-contact-form-section > .contactImage-and-contactForm {
+        gap: 20px;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-image {
+        width: 50%;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-image > .contact-form-image-circle {
+        top: 20%;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form {
+        width: 50%;
+    }
+    .page-contact-form-section > .contactImage-and-contactForm > .contact-form-form > .form > .form-title > h2 {
+        font-size: 4vw;
+    }
 }
 
 

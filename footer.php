@@ -27,11 +27,11 @@
             </div>
             <div class="footer-content-page-links footer-card">
                 <h3>Page Llinks</h3>
-                <a href="#">Home</a>
-                <a href="#">Services</a>
-                <a href="#">About Us</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact Us</a>
+                <a href="./index.php">Home</a>
+                <a href="./orthopedic.php">Services</a>
+                <a href="./orthopedic.php">About Us</a>
+                <a href="./blog.php">Blog</a>
+                <a href="./contact-us.php">Contact Us</a>
             </div>
             <div class="footer-content-useful-links footer-card">
                 <h3>Useful Links</h3>

@@ -36,8 +36,8 @@
 
     <div class="page-title-section">
         <div class="page-title">
-            <h3>SERVICE</h3>
-            <h1>Neurological</h1>
+            <h4>SERVICE</h4>
+            <h2>Neurological</h2>
             <div class="page-title-nav">
                 <a href="./index.php">Home</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
