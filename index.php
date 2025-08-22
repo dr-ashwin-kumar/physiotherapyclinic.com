@@ -53,6 +53,7 @@
             "@context": "https://schema.org",
             "@type": "Physiotherapy",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
+            "logo": "https://physiotherapybangalore.com/assets/images/logo.png",
             "image": "https://physiotherapybangalore.com/assets/images/clinic.jpg",
             "@id": "",
             "url": "https://physiotherapybangalore.com/",
@@ -62,7 +63,7 @@
                 "streetAddress": "123, Your Street Name",
                 "addressLocality": "Bangalore",
                 "addressRegion": "KA",
-                "postalCode": "5600XX",
+                "postalCode": "560097",
                 "addressCountry": "IN"
             },
             "geo": {
@@ -620,6 +621,185 @@
         </div>
     </div>
 
+    
+
+    <!-- -------------start of the awards and testimonials section--------------- -->
+    <div class="awards-and-testimonils-section">
+        <div class="awards-and-testimonils">
+            <div class="awards-and-marquee">
+                <div class="awards-section">
+                    <div class="awards">
+                        <div class="award">
+                            <div class="award-img award-img1">
+
+                            </div>
+                            <h3>2021 Physiopedia Superstar Best Award</h3>
+                        </div>
+                        <div class="award">
+                            <div class="award-img award-img2">
+
+                            </div>
+                            <h3>2022 Social Media Most Impact Award</h3>
+                        </div>
+                        <div class="award">
+                            <div class="award-img award-img3">
+
+                            </div>
+                            <h3>2023 Armadale Regional Business Awards</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="awards-marquee-section">
+                    <div class="awards-marquee-track">
+                        <h2>Awards Awards Awards Awards Awards</h2>
+                        <h2>Awards Awards Awards Awards Awards</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-section">
+                <div class="swiper testimonialSwiper">
+                    <div class="swiper-wrapper testimonial-wrapper">
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-card-ratings">
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star-half-stroke"></i></span></li>
+                            </div>
+                            <div class="testimonial-card-review">
+                                <p>“I am a secretary at a medical office. I started feeling numbness in my right hand and my boss examined me and diagnosed me with Carpal Tunnel Syndrome. He immediately sent me to Hands-On and Physiocare.”</p>
+                            </div>
+                            <div class="testimonial-card-cust-name">
+                                <div class="testimonial-card-cust-name-img testimonial-card-cust-name-img1">
+
+                                </div>
+                                <div class="testimonial-card-cust-name-name">
+                                    <h2>Rakshith R</h2>
+                                    <p>@ Patient</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-card-ratings">
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star-half-stroke"></i></span></li>
+                            </div>
+                            <div class="testimonial-card-review">
+                                <p>“I am a secretary at a medical office. I started feeling numbness in my right hand and my boss examined me and diagnosed me with Carpal Tunnel Syndrome. He immediately sent me to Hands-On and Physiocare.”</p>
+                            </div>
+                            <div class="testimonial-card-cust-name">
+                                <div class="testimonial-card-cust-name-img testimonial-card-cust-name-img2">
+
+                                </div>
+                                <div class="testimonial-card-cust-name-name">
+                                    <h2>Narendra</h2>
+                                    <p>@ Patient</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-card-ratings">
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star-half-stroke"></i></span></li>
+                            </div>
+                            <div class="testimonial-card-review">
+                                <p>“I am a secretary at a medical office. I started feeling numbness in my right hand and my boss examined me and diagnosed me with Carpal Tunnel Syndrome. He immediately sent me to Hands-On and Physiocare.”</p>
+                            </div>
+                            <div class="testimonial-card-cust-name">
+                                <div class="testimonial-card-cust-name-img testimonial-card-cust-name-img3">
+
+                                </div>
+                                <div class="testimonial-card-cust-name-name">
+                                    <h2>Simhadri G S</h2>
+                                    <p>@ Patient</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-card-ratings">
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star-half-stroke"></i></span></li>
+                            </div>
+                            <div class="testimonial-card-review">
+                                <p>“I am a secretary at a medical office. I started feeling numbness in my right hand and my boss examined me and diagnosed me with Carpal Tunnel Syndrome. He immediately sent me to Hands-On and Physiocare.”</p>
+                            </div>
+                            <div class="testimonial-card-cust-name">
+                                <div class="testimonial-card-cust-name-img testimonial-card-cust-name-img1">
+
+                                </div>
+                                <div class="testimonial-card-cust-name-name">
+                                    <h2>Rahul</h2>
+                                    <p>@ Patient</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-card-ratings">
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star-half-stroke"></i></span></li>
+                            </div>
+                            <div class="testimonial-card-review">
+                                <p>“I am a secretary at a medical office. I started feeling numbness in my right hand and my boss examined me and diagnosed me with Carpal Tunnel Syndrome. He immediately sent me to Hands-On and Physiocare.”</p>
+                            </div>
+                            <div class="testimonial-card-cust-name">
+                                <div class="testimonial-card-cust-name-img testimonial-card-cust-name-img5">
+
+                                </div>
+                                <div class="testimonial-card-cust-name-name">
+                                    <h2>Kiran S</h2>
+                                    <p>@ Patient</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide testimonial-card">
+                            <div class="testimonial-card-ratings">
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star"></i></span></li>
+                                <li><span><i class="fa-solid fa-star-half-stroke"></i></span></li>
+                            </div>
+                            <div class="testimonial-card-review">
+                                <p>“I am a secretary at a medical office. I started feeling numbness in my right hand and my boss examined me and diagnosed me with Carpal Tunnel Syndrome. He immediately sent me to Hands-On and Physiocare.”</p>
+                            </div>
+                            <div class="testimonial-card-cust-name">
+                                <div class="testimonial-card-cust-name-img testimonial-card-cust-name-img6">
+
+                                </div>
+                                <div class="testimonial-card-cust-name-name">
+                                    <h2>Quast</h2>
+                                    <p>@ Patient</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-section-image">
+                    <div class="testimonial-section-img">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 
 
 
@@ -636,6 +816,9 @@
 
     <!-- -----------script link for the hero carousel--------------- -->
     <script src="./index-hero-carousel.js"></script>
+
+    <!-- -----------script link for the testimonials---------------- -->
+     <script src="./index-testimonials.js"></script>
 
     <!-- -----------script link for the services we think differently------------- -->
     <script src="./index-services-we-think.js"></script>

@@ -12,7 +12,9 @@ a {
     text-decoration: none;
     color: black;
 }
-
+p {
+    line-height: 1.5rem;
+}
 body {
     font-family: "Philosopher", sans-serif;
     font-weight: 700;
@@ -1869,6 +1871,202 @@ body {
     }
     .therapy-process-section > .therapy-process > .therapy-process-steps  >.therapy-process-step:nth-child(3) > .therapy-process-step-info > h3 {
         order: -1;
+    }
+}
+
+
+
+
+/* 
+-----------------styling for the awards and testimonials section----------------
+*/
+
+.awards-and-testimonils-section {
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    padding: 50px 5vw;
+}
+.awards-and-testimonils-section > * {
+    z-index: 4;
+    position: relative;
+}
+.awards-and-testimonils-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(#fff, #fff), url("./assets/images/blog-page/card1.png");
+    background-size: 100% 20%, 100% 80%;
+    background-repeat: no-repeat;
+    background-position: top, bottom; 
+    z-index: 0; 
+}
+.awards-and-testimonils-section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, #fff 0% 20%, transparent 20% 100%),linear-gradient(to right,#06268b 0% 50%, transparent 100%);
+    opacity: .8;
+    z-index: 1;
+}
+.awards-and-testimonils-section > .awards-and-testimonils {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee {
+    display: flex;
+    gap: 20px;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section {
+    width: 70%;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section > .awards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 20px;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section > .awards > .award {
+    height: 350px;
+    background-color: #f6f8ff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section > .awards > .award > .award-img {
+    position: relative;
+    height: 200px;
+    width: 135px;
+    background-size: 100% 100%;
+    filter: grayscale(80%);        
+    transition: filter 0.4s ease-in-out, transform 0.4s ease-in-out;
+    overflow: hidden;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section > .awards > .award:hover .award-img {
+    filter: grayscale(0%);
+    transform: translateY(-5px);
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section > .awards > .award > .award-img1 {
+    background-image: url(./assets/images/index-testimonials/medal.webp);
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section > .awards > .award > .award-img2 {
+    background-image: url(./assets/images/index-testimonials/medal.webp);
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section > .awards > .award > .award-img3 {
+    background-image: url(./assets/images/index-testimonials/medal.webp);
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section > .awards > .award > h3 {
+    text-align: center;
+    font-weight: normal;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section > .awards > .award:hover > h3 {
+    color: #1b99fe;
+    transition: all .4s ease-in-out;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-marquee-section {
+    overflow: hidden;
+    padding-top: 20px;
+    width: 30%;
+    box-sizing: border-box;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-marquee-section > .awards-marquee-track {
+    display: flex;
+    animation: awardsMarquee 13s linear infinite;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-marquee-section > .awards-marquee-track > h2 {
+    color: #06268b;
+    font-size: 100px;
+    font-weight: normal;
+    white-space: nowrap;
+}
+@keyframes awardsMarquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section {
+    display: flex;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper {
+    width: 450px;
+    height: 400px;
+    margin-left: 0;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper {
+    display: flex;
+    overflow: hidden;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper > .testimonial-card {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper > .testimonial-card > .testimonial-card-ratings {
+    display: flex;
+    gap: 5px;
+    color: #feb437;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper > .testimonial-card > .testimonial-card-review > p {
+    font-style: italic;
+    font-size: 18px;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper > .testimonial-card > .testimonial-card-cust-name {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper > .testimonial-card > .testimonial-card-cust-name > .testimonial-card-cust-name-img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    flex-shrink: 0;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper > .testimonial-card > .testimonial-card-cust-name > .testimonial-card-cust-name-name > p {
+    color: #1b99fe;
+    margin-top: 10px;
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper > .testimonial-card > .testimonial-card-cust-name > .testimonial-card-cust-name-img1 {
+    background-image: url(./assets/images/index-testimonials/user1.png);
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper > .testimonial-card > .testimonial-card-cust-name > .testimonial-card-cust-name-img2 {
+    background-image: url(./assets/images/index-testimonials/user2.png);
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper > .testimonial-card > .testimonial-card-cust-name > .testimonial-card-cust-name-img3 {
+    background-image: url(./assets/images/index-testimonials/user3.png);
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper > .testimonial-card > .testimonial-card-cust-name > .testimonial-card-cust-name-img4 {
+    background-image: url(./assets/images/index-testimonials/user4.png);
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper > .testimonial-card > .testimonial-card-cust-name > .testimonial-card-cust-name-img5 {
+    background-image: url(./assets/images/index-testimonials/user5.png);
+}
+.awards-and-testimonils-section > .awards-and-testimonils > .testimonials-section > .testimonialSwiper > .testimonial-wrapper > .testimonial-card > .testimonial-card-cust-name > .testimonial-card-cust-name-img6 {
+    background-image: url(./assets/images/index-testimonials/user6.png);
+}
+
+
+
+/* responsive design for the awards and testimonials section of mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .awards-and-testimonils-section {
+        height: auto;
+    }
+    .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee {
+        flex-direction: column;
+    }
+    .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section {
+        width: 100%;
+    }
+    .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-marquee-section {
+        width: 100%;
     }
 }
 

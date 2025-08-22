@@ -36,7 +36,7 @@
 <div class="sidebar">
     <div class="sidebar-logo-button-hamburger">
         <div class="sidebar-logo">
-            <a href="./index.php"><img src="./assets/images/logo.png" alt="Sri Sai Balaji Physiotherapy Clinic"></a>
+            <a href="./index.php"><img src="./assets/images/logo.webp" alt="Sri Sai Balaji Physiotherapy Clinic"></a>
         </div>
         <div class="sidebar-button-hamburger">
             <li><a href="./contact-us.php">Book Appointment&nbsp;&nbsp;></a></li>
