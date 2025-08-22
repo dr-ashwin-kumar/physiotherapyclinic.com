@@ -1923,7 +1923,7 @@ body {
 }
 .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section > .awards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
 }
 .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section > .awards > .award {
@@ -2055,7 +2055,7 @@ body {
 
 /* responsive design for the awards and testimonials section of mobile and tab screens */
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 511px) {
     .awards-and-testimonils-section {
         height: auto;
     }
@@ -2067,6 +2067,66 @@ body {
     }
     .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-marquee-section {
         width: 100%;
+    }
+    .awards-and-testimonils-section::before {
+        background-size: 100% 74%, 100% 74%;
+    }
+    .awards-and-testimonils-section::after {
+        background: linear-gradient(to bottom, #fff 0% 74%, transparent 74% 100%),linear-gradient(to right,#06268b 100%);
+    }
+}
+@media (min-width: 512px) and (max-width: 600px) {
+    .awards-and-testimonils-section {
+        height: auto;
+    }
+    .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee {
+        flex-direction: column;
+    }
+    .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section {
+        width: 100%;
+    }
+    .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-marquee-section {
+        width: 100%;
+    }
+    .awards-and-testimonils-section::before {
+        background-size: 100% 65%, 100% 65%;
+    }
+    .awards-and-testimonils-section::after {
+        background: linear-gradient(to bottom, #fff 0% 65%, transparent 65% 100%),linear-gradient(to right,#06268b 100%);
+    }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+    .awards-and-testimonils-section {
+        height: auto;
+    }
+    .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section {
+        width: 65%;
+    }
+    .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-marquee-section {
+        width: 35%;
+    }
+    .awards-and-testimonils-section::before {
+        background-size: 100% 74%, 100% 74%;
+    }
+    .awards-and-testimonils-section::after {
+        background: linear-gradient(to bottom, #fff 0% 74%, transparent 74% 100%),linear-gradient(to right,#06268b 100%);
+    }
+}
+@media (min-width: 801px) and (max-width: 1133px) {
+    .awards-and-testimonils-section {
+        height: auto;
+    }
+    .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-section {
+        width: 70%;
+    }
+    .awards-and-testimonils-section > .awards-and-testimonils > .awards-and-marquee > .awards-marquee-section {
+        width: 30%;
+    }
+    .awards-and-testimonils-section::before {
+        background-size: 100% 65%, 100% 65%;
+    }
+    .awards-and-testimonils-section::after {
+        background: linear-gradient(to bottom, #fff 0% 65%, transparent 65% 100%),linear-gradient(to right,#06268b 100%);
     }
 }
 
@@ -2332,6 +2392,9 @@ footer > div > .footer-copyrights-and-privacy > .privacy-and-policy > a:hover {
     }
     footer > div > .footer-content > .footer-content-opening-hours > div > .day-and-timings:nth-child(3) {
         border-bottom: none;
+    }
+    footer > div > .footer-copyrights-and-privacy > .footer-copy-rights > p {
+        text-align: center;
     }
     footer > div > .footer-copyrights-and-privacy {
         flex-direction: column;
