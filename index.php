@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic</title>
-    <meta name="description" content="Get expert physiotherapy in Bangalore at Sri Sai Balaji Physiotherapy Clinic. Pain relief, sports injury recovery, and post-surgery rehab with personalized care.">
+    <title>Best Physiotherapy in Bangalore | Physiotherapy near me | Sri Sai Balaji Physiotherapy Clinic</title>
+    <meta name="description" content="Looking for physiotherapy near you in Bangalore? Sri Sai Balaji Physiotherapy Clinic serves Vidyaranyapura, Singapura, Jalahalli, Hebbal, BEL Road and nearby areas. Expert care for pain relief, sports injuries, and post-surgery rehab. Book your appointment today!">
     <meta name="theme-color" content="#ffffff">
 
 
@@ -13,11 +13,12 @@
     <link rel="canonical" href="https://physiotherapybangalore.com/">
 
 
-    <meta property="og:title" content="Best Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
-    <meta property="og:description" content="Pain relief, sports injury recovery, and post-surgery rehab with personalized care in Bangalore.">
+    <meta property="og:title" content="Best Physiotherapy in Bangalore | Physiotherapy near you in Vidyaranyapura & Hebbal">
+    <meta property="og:description" content="Sri Sai Balaji Physiotherapy Clinic offers expert pain relief, sports injury recovery, and post-surgery rehab in Vidyaranyapura, Singapura, Hebbal, BEL Road & nearby areas. Book your appointment today!">
     <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/clinic.jpg">
     <meta property="og:url" content="https://physiotherapybangalore.com/">
     <meta property="og:type" content="website">
+
 
 
     <!-- --------------link for the styling index page--------------- -->
@@ -51,16 +52,15 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "Physiotherapy",
+            "@type": "MedicalClinic",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
-            "logo": "https://physiotherapybangalore.com/assets/images/logo.png",
+            "logo": "https://physiotherapybangalore.com/assets/images/logo.webp",
             "image": "https://physiotherapybangalore.com/assets/images/clinic.jpg",
-            "@id": "",
             "url": "https://physiotherapybangalore.com/",
             "telephone": "+91-XXXXXXXXXX",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "123, Your Street Name",
+                "streetAddress": "Your Clinic Address, Vidyaranyapura",
                 "addressLocality": "Bangalore",
                 "addressRegion": "KA",
                 "postalCode": "560097",
@@ -68,8 +68,8 @@
             },
             "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 12.9716,
-                "longitude": 77.5946
+                "latitude": 13.0780,
+                "longitude": 77.5542
             },
             "openingHoursSpecification": [{
                 "@type": "OpeningHoursSpecification",
@@ -84,6 +84,32 @@
                 "opens": "09:00",
                 "closes": "20:00"
             }],
+            "areaServed": [{
+                    "@type": "Place",
+                    "name": "Vidyaranyapura"
+                },
+                {
+                    "@type": "Place",
+                    "name": "Singapura"
+                },
+                {
+                    "@type": "Place",
+                    "name": "Hebbal"
+                },
+                {
+                    "@type": "Place",
+                    "name": "BEL Road"
+                },
+                {
+                    "@type": "Place",
+                    "name": "Jalahalli"
+                },
+                {
+                    "@type": "Place",
+                    "name": "Yelahanka"
+                }
+            ],
+            "hasMap": "https://www.google.com/maps/place/YOUR_CLINIC_GOOGLE_MAPS_LINK",
             "sameAs": [
                 "https://www.facebook.com/yourpage",
                 "https://www.instagram.com/yourpage",
@@ -91,6 +117,8 @@
             ]
         }
     </script>
+
+
 </head>
 
 <body>
@@ -128,7 +156,7 @@
                 </div>
             </div>
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-3.webp" alt="Best physiotherapy health clinic" loading="lazy"/>
+                <img src="./assets/images/index-hero-carousel/hero-3.webp" alt="Best physiotherapy health clinic" loading="lazy" />
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Physiotherapy Health Clinics</small>
@@ -621,7 +649,7 @@
         </div>
     </div>
 
-    
+
 
     <!-- -------------start of the awards and testimonials section--------------- -->
     <div class="awards-and-testimonils-section">
@@ -807,7 +835,7 @@
     <?php include './footer.php' ?>
 
 
-    
+
     <!-- -----------script link for the navbar and sidebar-------------- -->
     <script src="./navbar-sidebar.js"></script>
 
@@ -818,7 +846,7 @@
     <script src="./index-hero-carousel.js"></script>
 
     <!-- -----------script link for the testimonials---------------- -->
-     <script src="./index-testimonials.js"></script>
+    <script src="./index-testimonials.js"></script>
 
     <!-- -----------script link for the services we think differently------------- -->
     <script src="./index-services-we-think.js"></script>
