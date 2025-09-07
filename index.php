@@ -19,6 +19,14 @@
     <meta property="og:url" content="https://physiotherapybangalore.com/">
     <meta property="og:type" content="website">
 
+    <!-- ✅ Google Analytics (GA4) tracking code -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-51KP3E4W39"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-51KP3E4W39');
+    </script>
 
 
     <!-- --------------link for the styling index page--------------- -->
