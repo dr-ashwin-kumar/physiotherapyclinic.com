@@ -13,7 +13,7 @@
     <link rel="canonical" href="https://physiotherapybangalore.com/">
 
 
-    <meta property="og:title" content="Best Physiotherapy in Bangalore | Physiotherapy near you in Vidyaranyapura & Hebbal">
+    <meta property="og:title" content="Best Physiotherapy in Bangalore | Physiotherapy near me in Vidyaranyapura & Hebbal">
     <meta property="og:description" content="Sri Sai Balaji Physiotherapy Clinic offers expert pain relief, sports injury recovery, and post-surgery rehab in Vidyaranyapura, Singapura, Hebbal, BEL Road & nearby areas. Book your appointment today!">
     <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/clinic.jpg">
     <meta property="og:url" content="https://physiotherapybangalore.com/">
@@ -52,15 +52,15 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "MedicalClinic",
+            "@type": "PhysiotherapyClinic",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
             "logo": "https://physiotherapybangalore.com/assets/images/logo.webp",
             "image": "https://physiotherapybangalore.com/assets/images/clinic.jpg",
             "url": "https://physiotherapybangalore.com/",
-            "telephone": "+91-XXXXXXXXXX",
+            "telephone": "+91-9663314071",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Your Clinic Address, Vidyaranyapura",
+                "streetAddress": "118, 3rd Cross Rd, Lakkappa Layout, Singapura Village, Singapura, Vidyaranyapura",
                 "addressLocality": "Bangalore",
                 "addressRegion": "KA",
                 "postalCode": "560097",
@@ -68,8 +68,8 @@
             },
             "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 13.0780,
-                "longitude": 77.5542
+                "latitude": 13.0802,
+                "longitude": 77.5368
             },
             "openingHoursSpecification": [{
                 "@type": "OpeningHoursSpecification",
@@ -109,7 +109,7 @@
                     "name": "Yelahanka"
                 }
             ],
-            "hasMap": "https://www.google.com/maps/place/YOUR_CLINIC_GOOGLE_MAPS_LINK",
+            "hasMap": "https://maps.app.goo.gl/arWrFPGx8EuqFx4D6",
             "sameAs": [
                 "https://www.facebook.com/yourpage",
                 "https://www.instagram.com/yourpage",
@@ -137,10 +137,10 @@
                 <img src="./assets/images/index-hero-carousel/hero-1.webp" alt="Personalized therapy session in bangalore" loading="lazy" />
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
-                        <small>Personalized Therapy</small>
-                        <h2>You&rsquo;re In Good Hands.</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br class="hero-carousel-slide-break"> Minus illum adipisci provident laborum ad quidem.</p>
-                        <a href="#">Get Quote &nbsp;&nbsp;></a>
+                        <small>Exercise Therapy</small>
+                        <h2>Improve Mobility & Strength in Bangalore</h2>
+                        <p>Our customized <strong>exercise therapy programs in Bangalore</strong> help restore strength, flexibility, and overall physical function for faster recovery.</p>
+                        <a href="./contact-us.php">Book Appointment &nbsp;&nbsp;></a>
                     </div>
                 </div>
             </div>
@@ -148,10 +148,10 @@
                 <img src="./assets/images/index-hero-carousel/hero-2.webp" alt="Get personal therapist for you in bangalore" loading="lazy" />
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
-                        <small>Personal Therapist</small>
-                        <h2>Our goal is preserve lives</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br class="hero-carousel-slide-break"> Minus illum adipisci provident laborum ad quidem.</p>
-                        <a href="#">Get Quote &nbsp;&nbsp;></a>
+                        <small>Manual Therapy</small>
+                        <h2>Hands-On Healing in Bangalore</h2>
+                        <p>Our expert physiotherapists provide <strong>manual therapy in Bangalore</strong> for joint mobilization, muscle relaxation, and effective pain relief.</p>
+                        <a href="./contact-us.php">Book Appointment &nbsp;&nbsp;></a>
                     </div>
                 </div>
             </div>
@@ -159,10 +159,10 @@
                 <img src="./assets/images/index-hero-carousel/hero-3.webp" alt="Best physiotherapy health clinic" loading="lazy" />
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
-                        <small>Physiotherapy Health Clinics</small>
-                        <h2>Therapeutic Exercises.</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br class="hero-carousel-slide-break"> Minus illum adipisci provident laborum ad quidem.</p>
-                        <a href="#">Get Quote &nbsp;&nbsp;></a>
+                        <small>Orthopedic Rehabilitation</small>
+                        <h2>Post-Injury & Surgery Care in Bangalore</h2>
+                        <p>We provide specialized <strong>orthopedic rehabilitation in Bangalore</strong> for fractures, joint replacements, sports injuries, and spine conditions.</p>
+                        <a href="./contact-us.php">Book Appointment &nbsp;&nbsp;></a>
                     </div>
                 </div>
             </div>
@@ -170,10 +170,10 @@
                 <img src="./assets/images/index-hero-carousel/hero-4.webp" alt="Best wellness and support in bangalore" loading="lazy"/>
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
-                        <small>Wellness & Support</small>
-                        <h2>Home Exercise Plans.</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br class="hero-carousel-slide-break"> Minus illum adipisci provident laborum ad quidem.</p>
-                        <a href="#">Get Quote &nbsp;&nbsp;></a>
+                        <small>Pediatric Physiotherapy</small>
+                        <h2>Child Physiotherapy Care in Bangalore</h2>
+                        <p>Specialized <strong>pediatric physiotherapy in Bangalore</strong> for children with developmental delays, posture issues, and motor skill difficulties.</p>
+                        <a href="./contact-us.php">Book Appointment &nbsp;&nbsp;></a>
                     </div>
                 </div>
             </div>
