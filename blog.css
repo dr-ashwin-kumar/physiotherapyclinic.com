@@ -139,7 +139,7 @@ body {
     color: #06268b;
     font-weight: normal;
 }
-.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-info > a {
+.page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-info > p {
     color: #1b99fe;
     display: flex;
     align-items: center;

@@ -1,0 +1,47 @@
+/* 
+--------------styling for blog sidebar banner--------------
+*/
+
+.blog-sidebar-banner {
+    height: 500px;
+    width: 100%;
+    background-color: #06268b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-sidebar-banner > .blog-sidebar-banner-circle {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-sidebar-banner > .blog-sidebar-banner-circle::before {
+    content: '';
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 4px dotted #1b99fe;
+    animation-name: rotateOuterCircle;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes rotateOuterCircle {
+    0% {
+        transform: rotate(0%);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.blog-sidebar-banner > .blog-sidebar-banner-circle > .blog-sidebar-banner-inside-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(./assets/images/index-about-section/first-img.webp);
+    background-size: 100% 100%;
+}

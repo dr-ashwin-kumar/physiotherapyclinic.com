@@ -71,87 +71,87 @@
     <div class="page-blog-section">
         <div class="page-blog-cards-section">
             <div class="page-blog-cards">
-                <div class="page-blog-card">
+                <a href="./blog1.php" class="page-blog-card">
                     <div class="page-blog-card-img page-blog-card-img1">
 
                     </div>
                     <div class="page-blog-card-info">
                         <h2>Top Benefits of Physiotherapy for Pain Relief</h2>
-                        <a href="#">Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></a>
+                        <p>Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></p>
                     </div>
-                </div>
-                <div class="page-blog-card">
+                </a>
+                <a href="./blog1.php" class="page-blog-card">
                     <div class="page-blog-card-img page-blog-card-img2">
 
                     </div>
                     <div class="page-blog-card-info">
                         <h2>Top Benefits of Physiotherapy for Physiotherapy</h2>
-                        <a href="#">Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></a>
+                        <p>Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></p>
                     </div>
-                </div>
-                <div class="page-blog-card">
+                </a>
+                <a href="./blog1.php" class="page-blog-card">
                     <div class="page-blog-card-img page-blog-card-img3">
 
                     </div>
                     <div class="page-blog-card-info">
                         <h2>Stretching Techniques for Better Flexibility & Strength</h2>
-                        <a href="#">Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></a>
+                        <p>Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></p>
                     </div>
-                </div>
-                <div class="page-blog-card page-blog-card4">
+                </a>
+                <a href="./blog1.php" class="page-blog-card">
                     <div class="page-blog-card-img page-blog-card-img4">
 
                     </div>
                     <div class="page-blog-card-info">
                         <h2>Top Benefits of Physiotherapy for Pain Relief</h2>
-                        <a href="#">Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></a>
+                        <p>Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></p>
                     </div>
-                </div>
-                <div class="page-blog-card">
+                </a>
+                <a href="./blog1.php" class="page-blog-card">
                     <div class="page-blog-card-img page-blog-card-img5">
 
                     </div>
                     <div class="page-blog-card-info">
                         <h2>Top Benefits of Physiotherapy for Physiotherapy</h2>
-                        <a href="#">Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></a>
+                        <p>Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></p>
                     </div>
-                </div>
-                <div class="page-blog-card">
+                </a>
+                <a href="./blog1.php" class="page-blog-card">
                     <div class="page-blog-card-img page-blog-card-img6">
 
                     </div>
                     <div class="page-blog-card-info">
                         <h2>Stretching Techniques for Better Flexibility & Strength</h2>
-                        <a href="#">Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></a>
+                        <p>Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></p>
                     </div>
-                </div>
-                <div class="page-blog-card">
+                </a>
+                <a href="./blog1.php" class="page-blog-card">
                     <div class="page-blog-card-img page-blog-card-img7">
 
                     </div>
                     <div class="page-blog-card-info">
                         <h2>Top Benefits of Physiotherapy for Pain Relief</h2>
-                        <a href="#">Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></a>
+                        <p>Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></p>
                     </div>
-                </div>
-                <div class="page-blog-card">
+                </a>
+                <a href="./blog1.php" class="page-blog-card">
                     <div class="page-blog-card-img page-blog-card-img8">
 
                     </div>
                     <div class="page-blog-card-info">
                         <h2>Top Benefits of Physiotherapy for Physiotherapy</h2>
-                        <a href="#">Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></a>
+                        <p>Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></p>
                     </div>
-                </div>
-                <div class="page-blog-card">
+                </a>
+                <a href="./blog1.php" class="page-blog-card">
                     <div class="page-blog-card-img page-blog-card-img9">
 
                     </div>
                     <div class="page-blog-card-info">
                         <h2>Stretching Techniques for Better Flexibility & Strength</h2>
-                        <a href="#">Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></a>
+                        <p>Read More <span><i class="fa-solid fa-circle-chevron-right"></i></span></p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
