@@ -3,12 +3,13 @@
 */
 
 .blog-sidebar-banner {
-    height: 500px;
+    height: 530px;
     width: 100%;
     background-color: #06268b;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 20px;
 }
 .blog-sidebar-banner > .blog-sidebar-banner-circle {
     margin-top: 50px;
@@ -44,4 +45,150 @@
     border-radius: 50%;
     background-image: url(./assets/images/index-about-section/first-img.webp);
     background-size: 100% 100%;
+}
+.blog-sidebar-banner > .blog-sidebar-banner-title {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.blog-sidebar-banner > .blog-sidebar-banner-title > h2 {
+    font-weight: 400;
+}
+.blog-sidebar-banner > .blog-sidebar-banner-title > small {
+    color: #1b99fe;
+}
+.blog-sidebar-banner > .blog-sidebar-banner-info {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.blog-sidebar-banner > .blog-sidebar-banner-social-media {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.blog-sidebar-banner > .blog-sidebar-banner-social-media > a {
+    color: white;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.blog-sidebar-banner > .blog-sidebar-banner-social-media > a:hover {
+    background-color: white;
+    color: #1b99fe;
+    transition: transform .4s ease-in-out;
+    transform: translateY(-5px);
+}
+
+
+
+/* 
+----------------styling for the blog sidebar our categories----------------
+*/
+.blog-sidebar-our-categories {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.blog-sidebar-our-categories > h2 {
+    color: #06268b;
+}
+.blog-sidebar-our-categories > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.blog-sidebar-our-categories > ul > li > a {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+.blog-sidebar-our-categories > ul > li > a:hover {
+    color: #1b99fe;
+    transition: all .3s ease-in-out;
+}
+.blog-sidebar-our-categories > ul > li > a span {
+  display: inline; 
+}
+
+
+
+/* 
+-----------------styling for the blog sidebar recent post------------------
+*/
+
+.blog-sidebar-recent-post {
+    color: #06268b;
+    margin-top: 50px;
+}
+.blog-sidebar-recent-post > .blog-sidebar-recent-post-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+.blog-sidebar-recent-post > .blog-sidebar-recent-post-cards > .blog-sidebar-recent-post-card {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.blog-sidebar-recent-post > .blog-sidebar-recent-post-cards > .blog-sidebar-recent-post-card > .blog-sidebar-recent-post-card-img {
+    height: 100px;
+    width: 100px;
+    background-size: 100% 100%;
+    flex-shrink: 0;
+}
+.blog-sidebar-recent-post > .blog-sidebar-recent-post-cards > .blog-sidebar-recent-post-card > .blog-sidebar-recent-post-card-img1 {
+    background-image: url(./assets/images/blog-page/blog1/recent-post1.jpg);
+}
+.blog-sidebar-recent-post > .blog-sidebar-recent-post-cards > .blog-sidebar-recent-post-card > .blog-sidebar-recent-post-card-img2 {
+    background-image: url(./assets/images/blog-page/blog1/recent-post2.jpg);
+}
+.blog-sidebar-recent-post > .blog-sidebar-recent-post-cards > .blog-sidebar-recent-post-card > .blog-sidebar-recent-post-card-img3 {
+    background-image: url(./assets/images/blog-page/blog1/recent-post3.jpg);
+}
+.blog-sidebar-recent-post > .blog-sidebar-recent-post-cards > .blog-sidebar-recent-post-card > .blog-sidebar-recent-post-card-info > small {
+    color: #1b99fe;
+}
+.blog-sidebar-recent-post > .blog-sidebar-recent-post-cards > .blog-sidebar-recent-post-card > .blog-sidebar-recent-post-card-info > p {
+    margin-top: 10px;
+}
+.blog-sidebar-recent-post > .blog-sidebar-recent-post-cards > .blog-sidebar-recent-post-card > .blog-sidebar-recent-post-card-info > p:hover {
+    color: #1b99fe;
+}
+
+
+
+/* 
+-----------------styling for the blog sidebar popular tags----------------
+*/
+
+.blog-sidebar-popular-tags {
+    margin-top: 50px;
+    color: #06268b;
+}
+.blog-sidebar-popular-tags > .blog-sidebar-tags {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.blog-sidebar-popular-tags > .blog-sidebar-tags > a {
+    padding: 4px 12px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+.blog-sidebar-popular-tags > .blog-sidebar-tags > a:hover {
+    color: white;
+    background-color: #1b99fe;
+    border: 1px solid #1b99fe;
+    transition: all .3s ease-in-out;
 }
