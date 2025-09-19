@@ -474,7 +474,9 @@ body {
         width: 90%;
         gap: 5px;
     }
-
+    .hero-carousel>.hero-carousel-wrapper>.hero-carousel-slide>.hero-carousel-slide-info>div>h2 {
+        font-size: 5vw;
+    }
     .hero-carousel>.hero-carousel-wrapper>.hero-carousel-slide>.hero-carousel-slide-info>div>p {
         line-height: 20px;
     }
@@ -490,6 +492,11 @@ body {
     .hero-carousel>.swiper-button-prev {
         pointer-events: none;
         display: none;
+    }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+    .hero-carousel>.hero-carousel-wrapper>.hero-carousel-slide>.hero-carousel-slide-info>div>h2 {
+        font-size: 6vw;
     }
 }
 
@@ -752,7 +759,7 @@ body {
     color: #1b99fe;
 }
 
-.about-section>div>.about-us>div>.about-us-title>h2 {
+.about-section>div>.about-us>div>.about-us-title>h1 {
     text-align: center;
     font-size: 3vw;
     color: #06268b;
@@ -761,6 +768,7 @@ body {
 .about-section>div>.about-us>div>.about-us-title>p {
     font-size: large;
     text-align: center;
+    color: gray;
 }
 
 .about-section>div>.about-us>div>.about-us-cards>ul {
@@ -770,9 +778,9 @@ body {
 }
 
 .about-section>div>.about-us>div>.about-us-cards>ul>li {
-    height: 200px;
+    height: 250px;
     width: 200px;
-    padding: 15px;
+    padding: 15px 15px 15px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -800,7 +808,7 @@ body {
 }
 
 .about-section>div>.about-us>div>.about-us-cards>ul>li>p {
-    color: gray;
+    color: gray;  
 }
 
 .about-section>div>.about-us>div>.about-us-cards>ul>li:nth-child(1) {
@@ -898,7 +906,7 @@ body {
         padding: 50px 10px;
     }
 
-    .about-section>div>.about-us>div>.about-us-title>h2 {
+    .about-section>div>.about-us>div>.about-us-title>h1 {
         font-size: 8vw;
     }
 

@@ -22,10 +22,13 @@
     <!-- ✅ Google Analytics (GA4) tracking code -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-51KP3E4W39"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-51KP3E4W39');
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-51KP3E4W39');
     </script>
 
 
@@ -175,7 +178,7 @@
                 </div>
             </div>
             <div class="swiper-slide hero-carousel-slide">
-                <img src="./assets/images/index-hero-carousel/hero-4.webp" alt="Best wellness and support in bangalore" loading="lazy"/>
+                <img src="./assets/images/index-hero-carousel/hero-4.webp" alt="Best wellness and support in bangalore" loading="lazy" />
                 <div class="hero-carousel-slide-info">
                     <div class="hero-carousel-text-onebyone">
                         <small>Pediatric Physiotherapy</small>
@@ -321,19 +324,28 @@
             <div class="about-us">
                 <div>
                     <div class="about-us-title">
-                        <h4>About Sri Sai Balaji Physiotherapy Clinic</h4>
-                        <h2>We Treat The Individual, Not Just The Injury</h2>
-                        <p>Many athletes will have negative thoughts and experiences during injury recovery, which may adversely affect their motivation and willingness .</p>
+                        <h4>About Sri Sai Balaji Physiotherapy Clinic in Bangalore</h4>
+                        <h1>Trusted Physiotherapy Care in Vidyaranyapura & Nearby Areas</h1>
+                        <p>
+                            At Sri Sai Balaji Physiotherapy Clinic, located in
+                            <strong>Vidyaranyapura, Bangalore</strong>, we believe in treating
+                            the individual, not just the injury. Our team of expert
+                            physiotherapists provides personalized care for patients coming
+                            from <strong>Vidyaranyapura, Hebbal, Jalahalli, Yelahanka</strong>
+                            and surrounding areas. We specialize in pain relief, injury
+                            recovery, and long-term rehabilitation to help you get back to your
+                            active lifestyle.
+                        </p>
                     </div>
                     <div class="about-us-cards">
                         <ul>
                             <li>
                                 <h2>Our Mission<span></span></h2>
-                                <p>Our communities as the premier provider of adult rehabilitation care.</p>
+                                <p>Providing expert physiotherapy and rehabilitation in Vidyaranyapura, helping patients restore movement, build strength, and live a pain-free life.</p>
                             </li>
                             <li>
-                                <h2>Our Vision <span></span></h2>
-                                <p>Our Clinc is committed, to providing an exceptional, patient care experience</p>
+                                <h2>Our Vision<span></span></h2>
+                                <p>Delivering compassionate physiotherapy in Bangalore with advanced care, ensuring personal attention, faster recovery, and long-term wellness.</p>
                             </li>
                         </ul>
                     </div>
@@ -373,7 +385,7 @@
                 <span><i class="fa-solid fa-snowflake"></i></span>
                 Strength Training
                 <span><i class="fa-solid fa-snowflake"></i></span>
-                Sri Sai Balaji Physiotherapy Clinic
+                Physiotherapy in Vidyaranyapura & Bangalore
             </h2>
             <!-- Duplicate for seamless loop -->
             <h2>
@@ -393,8 +405,8 @@
                 <span><i class="fa-solid fa-snowflake"></i></span>
                 Strength Training
                 <span><i class="fa-solid fa-snowflake"></i></span>
-                Sri Sai Balaji Physiotherapy Clinic
-                <h2>
+                Physiotherapy in Vidyaranyapura & Bangalore
+            </h2>
         </div>
     </div>
 
@@ -404,7 +416,7 @@
         <div class="services-we-think-difrnt-info">
             <h4>Services</h4>
             <h2>We Think Differently.</h2>
-            <p>The human body is exceedingly versatile, which implies that the human body can shockingly be proficiently wasteful</p>
+            <p>At Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore, we provide personalized treatment for pain relief, mobility enhancement, and long-term recovery.</p>
             <div class="services-we-think-difrnt-cards-nav">
                 <div class="services-we-think-difrnt-card-prev"><i class="fa-solid fa-arrow-left"></i></div>
                 <div class="services-we-think-difrnt-card-next"><i class="fa-solid fa-arrow-right"></i></div>
@@ -489,16 +501,16 @@
         <div class="why-choose-us">
             <div class="whyChooseUs-info">
                 <h4>Why Choose Us</h4>
-                <h2>We help you to better manufacturing</h2>
-                <p>Use the latest research in physical therapy to work better, play better—and spend more time on what really matters.</p>
+                <h2>Expert Physiotherapy in Vidyaranyapura</h2>
+                <p>Personalized care, proven techniques, and trusted results for pain relief and faster recovery in Bangalore.</p>
                 <div class="whyChooseUs-info-icons">
                     <div class="whyChooseUs-info-icon">
                         <div class="whyChooseUs-info-icon-circle">
                             <h2><i class="fa-regular fa-thumbs-up"></i></h2>
                         </div>
                         <div class="whyChooseUs-info-icon-title">
-                            <h3>Certified & Awards winner</h3>
-                            <p>Researcher in Neuro Physiotherapy' Global Outreach Healthcare Award 2023.</p>
+                            <h3>Award winning care</h3>
+                            <p>Recognized for excellence in physiotherapy and rehabilitation.</p>
                         </div>
                     </div>
                     <div class="whyChooseUs-info-icon">
@@ -506,8 +518,8 @@
                             <h2><i class="fa-regular fa-handshake"></i></i></h2>
                         </div>
                         <div class="whyChooseUs-info-icon-title">
-                            <h3>Innovative Product Solutions</h3>
-                            <p>An effective campaign demands a great deal of time and planning run a marketing.</p>
+                            <h3>Personalized Plans</h3>
+                            <p>Every patient gets a treatment plan tailored to their needs.</p>
                         </div>
                     </div>
                     <div class="whyChooseUs-info-icon">
@@ -515,8 +527,8 @@
                             <h2><i class="fa-regular fa-face-smile"></i></h2>
                         </div>
                         <div class="whyChooseUs-info-icon-title">
-                            <h3>We will definitely be back!</h3>
-                            <p>Physiotherapy is frequently advised as a component of a larger pain management.</p>
+                            <h3>Trusted by Patients</h3>
+                            <p>Serving Vidyaranyapura and nearby areas with proven results.</p>
                         </div>
                     </div>
                 </div>
