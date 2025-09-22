@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise Therapy in Bangalore | Stretching, Strengthening & Rehabilitation</title>
-    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore offers personalized exercise therapy including stretching, strengthening, free and therapeutic exercises for pain relief, recovery, and long-term mobility. Serving Hebbal, Jalahalli, Yelahanka & nearby areas.">
+    <title>Neuro Rehabilitation in Bangalore | Stroke, Parkinson's & Neurological Recovery</title>
+    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore provides specialized Neuro Rehabilitation for stroke, Parkinson's disease, and other neurological disorders. Regain mobility and independence with personalized therapy.">
     <meta name="theme-color" content="#ffffff">
 
 
     <link rel="icon" href="./assets/images/favicon.png" type="image/png">
-    <link rel="canonical" href="https://physiotherapybangalore.com/exercise.php">
+    <link rel="canonical" href="https://physiotherapybangalore.com/neuro-rehabilitation.php">
 
 
-    <meta property="og:title" content="Exercise Therapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
-    <meta property="og:description" content="Expert exercise therapy in Vidyaranyapura, Bangalore. Stretching, strengthening, free and therapeutic exercises for recovery, mobility, and rehabilitation.">
-    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/exercise.jpg">
-    <meta property="og:url" content="https://physiotherapybangalore.com/exercise.php">
+    <meta property="og:title" content="Neuro Rehabilitation in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
+    <meta property="og:description" content="Expert Neuro Rehabilitation in Vidyaranyapura, Bangalore. Stroke, Parkinson's disease, and neurological recovery programs by trained physiotherapists.">
+    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/neuro-rehabilitation.jpg">
+    <meta property="og:url" content="https://physiotherapybangalore.com/neuro-rehabilitation.php">
     <meta property="og:type" content="website">
 
 
-    <!-- ✅ Google Analytics (GA4) tracking code -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-51KP3E4W39"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -32,12 +32,16 @@
         gtag('config', 'G-51KP3E4W39');
     </script>
 
-
     <!-- --------------link for the styling service page--------------- -->
     <link rel="preload" href="./style.css" as="style">
     <link rel="stylesheet" href="./style.css" media="all">
-    <link rel="stylesheet" href="./exercise.css" media="all">
+    <link rel="stylesheet" href="./neuro-rehabilitation.css" media="all">
     <link rel="stylesheet" href="./services-sidebar.css" media="all">
+
+
+    <!-- Preconnect improves font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 
     <!-- Philosopher font -->
@@ -52,14 +56,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" crossorigin>
 
 
+    <!-- Local business schema -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "PhysiotherapyClinic",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
             "logo": "https://physiotherapybangalore.com/assets/images/logo.webp",
-            "image": "https://physiotherapybangalore.com/assets/images/exercise.jpg",
-            "url": "https://physiotherapybangalore.com/exercise.php",
+            "image": "https://physiotherapybangalore.com/assets/images/neuro-rehabilitation.jpg",
+            "url": "https://physiotherapybangalore.com/neuro-rehabilitation.php",
             "telephone": "+91-9663314071",
             "address": {
                 "@type": "PostalAddress",
@@ -76,81 +81,69 @@
             },
             "openingHoursSpecification": [{
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                    "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
-                ],
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
                 "opens": "09:00",
                 "closes": "20:00"
             }],
             "areaServed": [{
-                    "@type": "Place",
-                    "name": "Vidyaranyapura"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Singapura"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Hebbal"
-                },
-                {
-                    "@type": "Place",
-                    "name": "BEL Road"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Jalahalli"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Yelahanka"
-                }
-            ],
+                "@type": "Place",
+                "name": "Vidyaranyapura"
+            }, {
+                "@type": "Place",
+                "name": "Singapura"
+            }, {
+                "@type": "Place",
+                "name": "Hebbal"
+            }, {
+                "@type": "Place",
+                "name": "BEL Road"
+            }, {
+                "@type": "Place",
+                "name": "Jalahalli"
+            }, {
+                "@type": "Place",
+                "name": "Yelahanka"
+            }],
             "hasMap": "https://maps.app.goo.gl/arWrFPGx8EuqFx4D6",
-            "sameAs": [
-                "https://www.facebook.com/yourpage",
-                "https://www.instagram.com/yourpage",
-                "https://g.page/your-google-business-link"
-            ]
+            "sameAs": ["https://www.facebook.com/yourpage", "https://www.instagram.com/yourpage", "https://g.page/your-google-business-link"]
         }
     </script>
 
-    <!-- ---------------local business schema for seo-------------- -->
+    <!-- FAQ schema -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "What is exercise therapy?",
+                    "name": "What is Neuro Rehabilitation?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Exercise therapy is a physiotherapy program using free, stretching, strengthening, and therapeutic exercises to improve mobility, relieve pain, and restore function."
+                        "text": "Neuro Rehabilitation is a physiotherapy program for patients with neurological disorders like stroke, Parkinson's, or brain injuries to restore mobility and independence."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Who can benefit from exercise therapy?",
+                    "name": "Which conditions can be treated?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Patients recovering from surgery, athletes, seniors with mobility issues, and individuals with back pain, joint stiffness, or muscle weakness can benefit from exercise therapy."
+                        "text": "It treats stroke, Parkinson's disease, multiple sclerosis, cerebral palsy, and other nervous system disorders."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How long does exercise therapy take to show results?",
+                    "name": "Is it safe for all patients?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Many patients see improvement within 3–6 weeks, depending on the condition, treatment plan, and consistency with prescribed exercises."
+                        "text": "Yes. Sessions are customized by trained physiotherapists to suit each patient’s condition and health status."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Do I need equipment for exercise therapy?",
+                    "name": "How long is a session?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Not always. Free and stretching exercises require no equipment, while strengthening and therapeutic exercises may use bands, weights, or clinic-based tools."
+                        "text": "Sessions typically last 30–60 minutes depending on the condition and recovery goals."
                     }
                 }
             ]
@@ -172,13 +165,13 @@
     <div class="page-title-section">
         <div class="page-title">
             <h4>SERVICE</h4>
-            <h2>Exercise</h2>
+            <h2>Neuro Rehabilitation</h2>
             <div class="page-title-nav">
                 <a href="./index.php">Home</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
                 <a href="#">Services</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="#">Exercise</a>
+                <a href="./neuro-rehabilitation.php">Neuro Rehabilitation</a>
             </div>
         </div>
     </div>
@@ -198,20 +191,11 @@
 
             </div>
             <div class="page-content-info-title">
-                <h1>Exercise Therapy in Vidyaranyapura, Bangalore</h1>
+                <h1>Neuro Rehabilitation in Vidyaranyapura, Bangalore</h1>
                 <p>
-                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we provide
-                    <strong>exercise therapy</strong> programs tailored to individual needs.
-                    Our physiotherapists use a combination of <strong>free exercises, stretching,
-                        strengthening, and therapeutic exercises</strong> to improve mobility,
-                    restore function, and support long-term recovery.
+                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we provide specialized <strong>Neuro Rehabilitation</strong> to patients recovering from stroke, Parkinson's disease, and other neurological disorders. Our goal is to restore mobility, independence, and overall quality of life.
                 </p>
-                <p>
-                    Whether you are recovering from surgery, managing chronic pain,
-                    or aiming to prevent injuries, our <strong>exercise therapy in
-                        Vidyaranyapura, Bangalore</strong> is designed to enhance strength,
-                    flexibility, balance, and overall well-being.
-                </p>
+                <p>Our trained physiotherapists create <strong>personalized treatment plans</strong> combining exercises, balance training, and functional activities to achieve optimal recovery.</p>
             </div>
             <div class="page-content-info-images">
                 <div class="page-content-info-image page-content-info-image1">
@@ -224,68 +208,48 @@
             <div class="page-content-info-points">
                 <ul>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Free exercises to improve joint movement and body control</p>
+                        <p>Stroke rehabilitation to restore movement and function</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Stretching exercises to reduce stiffness and increase flexibility</p>
+                        <p>Management of Parkinson’s disease and other neurological disorders</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Strengthening exercises for muscles, bones, and post-injury recovery</p>
+                        <p>Balance, coordination, and gait training</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Therapeutic exercises customized for specific conditions</p>
+                        <p>Functional exercises to improve independence in daily activities</p>
                     </li>
                 </ul>
             </div>
             <div class="page-content-info-faq">
                 <h1>Frequently Asked Questions</h1>
-                <p>
-                    Here are answers to common questions about <strong>exercise therapy
-                        at Sri Sai Balaji Physiotherapy Clinic</strong> in Vidyaranyapura,
-                    Bangalore.
-                </p>
+                <p>Everything you need to know about Neuro Rehabilitation in Vidyaranyapura, Bangalore.</p>
                 <div class="faq-section">
                     <div class="faq-item">
-                        <button class="faq-question">What is exercise therapy?</button>
+                        <button class="faq-question">What is Neuro Rehabilitation?</button>
                         <div class="faq-answer">
-                            <p>
-                                Exercise therapy is a physiotherapy program that uses
-                                <strong>movement, stretching, and strengthening exercises</strong>
-                                to treat injuries, improve mobility, and restore function.
-                            </p>
+                            <p>Neuro Rehabilitation is a physiotherapy program for patients with neurological disorders like stroke, Parkinson's, or brain injuries to restore mobility and independence.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Who can benefit from exercise therapy?</button>
+                        <button class="faq-question">Which conditions can be treated?</button>
                         <div class="faq-answer">
-                            <p>
-                                It benefits people recovering from surgery, athletes with
-                                injuries, seniors with mobility issues, and anyone dealing
-                                with <strong>back pain, joint stiffness, or muscle weakness</strong>.
-                            </p>
+                            <p>It treats stroke, Parkinson's disease, multiple sclerosis, cerebral palsy, and other nervous system disorders.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">How long does exercise therapy take to show results?</button>
+                        <button class="faq-question">Is it safe for all patients?</button>
                         <div class="faq-answer">
-                            <p>
-                                Most patients notice improvement within 3–6 weeks of regular
-                                sessions, depending on their condition and consistency with
-                                the prescribed program.
-                            </p>
+                            <p>Yes. Sessions are customized by trained physiotherapists to suit each patient’s condition and health status.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Do I need special equipment for these exercises?</button>
+                        <button class="faq-question">How long is a session?</button>
                         <div class="faq-answer">
-                            <p>
-                                Not always. Many <strong>free and stretching exercises</strong>
-                                require no equipment. Strengthening and therapeutic exercises
-                                may include resistance bands, weights, or clinic-based tools.
-                            </p>
+                            <p>Sessions typically last 30–60 minutes depending on the condition and recovery goals.</p>
                         </div>
                     </div>
                 </div>

@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orthopedic Physiotherapy in Bangalore | Post-Surgery Rehab & Sports Injury Care</title>
-    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore specializes in orthopedic rehabilitation, post-surgery recovery, sports physiotherapy, and pain management. Serving Hebbal, Jalahalli, BEL Road, Yelahanka & nearby areas. Book your appointment today!">
+    <title>Electrotherapy Physiotherapy in Bangalore | Pain Relief & Healing | Sri Sai Balaji Physiotherapy Clinic</title>
+    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore offers expert electrotherapy treatments including ultrasound, IFT, TENS, laser therapy, and nerve-muscle stimulation. Reduce pain, inflammation, and improve mobility. Serving Hebbal, Jalahalli, BEL Road, Yelahanka & nearby areas. Book your appointment today!">
     <meta name="theme-color" content="#ffffff">
 
 
     <link rel="icon" href="./assets/images/favicon.png" type="image/png">
-    <link rel="canonical" href="https://physiotherapybangalore.com/orthopedic.php">
+    <link rel="canonical" href="https://physiotherapybangalore.com/electrotherapy.php">
 
 
-    <meta property="og:title" content="Orthopedic Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
-    <meta property="og:description" content="Expert orthopedic physiotherapy in Vidyaranyapura, Bangalore. Post-surgery rehab, sports injury treatment, and personalized recovery plans at Sri Sai Balaji Physiotherapy Clinic.">
-    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/orthopedic.jpg">
-    <meta property="og:url" content="https://physiotherapybangalore.com/orthopedic.php">
+    <meta property="og:title" content="Electrotherapy Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
+    <meta property="og:description" content="Expert electrotherapy in Vidyaranyapura, Bangalore for pain relief, sports injury recovery, post-surgery rehabilitation, and muscle stimulation.">
+    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/electrotherapy.jpg">
+    <meta property="og:url" content="https://physiotherapybangalore.com/electrotherapy.php">
     <meta property="og:type" content="website">
 
 
@@ -32,11 +32,10 @@
         gtag('config', 'G-51KP3E4W39');
     </script>
 
-
     <!-- --------------link for the styling service page--------------- -->
     <link rel="preload" href="./style.css" as="style">
     <link rel="stylesheet" href="./style.css" media="all">
-    <link rel="stylesheet" href="./orthopedic.css" media="all">
+    <link rel="stylesheet" href="./electrotherapy.css" media="all">
     <link rel="stylesheet" href="./services-sidebar.css" media="all">
 
 
@@ -48,9 +47,11 @@
     <!-- Philosopher font -->
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+
     <!-- --------------link for the font awesome icons--------------- -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" as="style" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin>
+
 
     <!-- ---------------link for the swiper js for the carousel---------------- -->
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" as="style" crossorigin>
@@ -64,8 +65,8 @@
             "@type": "PhysiotherapyClinic",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
             "logo": "https://physiotherapybangalore.com/assets/images/logo.webp",
-            "image": "https://physiotherapybangalore.com/assets/images/orthopedic.jpg",
-            "url": "https://physiotherapybangalore.com/orthopedic.php",
+            "image": "https://physiotherapybangalore.com/assets/images/electrotherapy.jpg",
+            "url": "https://physiotherapybangalore.com/electrotherapy.php",
             "telephone": "+91-9663314071",
             "address": {
                 "@type": "PostalAddress",
@@ -82,14 +83,7 @@
             },
             "openingHoursSpecification": [{
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday"
-                ],
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
                 "opens": "09:00",
                 "closes": "20:00"
             }],
@@ -134,40 +128,40 @@
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "What is orthopedic rehabilitation?",
+                    "name": "What is electrotherapy?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Orthopedic rehabilitation is a specialized physiotherapy program designed to help patients recover from fractures, joint replacements, ligament injuries, and spine conditions. It restores strength, flexibility, and mobility after surgery or injury."
+                        "text": "Electrotherapy is the use of electrical modalities to reduce pain, inflammation, promote healing, and stimulate muscles, under professional supervision."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How long does post-surgery rehabilitation take?",
+                    "name": "What conditions does electrotherapy treat?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The duration depends on the surgery and your overall health. For example, knee replacement rehabilitation may take 6–12 weeks, while minor injuries may recover faster. Our physiotherapists create a personalized treatment plan for each patient."
+                        "text": "It treats musculoskeletal pain, sports injuries, post-surgery recovery, nerve injuries, and chronic pain."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Do you provide sports physiotherapy?",
+                    "name": "Is electrotherapy safe?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Yes. We offer sports physiotherapy in Vidyaranyapura for athletes and active individuals. It focuses on injury treatment, prevention, and performance optimization to help you return to your sport stronger and safer."
+                        "text": "Yes, when administered by trained physiotherapists. Certain medical conditions may require consultation first."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Do I need a doctor’s referral for orthopedic physiotherapy?",
+                    "name": "Do I need a referral for electrotherapy?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "No, you can directly book an appointment at Sri Sai Balaji Physiotherapy Clinic in Bangalore. However, if you recently had surgery, bringing your surgeon’s notes helps us plan the most effective recovery program for you."
+                        "text": "No referral is required. Patients can directly book appointments at our clinic."
                     }
                 }
             ]
         }
     </script>
-
+</head>
 </head>
 
 <body>
@@ -184,13 +178,13 @@
     <div class="page-title-section">
         <div class="page-title">
             <h4>SERVICE</h4>
-            <h2>Orthopedic</h2>
+            <h2>Electrotherapy</h2>
             <div class="page-title-nav">
                 <a href="./index.php">Home</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
                 <a href="#">Services</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="#">Orthopedic</a>
+                <a href="./electrotherapy.php">Electrotherapy</a>
             </div>
         </div>
     </div>
@@ -210,20 +204,12 @@
 
             </div>
             <div class="page-content-info-title">
-                <h1>Orthopedic Rehabilitation in Vidyaranyapura, Bangalore</h1>
+                <h1>Electrotherapy Treatments at Sri Sai Balaji Physiotherapy Clinic</h1>
                 <p>
-                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we specialize in
-                    <strong>orthopedic rehabilitation</strong> to help patients recover from
-                    <strong>post-surgery conditions, fractures, and joint injuries</strong>.
-                    Our goal is to restore mobility, reduce pain, and improve overall function
-                    so you can return to your active lifestyle.
+                    At Sri Sai Balaji Physiotherapy Clinic in <strong>Vidyaranyapura, Bangalore</strong>, we offer professional <strong>electrotherapy</strong> treatments to reduce pain, inflammation, and accelerate healing. Our skilled physiotherapists customize therapy plans to your needs, helping restore mobility and strength effectively.
                 </p>
                 <p>
-                    Whether you’re recovering from knee replacement, spine surgery, or sports-related injuries,
-                    our experienced <strong>orthopedic physiotherapists in Vidyaranyapura, Bangalore</strong>
-                    provide personalized treatment plans tailored to your needs.
-                    We also offer <strong>sports physiotherapy</strong> to treat sports injuries
-                    and enhance athletic performance for long-term results.
+                    We serve patients from <strong>Hebbal, Jalahalli, BEL Road, Yelahanka</strong> and surrounding areas. Electrotherapy is ideal for post-surgery rehab, sports injuries, nerve stimulation, and chronic pain management.
                 </p>
             </div>
             <div class="page-content-info-images">
@@ -237,70 +223,60 @@
             <div class="page-content-info-points">
                 <ul>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Post-surgical rehabilitation for knee, hip, and spine surgeries</p>
+                        <p>Ultrasound Therapy:</strong> Promotes tissue healing and reduces inflammation.</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Sports physiotherapy for injury prevention and performance enhancement</p>
+                        <p><strong>Interferential Therapy (IFT):</strong> Alleviates pain and stimulates deep muscles.</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Treatment for fractures, ligament tears, and joint stiffness</p>
+                        <p><strong>Laser Therapy:</strong> Speeds up tissue repair and reduces swelling.</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Customized exercise programs for strength, flexibility, and recovery</p>
+                        <p><strong>TENS (Transcutaneous Electrical Nerve Stimulation):</strong> Provides pain relief for acute and chronic conditions.</p>
+                    </li>
+                    <li><span><i class="fa-solid fa-circle-check"></i></span>
+                        <p><strong>Nerve-Muscle Stimulation:</strong> Improves muscle strength and functional recovery.</p>
                     </li>
                 </ul>
             </div>
             <div class="page-content-info-faq">
                 <h1>Frequently Asked Questions</h1>
                 <p>
-                    Here are some of the most common questions patients ask about
-                    <strong>orthopedic physiotherapy in Vidyaranyapura, Bangalore</strong>.
-                    If you have more queries, feel free to contact our team at Sri Sai Balaji Physiotherapy Clinic.
+                    Below are some common questions our patients ask about electrotherapy treatments at Sri Sai Balaji Physiotherapy Clinic.
                 </p>
                 <div class="faq-section">
                     <div class="faq-item">
-                        <button class="faq-question">What is orthopedic rehabilitation?</button>
+                        <button class="faq-question">What conditions can electrotherapy treat?</button>
                         <div class="faq-answer">
                             <p>
-                                Orthopedic rehabilitation is a specialized physiotherapy program designed to help patients recover from
-                                <strong>fractures, joint replacements, ligament injuries, and spine conditions</strong>.
-                                It restores strength, flexibility, and mobility after surgery or injury.
+                                Electrotherapy treats musculoskeletal pain, sports injuries, post-surgery recovery, nerve-related issues, and chronic pain.
                             </p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">How long does post-surgery rehabilitation take?</button>
+                        <button class="faq-question">Is electrotherapy safe for everyone?</button>
                         <div class="faq-answer">
                             <p>
-                                The duration depends on the surgery and your overall health.
-                                For example, <strong>knee replacement rehabilitation</strong> may take 6–12 weeks,
-                                while minor injuries may recover faster.
-                                Our physiotherapists create a personalized treatment plan for each patient.
+                                Yes, when provided by trained physiotherapists. Some medical conditions may need prior consultation.
                             </p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Do you provide sports physiotherapy?</button>
+                        <button class="faq-question">Do I need a referral for electrotherapy?</button>
                         <div class="faq-answer">
                             <p>
-                                Yes. We offer <strong>sports physiotherapy in Vidyaranyapura</strong>
-                                for athletes and active individuals.
-                                It focuses on injury treatment, prevention, and performance optimization
-                                to help you return to your sport stronger and safer.
+                                No referral is required. Direct appointments are welcome at our clinic.
                             </p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Do I need a doctor’s referral for orthopedic physiotherapy?</button>
+                        <button class="faq-question">How many sessions are required?</button>
                         <div class="faq-answer">
                             <p>
-                                No, you can directly book an appointment at
-                                <strong>Sri Sai Balaji Physiotherapy Clinic in Bangalore</strong>.
-                                However, if you recently had surgery, bringing your surgeon’s notes helps
-                                us plan the most effective recovery program for you.
+                                The number of sessions depends on your condition, severity, and recovery goals. Our physiotherapists will personalize your plan.
                             </p>
                         </div>
                     </div>

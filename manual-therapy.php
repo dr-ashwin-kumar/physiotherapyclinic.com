@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orthopedic Physiotherapy in Bangalore | Post-Surgery Rehab & Sports Injury Care</title>
-    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore specializes in orthopedic rehabilitation, post-surgery recovery, sports physiotherapy, and pain management. Serving Hebbal, Jalahalli, BEL Road, Yelahanka & nearby areas. Book your appointment today!">
+    <title>Manual Therapy Physiotherapy in Bangalore | Joint & Muscle Pain Relief</title>
+    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore offers expert manual therapy including joint mobilization, neural mobilization, spine mobilization, and myofascial release. Relieve pain, restore mobility, and improve function. Book your appointment today!">
     <meta name="theme-color" content="#ffffff">
 
 
     <link rel="icon" href="./assets/images/favicon.png" type="image/png">
-    <link rel="canonical" href="https://physiotherapybangalore.com/orthopedic.php">
+    <link rel="canonical" href="https://physiotherapybangalore.com/manual-therapy.php">
 
 
-    <meta property="og:title" content="Orthopedic Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
-    <meta property="og:description" content="Expert orthopedic physiotherapy in Vidyaranyapura, Bangalore. Post-surgery rehab, sports injury treatment, and personalized recovery plans at Sri Sai Balaji Physiotherapy Clinic.">
-    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/orthopedic.jpg">
-    <meta property="og:url" content="https://physiotherapybangalore.com/orthopedic.php">
+    <meta property="og:title" content="Manual Therapy Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
+    <meta property="og:description" content="Expert manual therapy in Vidyaranyapura, Bangalore to relieve joint and muscle pain, restore mobility, and improve function. Includes joint mobilization, neural mobilization, spine mobilization, and myofascial release.">
+    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/manual-therapy.jpg">
+    <meta property="og:url" content="https://physiotherapybangalore.com/manual-therapy.php">
     <meta property="og:type" content="website">
 
 
-    <!-- ✅ Google Analytics (GA4) tracking code -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-51KP3E4W39"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -32,21 +32,16 @@
         gtag('config', 'G-51KP3E4W39');
     </script>
 
-
     <!-- --------------link for the styling service page--------------- -->
     <link rel="preload" href="./style.css" as="style">
     <link rel="stylesheet" href="./style.css" media="all">
-    <link rel="stylesheet" href="./orthopedic.css" media="all">
+    <link rel="stylesheet" href="./manual-therapy.css" media="all">
     <link rel="stylesheet" href="./services-sidebar.css" media="all">
 
 
     <!-- Preconnect improves font loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-
-    <!-- Philosopher font -->
-    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <!-- --------------link for the font awesome icons--------------- -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" as="style" crossorigin>
@@ -57,15 +52,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" crossorigin>
 
 
-    <!-- ---------------local business schema for seo-------------- -->
+    <!-- Local Business Schema -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "PhysiotherapyClinic",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
             "logo": "https://physiotherapybangalore.com/assets/images/logo.webp",
-            "image": "https://physiotherapybangalore.com/assets/images/orthopedic.jpg",
-            "url": "https://physiotherapybangalore.com/orthopedic.php",
+            "image": "https://physiotherapybangalore.com/assets/images/manual-therapy.jpg",
+            "url": "https://physiotherapybangalore.com/manual-therapy.php",
             "telephone": "+91-9663314071",
             "address": {
                 "@type": "PostalAddress",
@@ -82,14 +77,7 @@
             },
             "openingHoursSpecification": [{
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday"
-                ],
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
                 "opens": "09:00",
                 "closes": "20:00"
             }],
@@ -119,49 +107,45 @@
                 }
             ],
             "hasMap": "https://maps.app.goo.gl/arWrFPGx8EuqFx4D6",
-            "sameAs": [
-                "https://www.facebook.com/yourpage",
-                "https://www.instagram.com/yourpage",
-                "https://g.page/your-google-business-link"
-            ]
+            "sameAs": ["https://www.facebook.com/yourpage", "https://www.instagram.com/yourpage", "https://g.page/your-google-business-link"]
         }
     </script>
 
-    <!-- -------------FAQ schema for seo----------------- -->
+    <!-- FAQ Schema -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [{
                     "@type": "Question",
-                    "name": "What is orthopedic rehabilitation?",
+                    "name": "What is manual therapy?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Orthopedic rehabilitation is a specialized physiotherapy program designed to help patients recover from fractures, joint replacements, ligament injuries, and spine conditions. It restores strength, flexibility, and mobility after surgery or injury."
+                        "text": "Manual therapy is a hands-on physiotherapy treatment using joint, spine, and soft tissue techniques to reduce pain and restore mobility."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How long does post-surgery rehabilitation take?",
+                    "name": "Which conditions can it treat?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The duration depends on the surgery and your overall health. For example, knee replacement rehabilitation may take 6–12 weeks, while minor injuries may recover faster. Our physiotherapists create a personalized treatment plan for each patient."
+                        "text": "It helps with back and neck pain, joint stiffness, sports injuries, post-surgery rehab, and chronic musculoskeletal problems."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Do you provide sports physiotherapy?",
+                    "name": "Is it safe for everyone?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Yes. We offer sports physiotherapy in Vidyaranyapura for athletes and active individuals. It focuses on injury treatment, prevention, and performance optimization to help you return to your sport stronger and safer."
+                        "text": "Yes, when performed by trained physiotherapists. Sessions are tailored to age and health conditions."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Do I need a doctor’s referral for orthopedic physiotherapy?",
+                    "name": "How long is a session?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "No, you can directly book an appointment at Sri Sai Balaji Physiotherapy Clinic in Bangalore. However, if you recently had surgery, bringing your surgeon’s notes helps us plan the most effective recovery program for you."
+                        "text": "Typically 30–60 minutes, depending on the condition and treatment plan."
                     }
                 }
             ]
@@ -184,13 +168,13 @@
     <div class="page-title-section">
         <div class="page-title">
             <h4>SERVICE</h4>
-            <h2>Orthopedic</h2>
+            <h2>Manual Therapy</h2>
             <div class="page-title-nav">
                 <a href="./index.php">Home</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
                 <a href="#">Services</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="#">Orthopedic</a>
+                <a href="./manual-therapy.php">Manual Therapy</a>
             </div>
         </div>
     </div>
@@ -210,20 +194,12 @@
 
             </div>
             <div class="page-content-info-title">
-                <h1>Orthopedic Rehabilitation in Vidyaranyapura, Bangalore</h1>
+                <h1>Manual Therapy Treatments at Sri Sai Balaji Physiotherapy Clinic</h1>
                 <p>
-                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we specialize in
-                    <strong>orthopedic rehabilitation</strong> to help patients recover from
-                    <strong>post-surgery conditions, fractures, and joint injuries</strong>.
-                    Our goal is to restore mobility, reduce pain, and improve overall function
-                    so you can return to your active lifestyle.
+                    Located in <strong>Vidyaranyapura, Bangalore</strong>, we provide expert <strong>manual therapy</strong> treatments to relieve joint and muscle pain, restore mobility, and improve overall function. Our skilled physiotherapists tailor therapy to individual needs for optimal recovery.
                 </p>
                 <p>
-                    Whether you’re recovering from knee replacement, spine surgery, or sports-related injuries,
-                    our experienced <strong>orthopedic physiotherapists in Vidyaranyapura, Bangalore</strong>
-                    provide personalized treatment plans tailored to your needs.
-                    We also offer <strong>sports physiotherapy</strong> to treat sports injuries
-                    and enhance athletic performance for long-term results.
+                    We serve patients from <strong>Hebbal, Jalahalli, BEL Road, Yelahanka</strong> and nearby areas. Manual therapy is effective for back and neck pain, stiffness, post-surgery recovery, and chronic musculoskeletal conditions.
                 </p>
             </div>
             <div class="page-content-info-images">
@@ -237,71 +213,48 @@
             <div class="page-content-info-points">
                 <ul>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Post-surgical rehabilitation for knee, hip, and spine surgeries</p>
+                        <p><strong>Joint Mobilization:</strong> Restores joint flexibility and reduces stiffness.</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Sports physiotherapy for injury prevention and performance enhancement</p>
+                        <p><strong>Neural Mobilization:</strong> Improves nerve mobility and reduces pain.</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Treatment for fractures, ligament tears, and joint stiffness</p>
+                        <p><strong>Spine Mobilization:</strong> Enhances spinal movement and eases back/neck discomfort.</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Customized exercise programs for strength, flexibility, and recovery</p>
+                        <p><strong>Myofascial Release:</strong> Relieves muscle tension and promotes relaxation.</p>
                     </li>
                 </ul>
             </div>
             <div class="page-content-info-faq">
                 <h1>Frequently Asked Questions</h1>
-                <p>
-                    Here are some of the most common questions patients ask about
-                    <strong>orthopedic physiotherapy in Vidyaranyapura, Bangalore</strong>.
-                    If you have more queries, feel free to contact our team at Sri Sai Balaji Physiotherapy Clinic.
-                </p>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
                 <div class="faq-section">
                     <div class="faq-item">
-                        <button class="faq-question">What is orthopedic rehabilitation?</button>
+                        <button class="faq-question">What is manual therapy?</button>
                         <div class="faq-answer">
-                            <p>
-                                Orthopedic rehabilitation is a specialized physiotherapy program designed to help patients recover from
-                                <strong>fractures, joint replacements, ligament injuries, and spine conditions</strong>.
-                                It restores strength, flexibility, and mobility after surgery or injury.
-                            </p>
+                            <p>Manual therapy is a hands-on physiotherapy treatment using joint, spine, and soft tissue techniques to reduce pain and restore mobility.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">How long does post-surgery rehabilitation take?</button>
+                        <button class="faq-question">Which conditions can it treat?</button>
                         <div class="faq-answer">
-                            <p>
-                                The duration depends on the surgery and your overall health.
-                                For example, <strong>knee replacement rehabilitation</strong> may take 6–12 weeks,
-                                while minor injuries may recover faster.
-                                Our physiotherapists create a personalized treatment plan for each patient.
-                            </p>
+                            <p>It helps with back and neck pain, joint stiffness, sports injuries, post-surgery rehab, and chronic musculoskeletal problems.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Do you provide sports physiotherapy?</button>
+                        <button class="faq-question">Is it safe for everyone?</button>
                         <div class="faq-answer">
-                            <p>
-                                Yes. We offer <strong>sports physiotherapy in Vidyaranyapura</strong>
-                                for athletes and active individuals.
-                                It focuses on injury treatment, prevention, and performance optimization
-                                to help you return to your sport stronger and safer.
-                            </p>
+                            <p>Yes, when performed by trained physiotherapists. Sessions are tailored to age and health conditions.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Do I need a doctor’s referral for orthopedic physiotherapy?</button>
+                        <button class="faq-question">How long is a session?</button>
                         <div class="faq-answer">
-                            <p>
-                                No, you can directly book an appointment at
-                                <strong>Sri Sai Balaji Physiotherapy Clinic in Bangalore</strong>.
-                                However, if you recently had surgery, bringing your surgeon’s notes helps
-                                us plan the most effective recovery program for you.
-                            </p>
+                            <p>Typically 30–60 minutes, depending on the condition and treatment plan.</p>
                         </div>
                     </div>
                 </div>

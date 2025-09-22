@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orthopedic Physiotherapy in Bangalore | Post-Surgery Rehab & Sports Injury Care</title>
-    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore specializes in orthopedic rehabilitation, post-surgery recovery, sports physiotherapy, and pain management. Serving Hebbal, Jalahalli, BEL Road, Yelahanka & nearby areas. Book your appointment today!">
+    <title>Paediatric Physiotherapy in Bangalore | Development & Motor Skill Support</title>
+    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore provides paediatric physiotherapy for children with developmental or motor challenges. Improve mobility, coordination, and overall physical development.">
     <meta name="theme-color" content="#ffffff">
 
 
     <link rel="icon" href="./assets/images/favicon.png" type="image/png">
-    <link rel="canonical" href="https://physiotherapybangalore.com/orthopedic.php">
+    <link rel="canonical" href="https://physiotherapybangalore.com/paediatric.php">
 
 
-    <meta property="og:title" content="Orthopedic Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
-    <meta property="og:description" content="Expert orthopedic physiotherapy in Vidyaranyapura, Bangalore. Post-surgery rehab, sports injury treatment, and personalized recovery plans at Sri Sai Balaji Physiotherapy Clinic.">
-    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/orthopedic.jpg">
-    <meta property="og:url" content="https://physiotherapybangalore.com/orthopedic.php">
+    <meta property="og:title" content="Paediatric Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
+    <meta property="og:description" content="Specialized paediatric physiotherapy in Vidyaranyapura, Bangalore for children with developmental or motor challenges. Enhancing mobility, coordination, and overall physical growth.">
+    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/paediatric.jpg">
+    <meta property="og:url" content="https://physiotherapybangalore.com/paediatric.php">
     <meta property="og:type" content="website">
 
 
@@ -32,11 +32,10 @@
         gtag('config', 'G-51KP3E4W39');
     </script>
 
-
     <!-- --------------link for the styling service page--------------- -->
     <link rel="preload" href="./style.css" as="style">
     <link rel="stylesheet" href="./style.css" media="all">
-    <link rel="stylesheet" href="./orthopedic.css" media="all">
+    <link rel="stylesheet" href="./paediatric-physiotherapy.css" media="all">
     <link rel="stylesheet" href="./services-sidebar.css" media="all">
 
 
@@ -57,15 +56,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" crossorigin>
 
 
-    <!-- ---------------local business schema for seo-------------- -->
+    <!-- Local Business Schema -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "PhysiotherapyClinic",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
             "logo": "https://physiotherapybangalore.com/assets/images/logo.webp",
-            "image": "https://physiotherapybangalore.com/assets/images/orthopedic.jpg",
-            "url": "https://physiotherapybangalore.com/orthopedic.php",
+            "image": "https://physiotherapybangalore.com/assets/images/paediatric.jpg",
+            "url": "https://physiotherapybangalore.com/paediatric.php",
             "telephone": "+91-9663314071",
             "address": {
                 "@type": "PostalAddress",
@@ -82,14 +81,7 @@
             },
             "openingHoursSpecification": [{
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday"
-                ],
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
                 "opens": "09:00",
                 "closes": "20:00"
             }],
@@ -127,47 +119,47 @@
         }
     </script>
 
-    <!-- -------------FAQ schema for seo----------------- -->
+    <!-- FAQ Schema -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [{
+            "mainEntity": [
+                {
                     "@type": "Question",
-                    "name": "What is orthopedic rehabilitation?",
+                    "name": "What is paediatric physiotherapy?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Orthopedic rehabilitation is a specialized physiotherapy program designed to help patients recover from fractures, joint replacements, ligament injuries, and spine conditions. It restores strength, flexibility, and mobility after surgery or injury."
+                        "text": "Paediatric physiotherapy is specialized treatment to help children with developmental or motor challenges improve mobility, coordination, and physical development."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How long does post-surgery rehabilitation take?",
+                    "name": "Which conditions can paediatric physiotherapy help?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "The duration depends on the surgery and your overall health. For example, knee replacement rehabilitation may take 6–12 weeks, while minor injuries may recover faster. Our physiotherapists create a personalized treatment plan for each patient."
+                        "text": "It helps children with developmental delays, motor skill difficulties, cerebral palsy, and other neurological or musculoskeletal disorders."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Do you provide sports physiotherapy?",
+                    "name": "Do I need a doctor’s referral?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Yes. We offer sports physiotherapy in Vidyaranyapura for athletes and active individuals. It focuses on injury treatment, prevention, and performance optimization to help you return to your sport stronger and safer."
+                        "text": "No, you can directly book an appointment at Sri Sai Balaji Physiotherapy Clinic for paediatric physiotherapy."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Do I need a doctor’s referral for orthopedic physiotherapy?",
+                    "name": "How long does a session last?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "No, you can directly book an appointment at Sri Sai Balaji Physiotherapy Clinic in Bangalore. However, if you recently had surgery, bringing your surgeon’s notes helps us plan the most effective recovery program for you."
+                        "text": "Sessions typically last 30–60 minutes depending on the child’s needs and therapy plan."
                     }
                 }
             ]
         }
     </script>
-
 </head>
 
 <body>
@@ -184,13 +176,13 @@
     <div class="page-title-section">
         <div class="page-title">
             <h4>SERVICE</h4>
-            <h2>Orthopedic</h2>
+            <h2>Paediatric Physiotherapy</h2>
             <div class="page-title-nav">
                 <a href="./index.php">Home</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
                 <a href="#">Services</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="#">Orthopedic</a>
+                <a href="./paediatric-physiotherapy.php">Paediatric Physiotherapy</a>
             </div>
         </div>
     </div>
@@ -210,21 +202,11 @@
 
             </div>
             <div class="page-content-info-title">
-                <h1>Orthopedic Rehabilitation in Vidyaranyapura, Bangalore</h1>
+                <h1>Paediatric Physiotherapy in Vidyaranyapura, Bangalore</h1>
                 <p>
-                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we specialize in
-                    <strong>orthopedic rehabilitation</strong> to help patients recover from
-                    <strong>post-surgery conditions, fractures, and joint injuries</strong>.
-                    Our goal is to restore mobility, reduce pain, and improve overall function
-                    so you can return to your active lifestyle.
+                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we provide specialized <strong>paediatric physiotherapy</strong> for children with developmental or motor challenges. Our goal is to enhance <strong>mobility, coordination, and overall physical development</strong> in a safe, supportive environment.
                 </p>
-                <p>
-                    Whether you’re recovering from knee replacement, spine surgery, or sports-related injuries,
-                    our experienced <strong>orthopedic physiotherapists in Vidyaranyapura, Bangalore</strong>
-                    provide personalized treatment plans tailored to your needs.
-                    We also offer <strong>sports physiotherapy</strong> to treat sports injuries
-                    and enhance athletic performance for long-term results.
-                </p>
+                <p>Each child receives a personalized therapy plan focusing on their unique needs, helping them improve motor skills, strength, and independence.</p>
             </div>
             <div class="page-content-info-images">
                 <div class="page-content-info-image page-content-info-image1">
@@ -237,71 +219,48 @@
             <div class="page-content-info-points">
                 <ul>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Post-surgical rehabilitation for knee, hip, and spine surgeries</p>
+                        <p>Support for children with developmental delays and motor challenges</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Sports physiotherapy for injury prevention and performance enhancement</p>
+                        <p>Improvement of balance, coordination, and muscle strength</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Treatment for fractures, ligament tears, and joint stiffness</p>
+                        <p>Customized exercises and therapy programs for each child</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Customized exercise programs for strength, flexibility, and recovery</p>
+                        <p>Safe, engaging, and child-friendly physiotherapy sessions</p>
                     </li>
                 </ul>
             </div>
             <div class="page-content-info-faq">
                 <h1>Frequently Asked Questions</h1>
-                <p>
-                    Here are some of the most common questions patients ask about
-                    <strong>orthopedic physiotherapy in Vidyaranyapura, Bangalore</strong>.
-                    If you have more queries, feel free to contact our team at Sri Sai Balaji Physiotherapy Clinic.
-                </p>
+                <p>Here are some common questions parents ask about paediatric physiotherapy in Vidyaranyapura, Bangalore.</p>
                 <div class="faq-section">
                     <div class="faq-item">
-                        <button class="faq-question">What is orthopedic rehabilitation?</button>
+                        <button class="faq-question">What is paediatric physiotherapy?</button>
                         <div class="faq-answer">
-                            <p>
-                                Orthopedic rehabilitation is a specialized physiotherapy program designed to help patients recover from
-                                <strong>fractures, joint replacements, ligament injuries, and spine conditions</strong>.
-                                It restores strength, flexibility, and mobility after surgery or injury.
-                            </p>
+                            <p>Paediatric physiotherapy is specialized treatment to help children with developmental or motor challenges improve mobility, coordination, and physical development.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">How long does post-surgery rehabilitation take?</button>
+                        <button class="faq-question">Which conditions can it help?</button>
                         <div class="faq-answer">
-                            <p>
-                                The duration depends on the surgery and your overall health.
-                                For example, <strong>knee replacement rehabilitation</strong> may take 6–12 weeks,
-                                while minor injuries may recover faster.
-                                Our physiotherapists create a personalized treatment plan for each patient.
-                            </p>
+                            <p>It helps children with developmental delays, motor skill difficulties, cerebral palsy, and other neurological or musculoskeletal disorders.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Do you provide sports physiotherapy?</button>
+                        <button class="faq-question">Do I need a doctor’s referral?</button>
                         <div class="faq-answer">
-                            <p>
-                                Yes. We offer <strong>sports physiotherapy in Vidyaranyapura</strong>
-                                for athletes and active individuals.
-                                It focuses on injury treatment, prevention, and performance optimization
-                                to help you return to your sport stronger and safer.
-                            </p>
+                            <p>No, you can directly book an appointment at Sri Sai Balaji Physiotherapy Clinic.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Do I need a doctor’s referral for orthopedic physiotherapy?</button>
+                        <button class="faq-question">How long is a session?</button>
                         <div class="faq-answer">
-                            <p>
-                                No, you can directly book an appointment at
-                                <strong>Sri Sai Balaji Physiotherapy Clinic in Bangalore</strong>.
-                                However, if you recently had surgery, bringing your surgeon’s notes helps
-                                us plan the most effective recovery program for you.
-                            </p>
+                            <p>Sessions typically last 30–60 minutes depending on the child’s needs and therapy plan.</p>
                         </div>
                     </div>
                 </div>

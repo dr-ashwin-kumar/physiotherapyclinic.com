@@ -10,11 +10,11 @@
             <li><a href="#">Services&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></a>
                 <ul>
                     <li><a href="./orthopedic.php"><span></span>Orthopedic</a></li>
-                    <li><a href="./exercise.php"><span></span>Exercise</a></li>
-                    <li><a href="./strains-and-sprains.php"><span></span>Strains and sprains</a></li>
-                    <li><a href="./paralysis.php"><span></span>Paralysis</a></li>
-                    <li><a href="./amputations.php"><span></span>Amputations</a></li>
-                    <li><a href="./neurological.php"><span></span>Neurological</a></li>
+                    <li><a href="./exercise.php"><span></span>Exercise Therapy</a></li>
+                    <li><a href="./electrotherapy.php"><span></span>Electrotherapy</a></li>
+                    <li><a href="./manual-therapy.php"><span></span>Manual Therapy</a></li>
+                    <li><a href="./neuro-rehabilitation.php"><span></span>Neuro Rehabilitation</a></li>
+                    <li><a href="./paediatric-physiotherapy.php"><span></span>Paediatric Physiotherapy</a></li>
                     <li><a href="./brain-injury.php"><span></span>Brain injury</a></li>
                     <li><a href="./arthritis.php"><span></span>Arthritis</a></li>
                     <li><a href="./joint-mobilization.php"><span></span>Joint Mobilization</a></li>
@@ -49,11 +49,11 @@
             <li class="services-submenu">Services<span><i class="fa-solid fa-plus"></i></span>
                 <ul class="services-submenu-items">
                     <li><a href="./orthopedic.php">Orthopedic</a></li>
-                    <li><a href="./exercise.php">Exercise</a></li>
-                    <li><a href="./strains-and-sprains.php">Strains and sprains</a></li>
-                    <li><a href="./paralysis.php">Paralysis</a></li>
-                    <li><a href="./amputations.php">Amputations</a></li>
-                    <li><a href="./neurological.php">Neurological</a></li>
+                    <li><a href="./exercise.php">Exercise Therapy</a></li>
+                    <li><a href="./electrotherapy.php">Electrotherapy</a></li>
+                    <li><a href="./manual-therapy.php">Manual Therapy</a></li>
+                    <li><a href="./neuro-rehabilitation.php">Neuro Rehabilitation</a></li>
+                    <li><a href="./paediatric-physiotherapy.php">Paediatric Physiotherapy</a></li>
                     <li><a href="./brain-injury.php">Brain injury</a></li>
                     <li><a href="./arthritis.php">Arthritis</a></li>
                     <li><a href="./joint-mobilization.php">Joint Mobilization</a></li>

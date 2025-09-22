@@ -921,6 +921,7 @@ body {
     .about-section>div>.about-us>div>.about-us-cards>ul>li:nth-child(1) {
         border-bottom: 1px solid gray;
         border-right: none;
+        padding: 15px 15px 30px 10px;
     }
 
     .about-section>div>.about-section-outer-circle2::before {
