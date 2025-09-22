@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paediatric Physiotherapy in Bangalore | Development & Motor Skill Support</title>
-    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore provides paediatric physiotherapy for children with developmental or motor challenges. Improve mobility, coordination, and overall physical development.">
+    <title>Women's Health Physiotherapy in Bangalore | Prenatal & Pelvic Care</title>
+    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore specializes in women's health physiotherapy, including prenatal care, pelvic floor therapy, and postnatal recovery. Serving Hebbal, Jalahalli, BEL Road, Yelahanka & nearby areas. Book your appointment today!">
     <meta name="theme-color" content="#ffffff">
 
 
     <link rel="icon" href="./assets/images/favicon.png" type="image/png">
-    <link rel="canonical" href="https://physiotherapybangalore.com/paediatric-physiotherapy.php">
+    <link rel="canonical" href="https://physiotherapybangalore.com/womens-health-physiotherapy.php">
 
 
-    <meta property="og:title" content="Paediatric Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
-    <meta property="og:description" content="Specialized paediatric physiotherapy in Vidyaranyapura, Bangalore for children with developmental or motor challenges. Enhancing mobility, coordination, and overall physical growth.">
-    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/paediatric.jpg">
-    <meta property="og:url" content="https://physiotherapybangalore.com/paediatric-physiotherapy.php">
+    <meta property="og:title" content="Women's Health Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
+    <meta property="og:description" content="Expert women's health physiotherapy in Vidyaranyapura, Bangalore. Prenatal care, pelvic floor therapy, and postnatal recovery at Sri Sai Balaji Physiotherapy Clinic.">
+    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/womens-health.jpg">
+    <meta property="og:url" content="https://physiotherapybangalore.com/womens-health-physiotherapy.php">
     <meta property="og:type" content="website">
 
 
@@ -35,7 +35,7 @@
     <!-- --------------link for the styling service page--------------- -->
     <link rel="preload" href="./style.css" as="style">
     <link rel="stylesheet" href="./style.css" media="all">
-    <link rel="stylesheet" href="./paediatric-physiotherapy.css" media="all">
+    <link rel="stylesheet" href="./womens-health-physiotherapy.css" media="all">
     <link rel="stylesheet" href="./services-sidebar.css" media="all">
 
 
@@ -56,15 +56,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" crossorigin>
 
 
-    <!-- Local Business Schema -->
+    <!-- ---------------local business schema for seo-------------- -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "PhysiotherapyClinic",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
             "logo": "https://physiotherapybangalore.com/assets/images/logo.webp",
-            "image": "https://physiotherapybangalore.com/assets/images/paediatric.jpg",
-            "url": "https://physiotherapybangalore.com/paediatric-physiotherapy.php",
+            "image": "https://physiotherapybangalore.com/assets/images/womens-health.jpg",
+            "url": "https://physiotherapybangalore.com/womens-health-physiotherapy.php",
             "telephone": "+91-9663314071",
             "address": {
                 "@type": "PostalAddress",
@@ -119,47 +119,48 @@
         }
     </script>
 
-    <!-- FAQ Schema -->
+    <!-- -------------FAQ schema for seo----------------- -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-                {
+            "mainEntity": [{
                     "@type": "Question",
-                    "name": "What is paediatric physiotherapy?",
+                    "name": "What is women's health physiotherapy?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Paediatric physiotherapy is specialized treatment to help children with developmental or motor challenges improve mobility, coordination, and physical development."
+                        "text": "Women's health physiotherapy addresses prenatal care, pelvic floor issues, postnatal recovery, and other conditions affecting women's mobility and comfort."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Which conditions can paediatric physiotherapy help?",
+                    "name": "Is physiotherapy safe during pregnancy?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "It helps children with developmental delays, motor skill difficulties, cerebral palsy, and other neurological or musculoskeletal disorders."
+                        "text": "Yes, our physiotherapists provide safe and effective prenatal treatment plans tailored to each patient."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Do I need a doctor’s referral?",
+                    "name": "How can physiotherapy help after childbirth?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "No, you can directly book an appointment at Sri Sai Balaji Physiotherapy Clinic for paediatric physiotherapy."
+                        "text": "It helps restore pelvic strength, improve posture, reduce pain, and aid in overall recovery after delivery."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How long does a session last?",
+                    "name": "How many sessions will I need?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Sessions typically last 30–60 minutes depending on the child’s needs and therapy plan."
+                        "text": "The number of sessions depends on your condition and recovery goals. Our physiotherapists create a personalized plan."
                     }
                 }
             ]
         }
     </script>
+
+
 </head>
 
 <body>
@@ -176,13 +177,13 @@
     <div class="page-title-section">
         <div class="page-title">
             <h4>SERVICE</h4>
-            <h2>Paediatric Physiotherapy</h2>
+            <h2>Women's Health Therapy</h2>
             <div class="page-title-nav">
                 <a href="./index.php">Home</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
                 <a href="#">Services</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="./paediatric-physiotherapy.php">Paediatric Physiotherapy</a>
+                <a href="#">Women's health Therapy</a>
             </div>
         </div>
     </div>
@@ -202,11 +203,18 @@
 
             </div>
             <div class="page-content-info-title">
-                <h1>Paediatric Physiotherapy in Vidyaranyapura, Bangalore</h1>
+                <h1>Women's Health Physiotherapy in Vidyaranyapura, Bangalore</h1>
                 <p>
-                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we provide specialized <strong>paediatric physiotherapy</strong> for children with developmental or motor challenges. Our goal is to enhance <strong>mobility, coordination, and overall physical development</strong> in a safe, supportive environment.
+                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we specialize in
+                    <strong>women's health physiotherapy</strong>, focusing on
+                    <strong>prenatal care, pelvic floor therapy, and postnatal recovery</strong>.
+                    Our goal is to improve mobility, relieve discomfort, and support your overall well-being.
                 </p>
-                <p>Each child receives a personalized therapy plan focusing on their unique needs, helping them improve motor skills, strength, and independence.</p>
+                <p>
+                    Whether you are experiencing pelvic pain, incontinence, or pregnancy-related discomfort,
+                    our experienced <strong>women's health physiotherapists in Vidyaranyapura, Bangalore</strong>
+                    provide personalized treatment plans tailored to your needs.
+                </p>
             </div>
             <div class="page-content-info-images">
                 <div class="page-content-info-image page-content-info-image1">
@@ -219,48 +227,52 @@
             <div class="page-content-info-points">
                 <ul>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Support for children with developmental delays and motor challenges</p>
+                        <p>Prenatal and postnatal care for mothers</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Improvement of balance, coordination, and muscle strength</p>
+                        <p>Pelvic floor rehabilitation for incontinence and pain</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Customized exercises and therapy programs for each child</p>
+                        <p>Post-surgical recovery related to gynecological procedures</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Safe, engaging, and child-friendly physiotherapy sessions</p>
+                        <p>Customized exercise programs for strength, flexibility, and recovery</p>
                     </li>
                 </ul>
             </div>
             <div class="page-content-info-faq">
                 <h1>Frequently Asked Questions</h1>
-                <p>Here are some common questions parents ask about paediatric physiotherapy in Vidyaranyapura, Bangalore.</p>
+                <p>
+                    Here are some of the most common questions patients ask about
+                    <strong>women's health physiotherapy in Vidyaranyapura, Bangalore</strong>.
+                    If you have more queries, feel free to contact our team at Sri Sai Balaji Physiotherapy Clinic.
+                </p>
                 <div class="faq-section">
                     <div class="faq-item">
-                        <button class="faq-question">What is paediatric physiotherapy?</button>
+                        <button class="faq-question">What is women's health physiotherapy?</button>
                         <div class="faq-answer">
-                            <p>Paediatric physiotherapy is specialized treatment to help children with developmental or motor challenges improve mobility, coordination, and physical development.</p>
+                            <p>Women's health physiotherapy addresses prenatal care, pelvic floor issues, postnatal recovery, and other conditions affecting women's mobility and comfort.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Which conditions can it help?</button>
+                        <button class="faq-question">Is physiotherapy safe during pregnancy?</button>
                         <div class="faq-answer">
-                            <p>It helps children with developmental delays, motor skill difficulties, cerebral palsy, and other neurological or musculoskeletal disorders.</p>
+                            <p>Yes, our physiotherapists provide safe and effective prenatal treatment plans tailored to each patient.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Do I need a doctor’s referral?</button>
+                        <button class="faq-question">How can physiotherapy help after childbirth?</button>
                         <div class="faq-answer">
-                            <p>No, you can directly book an appointment at Sri Sai Balaji Physiotherapy Clinic.</p>
+                            <p>It helps restore pelvic strength, improve posture, reduce pain, and aid in overall recovery after delivery.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">How long is a session?</button>
+                        <button class="faq-question">How many sessions will I need?</button>
                         <div class="faq-answer">
-                            <p>Sessions typically last 30–60 minutes depending on the child’s needs and therapy plan.</p>
+                            <p>The number of sessions depends on your condition and recovery goals. Our physiotherapists create a personalized plan.</p>
                         </div>
                     </div>
                 </div>

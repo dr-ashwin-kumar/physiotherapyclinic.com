@@ -15,9 +15,10 @@
                     <li><a href="./manual-therapy.php"><span></span>Manual Therapy</a></li>
                     <li><a href="./neuro-rehabilitation.php"><span></span>Neuro Rehabilitation</a></li>
                     <li><a href="./paediatric-physiotherapy.php"><span></span>Paediatric Physiotherapy</a></li>
-                    <li><a href="./brain-injury.php"><span></span>Brain injury</a></li>
-                    <li><a href="./arthritis.php"><span></span>Arthritis</a></li>
-                    <li><a href="./joint-mobilization.php"><span></span>Joint Mobilization</a></li>
+                    <li><a href="./womens-health-physiotherapy.php"><span></span>Women's health physiotherapy</a></li>
+                    <li><a href="./dry-needling-taping-cupping.php"><span></span>Dry needling, Taping, Cupping</a></li>
+                    <li><a href="./pain-management.php"><span></span>Pain management</a></li>
+                    <li><a href="#"><span></span>Home Care Therapy</a></li>
                 </ul>
             </li>
             <li><a href="./about-us.php">About Us</a></li>
@@ -54,9 +55,10 @@
                     <li><a href="./manual-therapy.php">Manual Therapy</a></li>
                     <li><a href="./neuro-rehabilitation.php">Neuro Rehabilitation</a></li>
                     <li><a href="./paediatric-physiotherapy.php">Paediatric Physiotherapy</a></li>
-                    <li><a href="./brain-injury.php">Brain injury</a></li>
-                    <li><a href="./arthritis.php">Arthritis</a></li>
-                    <li><a href="./joint-mobilization.php">Joint Mobilization</a></li>
+                    <li><a href="./womens-health-physiotherapy.php">Women's health physiotherapy</a></li>
+                    <li><a href="./dry-needling-taping-cupping.php">Dry needling, Taping, Cupping</a></li>
+                    <li><a href="./pain-management.php">Pain management</a></li>
+                    <li><a href="#">Home Care Therapy</a></li>
                 </ul>
             </li>
             <li><a href="./about-us.php">About Us</a></li>

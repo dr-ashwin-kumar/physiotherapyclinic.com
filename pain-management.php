@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paediatric Physiotherapy in Bangalore | Development & Motor Skill Support</title>
-    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore provides paediatric physiotherapy for children with developmental or motor challenges. Improve mobility, coordination, and overall physical development.">
+    <title>Pain Management Physiotherapy in Bangalore | Back, Neck & Joint Pain Relief</title>
+    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore offers expert physiotherapy for pain management including back pain, neck pain, knee pain, and joint pain. Personalized treatment plans for long-term relief.">
     <meta name="theme-color" content="#ffffff">
 
 
     <link rel="icon" href="./assets/images/favicon.png" type="image/png">
-    <link rel="canonical" href="https://physiotherapybangalore.com/paediatric-physiotherapy.php">
+    <link rel="canonical" href="https://physiotherapybangalore.com/pain-management.php">
 
 
-    <meta property="og:title" content="Paediatric Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
-    <meta property="og:description" content="Specialized paediatric physiotherapy in Vidyaranyapura, Bangalore for children with developmental or motor challenges. Enhancing mobility, coordination, and overall physical growth.">
-    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/paediatric.jpg">
-    <meta property="og:url" content="https://physiotherapybangalore.com/paediatric-physiotherapy.php">
+    <meta property="og:title" content="Pain Management Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
+    <meta property="og:description" content="Get relief from back pain, neck pain, knee pain, and joint pain with expert physiotherapy at Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore.">
+    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/pain-management.jpg">
+    <meta property="og:url" content="https://physiotherapybangalore.com/pain-management.php">
     <meta property="og:type" content="website">
 
 
@@ -35,7 +35,7 @@
     <!-- --------------link for the styling service page--------------- -->
     <link rel="preload" href="./style.css" as="style">
     <link rel="stylesheet" href="./style.css" media="all">
-    <link rel="stylesheet" href="./paediatric-physiotherapy.css" media="all">
+    <link rel="stylesheet" href="./pain-management.css" media="all">
     <link rel="stylesheet" href="./services-sidebar.css" media="all">
 
 
@@ -56,15 +56,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" crossorigin>
 
 
-    <!-- Local Business Schema -->
+    <!-- Business Schema -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "PhysiotherapyClinic",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
             "logo": "https://physiotherapybangalore.com/assets/images/logo.webp",
-            "image": "https://physiotherapybangalore.com/assets/images/paediatric.jpg",
-            "url": "https://physiotherapybangalore.com/paediatric-physiotherapy.php",
+            "image": "https://physiotherapybangalore.com/assets/images/pain-management.jpg",
+            "url": "https://physiotherapybangalore.com/pain-management.php",
             "telephone": "+91-9663314071",
             "address": {
                 "@type": "PostalAddress",
@@ -91,15 +91,7 @@
                 },
                 {
                     "@type": "Place",
-                    "name": "Singapura"
-                },
-                {
-                    "@type": "Place",
                     "name": "Hebbal"
-                },
-                {
-                    "@type": "Place",
-                    "name": "BEL Road"
                 },
                 {
                     "@type": "Place",
@@ -108,14 +100,17 @@
                 {
                     "@type": "Place",
                     "name": "Yelahanka"
+                },
+                {
+                    "@type": "Place",
+                    "name": "BEL Road"
+                },
+                {
+                    "@type": "Place",
+                    "name": "Singapura"
                 }
             ],
-            "hasMap": "https://maps.app.goo.gl/arWrFPGx8EuqFx4D6",
-            "sameAs": [
-                "https://www.facebook.com/yourpage",
-                "https://www.instagram.com/yourpage",
-                "https://g.page/your-google-business-link"
-            ]
+            "hasMap": "https://maps.app.goo.gl/arWrFPGx8EuqFx4D6"
         }
     </script>
 
@@ -124,37 +119,36 @@
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-                {
+            "mainEntity": [{
                     "@type": "Question",
-                    "name": "What is paediatric physiotherapy?",
+                    "name": "What types of pain can physiotherapy help with?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Paediatric physiotherapy is specialized treatment to help children with developmental or motor challenges improve mobility, coordination, and physical development."
+                        "text": "Physiotherapy effectively treats back pain, neck pain, knee pain, shoulder stiffness, arthritis-related pain, and joint pain caused by injury or lifestyle factors."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Which conditions can paediatric physiotherapy help?",
+                    "name": "How long does it take to see results from pain management physiotherapy?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "It helps children with developmental delays, motor skill difficulties, cerebral palsy, and other neurological or musculoskeletal disorders."
+                        "text": "Many patients experience relief after a few sessions, but chronic pain conditions may require several weeks of consistent treatment for lasting results."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Do I need a doctor’s referral?",
+                    "name": "Do you use advanced techniques for pain relief?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "No, you can directly book an appointment at Sri Sai Balaji Physiotherapy Clinic for paediatric physiotherapy."
+                        "text": "Yes. Along with traditional physiotherapy exercises, we use techniques like Dry Needling, Taping, Cupping Therapy, and Electrotherapy to accelerate recovery and reduce pain."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How long does a session last?",
+                    "name": "Can physiotherapy reduce dependency on painkillers?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Sessions typically last 30–60 minutes depending on the child’s needs and therapy plan."
+                        "text": "Absolutely. Physiotherapy focuses on addressing the root cause of pain, helping patients reduce or even eliminate the need for long-term medications."
                     }
                 }
             ]
@@ -176,13 +170,13 @@
     <div class="page-title-section">
         <div class="page-title">
             <h4>SERVICE</h4>
-            <h2>Paediatric Physiotherapy</h2>
+            <h2>Pain Management</h2>
             <div class="page-title-nav">
                 <a href="./index.php">Home</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
                 <a href="#">Services</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="./paediatric-physiotherapy.php">Paediatric Physiotherapy</a>
+                <a href="./pain-management.php">Pain Management</a>
             </div>
         </div>
     </div>
@@ -202,11 +196,19 @@
 
             </div>
             <div class="page-content-info-title">
-                <h1>Paediatric Physiotherapy in Vidyaranyapura, Bangalore</h1>
+                <h1>Pain Management Physiotherapy in Vidyaranyapura, Bangalore</h1>
                 <p>
-                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we provide specialized <strong>paediatric physiotherapy</strong> for children with developmental or motor challenges. Our goal is to enhance <strong>mobility, coordination, and overall physical development</strong> in a safe, supportive environment.
+                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we offer specialized
+                    <strong>pain management physiotherapy</strong> to help patients struggling with
+                    <strong>back pain, neck pain, knee pain, and chronic joint pain</strong>.
+                    Our goal is to relieve discomfort, improve mobility, and restore your active lifestyle.
                 </p>
-                <p>Each child receives a personalized therapy plan focusing on their unique needs, helping them improve motor skills, strength, and independence.</p>
+                <p>
+                    Our experienced <strong>physiotherapists in Vidyaranyapura, Bangalore</strong>
+                    create customized treatment plans using a combination of advanced manual therapy,
+                    targeted exercises, and techniques like <strong>Dry Needling, Taping, and Cupping Therapy</strong>.
+                    This ensures safe, drug-free, and long-lasting pain relief.
+                </p>
             </div>
             <div class="page-content-info-images">
                 <div class="page-content-info-image page-content-info-image1">
@@ -219,48 +221,48 @@
             <div class="page-content-info-points">
                 <ul>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Support for children with developmental delays and motor challenges</p>
+                        <p>Relief from chronic back and neck pain</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Improvement of balance, coordination, and muscle strength</p>
+                        <p>Pain management for arthritis and age-related stiffness</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Customized exercises and therapy programs for each child</p>
+                        <p>Post-injury rehabilitation for joints and muscles</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Safe, engaging, and child-friendly physiotherapy sessions</p>
+                        <p>Advanced therapies like Dry Needling, Taping & Cupping</p>
                     </li>
                 </ul>
             </div>
             <div class="page-content-info-faq">
                 <h1>Frequently Asked Questions</h1>
-                <p>Here are some common questions parents ask about paediatric physiotherapy in Vidyaranyapura, Bangalore.</p>
+                <p>Here are some common questions about <strong>pain management physiotherapy in Vidyaranyapura, Bangalore</strong>. Contact us for more personalized guidance.</p>
                 <div class="faq-section">
                     <div class="faq-item">
-                        <button class="faq-question">What is paediatric physiotherapy?</button>
+                        <button class="faq-question">What types of pain can physiotherapy help with?</button>
                         <div class="faq-answer">
-                            <p>Paediatric physiotherapy is specialized treatment to help children with developmental or motor challenges improve mobility, coordination, and physical development.</p>
+                            <p>Physiotherapy helps with <strong>back pain, neck pain, knee pain, arthritis, and joint stiffness</strong> caused by injury, poor posture, or lifestyle habits.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Which conditions can it help?</button>
+                        <button class="faq-question">How long does it take to see results?</button>
                         <div class="faq-answer">
-                            <p>It helps children with developmental delays, motor skill difficulties, cerebral palsy, and other neurological or musculoskeletal disorders.</p>
+                            <p>Some patients feel relief in just a few sessions, while chronic pain may require a few weeks of treatment for long-lasting improvement.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Do I need a doctor’s referral?</button>
+                        <button class="faq-question">Do you use advanced pain relief methods?</button>
                         <div class="faq-answer">
-                            <p>No, you can directly book an appointment at Sri Sai Balaji Physiotherapy Clinic.</p>
+                            <p>Yes, We integrate advanced methods like <strong>Dry Needling, Taping, Cupping, and Electrotherapy</strong> along with traditional physiotherapy exercises.</p>
                         </div>
                     </div>
-
+        
                     <div class="faq-item">
-                        <button class="faq-question">How long is a session?</button>
+                        <button class="faq-question">Can physiotherapy reduce the need for medicines?</button>
                         <div class="faq-answer">
-                            <p>Sessions typically last 30–60 minutes depending on the child’s needs and therapy plan.</p>
+                            <p>Yes, By treating the root cause of pain, physiotherapy helps reduce dependency on long-term painkillers and improves natural healing.</p>
                         </div>
                     </div>
                 </div>

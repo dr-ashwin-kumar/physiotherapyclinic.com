@@ -4,45 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paediatric Physiotherapy in Bangalore | Development & Motor Skill Support</title>
-    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore provides paediatric physiotherapy for children with developmental or motor challenges. Improve mobility, coordination, and overall physical development.">
+    <title>Dry Needling, Taping & Cupping Therapy | Sri Sai Balaji Physiotherapy Clinic</title>
+    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore offers advanced Dry Needling, Taping, and Cupping therapy for pain relief, muscle recovery, and injury rehabilitation. Book your session today!">
     <meta name="theme-color" content="#ffffff">
 
 
     <link rel="icon" href="./assets/images/favicon.png" type="image/png">
-    <link rel="canonical" href="https://physiotherapybangalore.com/paediatric-physiotherapy.php">
+    <link rel="canonical" href="https://physiotherapybangalore.com/dry-needling-taping-cupping.php">
 
-
-    <meta property="og:title" content="Paediatric Physiotherapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
-    <meta property="og:description" content="Specialized paediatric physiotherapy in Vidyaranyapura, Bangalore for children with developmental or motor challenges. Enhancing mobility, coordination, and overall physical growth.">
-    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/paediatric.jpg">
-    <meta property="og:url" content="https://physiotherapybangalore.com/paediatric-physiotherapy.php">
+    <meta property="og:title" content="Dry Needling, Taping & Cupping Therapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
+    <meta property="og:description" content="Expert physiotherapy treatments including Dry Needling, Taping, and Cupping therapy for pain relief and rehabilitation at Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore.">
+    <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/dry-needling.jpg">
+    <meta property="og:url" content="https://physiotherapybangalore.com/dry-needling-taping-cupping.php">
     <meta property="og:type" content="website">
 
-
-    <!-- ✅ Google Analytics (GA4) tracking code -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-51KP3E4W39"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'G-51KP3E4W39');
-    </script>
 
     <!-- --------------link for the styling service page--------------- -->
     <link rel="preload" href="./style.css" as="style">
     <link rel="stylesheet" href="./style.css" media="all">
-    <link rel="stylesheet" href="./paediatric-physiotherapy.css" media="all">
+    <link rel="stylesheet" href="./dry-needling-taping-cupping.css" media="all">
     <link rel="stylesheet" href="./services-sidebar.css" media="all">
 
 
     <!-- Preconnect improves font loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
 
     <!-- Philosopher font -->
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -56,15 +42,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" crossorigin>
 
 
-    <!-- Local Business Schema -->
+    <!-- ---------------Local Business Schema--------------- -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "PhysiotherapyClinic",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
             "logo": "https://physiotherapybangalore.com/assets/images/logo.webp",
-            "image": "https://physiotherapybangalore.com/assets/images/paediatric.jpg",
-            "url": "https://physiotherapybangalore.com/paediatric-physiotherapy.php",
+            "image": "https://physiotherapybangalore.com/assets/images/dry-needling.jpg",
+            "url": "https://physiotherapybangalore.com/dry-needling-taping-cupping.php",
             "telephone": "+91-9663314071",
             "address": {
                 "@type": "PostalAddress",
@@ -81,7 +67,14 @@
             },
             "openingHoursSpecification": [{
                 "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
                 "opens": "09:00",
                 "closes": "20:00"
             }],
@@ -119,42 +112,41 @@
         }
     </script>
 
-    <!-- FAQ Schema -->
+    <!-- ---------------FAQ Schema--------------- -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-                {
+            "mainEntity": [{
                     "@type": "Question",
-                    "name": "What is paediatric physiotherapy?",
+                    "name": "What is dry needling?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Paediatric physiotherapy is specialized treatment to help children with developmental or motor challenges improve mobility, coordination, and physical development."
+                        "text": "Dry needling is a physiotherapy technique that uses fine needles to target trigger points in muscles. It helps relieve tension, reduce pain, and improve mobility."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Which conditions can paediatric physiotherapy help?",
+                    "name": "How does taping therapy help?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "It helps children with developmental delays, motor skill difficulties, cerebral palsy, and other neurological or musculoskeletal disorders."
+                        "text": "Taping therapy supports muscles and joints, improves posture, reduces strain, and helps in faster recovery after injury."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Do I need a doctor’s referral?",
+                    "name": "What are the benefits of cupping therapy?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "No, you can directly book an appointment at Sri Sai Balaji Physiotherapy Clinic for paediatric physiotherapy."
+                        "text": "Cupping therapy improves blood flow, reduces muscle stiffness, and accelerates the body’s natural healing process."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How long does a session last?",
+                    "name": "Are dry needling, taping, and cupping safe?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Sessions typically last 30–60 minutes depending on the child’s needs and therapy plan."
+                        "text": "Yes, when performed by trained physiotherapists, these techniques are safe and effective for most patients. Each treatment is customized based on your condition."
                     }
                 }
             ]
@@ -176,13 +168,13 @@
     <div class="page-title-section">
         <div class="page-title">
             <h4>SERVICE</h4>
-            <h2>Paediatric Physiotherapy</h2>
+            <h2>Dry Needling, Taping & Cupping</h2>
             <div class="page-title-nav">
                 <a href="./index.php">Home</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
                 <a href="#">Services</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="./paediatric-physiotherapy.php">Paediatric Physiotherapy</a>
+                <a href="./dry-needling-taping-cupping.php">Dry Needling, Taping & Cupping</a>
             </div>
         </div>
     </div>
@@ -202,11 +194,20 @@
 
             </div>
             <div class="page-content-info-title">
-                <h1>Paediatric Physiotherapy in Vidyaranyapura, Bangalore</h1>
+                <h1>Advanced Recovery & Pain Relief Techniques</h1>
                 <p>
-                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we provide specialized <strong>paediatric physiotherapy</strong> for children with developmental or motor challenges. Our goal is to enhance <strong>mobility, coordination, and overall physical development</strong> in a safe, supportive environment.
+                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we provide some of the
+                    <strong>best physiotherapy treatments in Vidyaranyapura, Bangalore</strong>,
+                    specializing in <strong>Dry Needling, Taping, and Cupping Therapy</strong> to
+                    relieve pain, speed up recovery, and support long-term rehabilitation.
                 </p>
-                <p>Each child receives a personalized therapy plan focusing on their unique needs, helping them improve motor skills, strength, and independence.</p>
+                <p>
+                    These advanced techniques are highly effective for <strong>sports injuries,
+                    back and neck pain, muscle stiffness, and chronic conditions</strong>. Whether
+                    you are an athlete, a working professional, or someone seeking
+                    <strong>expert physiotherapy care in Bangalore</strong>, our experienced team
+                    customizes each session for safe and lasting results.
+                </p>
             </div>
             <div class="page-content-info-images">
                 <div class="page-content-info-image page-content-info-image1">
@@ -219,48 +220,48 @@
             <div class="page-content-info-points">
                 <ul>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Support for children with developmental delays and motor challenges</p>
+                        <p><strong>Dry Needling</strong> – Relieves trigger points, muscle tightness, and chronic pain</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Improvement of balance, coordination, and muscle strength</p>
+                        <p><strong>Taping Therapy</strong> – Provides support, posture correction, and injury prevention</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Customized exercises and therapy programs for each child</p>
+                        <p><strong>Cupping Therapy</strong> – Improves circulation, reduces stiffness, and accelerates healing</p>
                     </li>
                     <li><span><i class="fa-solid fa-circle-check"></i></span>
-                        <p>Safe, engaging, and child-friendly physiotherapy sessions</p>
+                        <p>Effective for sports injuries, back & neck pain, and rehabilitation needs</p>
                     </li>
                 </ul>
             </div>
             <div class="page-content-info-faq">
                 <h1>Frequently Asked Questions</h1>
-                <p>Here are some common questions parents ask about paediatric physiotherapy in Vidyaranyapura, Bangalore.</p>
+                <p>Here are some common questions about <strong>Dry Needling, Taping, and Cupping Therapy</strong> we provide in Vidyaranyapura, Bangalore.</p>
                 <div class="faq-section">
                     <div class="faq-item">
-                        <button class="faq-question">What is paediatric physiotherapy?</button>
+                        <button class="faq-question">What is dry needling?</button>
                         <div class="faq-answer">
-                            <p>Paediatric physiotherapy is specialized treatment to help children with developmental or motor challenges improve mobility, coordination, and physical development.</p>
+                            <p>Dry needling uses thin needles to release trigger points in muscles, helping reduce pain and improve mobility.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Which conditions can it help?</button>
+                        <button class="faq-question">How does taping therapy work?</button>
                         <div class="faq-answer">
-                            <p>It helps children with developmental delays, motor skill difficulties, cerebral palsy, and other neurological or musculoskeletal disorders.</p>
+                            <p>Taping provides external support to joints and muscles, aids posture correction, and reduces recovery time after injuries.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">Do I need a doctor’s referral?</button>
+                        <button class="faq-question">What are the benefits of cupping therapy?</button>
                         <div class="faq-answer">
-                            <p>No, you can directly book an appointment at Sri Sai Balaji Physiotherapy Clinic.</p>
+                            <p>Cupping therapy promotes blood circulation, reduces muscle stiffness, and enhances healing and relaxation.</p>
                         </div>
                     </div>
 
                     <div class="faq-item">
-                        <button class="faq-question">How long is a session?</button>
+                        <button class="faq-question">Are these treatments safe?</button>
                         <div class="faq-answer">
-                            <p>Sessions typically last 30–60 minutes depending on the child’s needs and therapy plan.</p>
+                            <p>Yes. When performed by our trained physiotherapists, these therapies are safe, effective, and tailored to your health condition.</p>
                         </div>
                     </div>
                 </div>

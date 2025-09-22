@@ -129,7 +129,7 @@ body {
 }
 .navbar>.navbar-menu-items>ul>li > ul > li {
     padding: 8px 20px;
-    width: 220px;
+    width: 290px;
     display: flex;
     align-items: center;
 }
