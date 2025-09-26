@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Physiotherapy in Bangalore | Physiotherapy near me | Sri Sai Balaji Physiotherapy Clinic</title>
-    <meta name="description" content="Looking for physiotherapy near you in Bangalore? Sri Sai Balaji Physiotherapy Clinic serves Vidyaranyapura, Singapura, Jalahalli, Hebbal, BEL Road and nearby areas. Expert care for pain relief, sports injuries, and post-surgery rehab. Book your appointment today!">
+    <title>Best Physiotherapy in Bangalore – Vidyaranyapura, Hebbal & Nearby | Sri Sai Balaji Physiotherapy Clinic</title>
+    <meta name="description" content="Looking for physiotherapy near me in Bangalore? Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura provides expert care for pain relief, sports injuries, post-surgery rehab, and pediatric physiotherapy. Conveniently located near Hebbal, Jalahalli & BEL Road. Book your appointment today!">
     <meta name="theme-color" content="#ffffff">
 
 
@@ -325,7 +325,7 @@
                 <div>
                     <div class="about-us-title">
                         <h4>About Sri Sai Balaji Physiotherapy Clinic in Bangalore</h4>
-                        <h1>Trusted Physiotherapy Care in Vidyaranyapura & Nearby Areas</h1>
+                        <h1>Trusted Physiotherapy in Vidyaranyapura – Serving Bangalore & Nearby Areas</h1>
                         <p>
                             Sri Sai Balaji Physiotherapy Clinic in <strong>Vidyaranyapura, Bangalore</strong> offers personalized treatment for pain relief, injury recovery, and long-term rehabilitation. Our experienced physiotherapists serve patients from <strong>Hebbal, Jalahalli, Yelahanka</strong>, and nearby areas, helping you return to an active and healthy lifestyle.
                         </p>
