@@ -285,7 +285,7 @@
 
                     </div>
                     <div class="where-do-we-need-ation-card-title">
-                        <h3>Ankel Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
+                        <h3>Ankle Pain <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></h3>
                     </div>
                 </a>
                 <a href="#" class="where-do-we-need-ation-card">
