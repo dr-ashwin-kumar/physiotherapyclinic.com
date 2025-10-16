@@ -1,0 +1,382 @@
+/* import link for the philosopher font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    line-height: 1.5rem;
+}
+body {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* 
+------------------start of the page title section----------------- 
+*/
+
+.page-title-section > .page-title {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+}
+.page-title-section > .page-title > * {
+    z-index: 4;
+    color: white;
+    
+}
+.page-title-section > .page-title > h2 {
+    font-size: 3vw;
+}
+.page-title-section > .page-title > .page-title-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.page-title-section > .page-title > .page-title-nav > a {
+    color: white;
+}
+.page-title-section > .page-title::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0; 
+    background-image: url(./assets/images/contact-us/title-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.page-title-section > .page-title::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgba(7, 20, 59, .45);
+} 
+
+/* responsive design for the page title section of the mobile and tab screens */
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-title-section > .page-title {
+        height: 300px;
+    }
+    .page-title-section > .page-title > h2 {
+        font-size: 8vw;
+    }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+    .page-title-section > .page-title {
+        height: 300px;
+    }
+    .page-title-section > .page-title > h2 {
+        font-size: 6vw;
+    }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+    .page-title-section > .page-title > h2 {
+        font-size: 5vw; 
+    }
+}
+
+
+
+/* 
+---------------styling for the page content and sidebar section-------------------
+*/
+
+.page-content-sidebar-section {
+    padding: 50px 5vw;
+    display: flex;
+    height: auto;
+}
+.page-content-sidebar-section > .page-content-section {
+    width: 70%;
+    padding: 0px 3vw;
+}
+.page-content-sidebar-section > .page-blog-sidebar {
+    width: 30%;
+    padding: 0 50px;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-hero-image > .page-blog-content-hero-img {
+    background-image: url(./assets/images/blog-page/blog1/content-section/hero.jpg);
+    height: 800px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-first-info {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-first-info > h1 {
+    color: #06268b;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-first-info > p {
+    color: #666666;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > h2 {
+    color: #1b99fe;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > p {
+    color: #666666;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > .page-blog-content-second-info-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > .page-blog-content-second-info-images > .page-blog-content-second-info-image {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > .page-blog-content-second-info-images > .page-blog-content-second-info-image::before {
+    content: '';
+    inset: 0;
+    position: absolute;
+    background-size: 100% 100%;
+    transform: scale(1.05);
+    overflow: hidden;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > .page-blog-content-second-info-images > .page-blog-content-second-info-image:hover::before {
+    transform: scale(1);
+    transition: transform .3s ease-in-out;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > .page-blog-content-second-info-images > .page-blog-content-second-info-image1::before {
+    background-image: url(./assets/images/blog-page/blog1/content-section/sub-image1.jpg);
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > .page-blog-content-second-info-images > .page-blog-content-second-info-image2::before {
+    background-image: url(./assets/images/blog-page/blog1/content-section/sub-image2.jpg);
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > .page-blog-content-second-points {
+    margin-top: 30px;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > .page-blog-content-second-points > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > .page-blog-content-second-points > ul > li {
+    color: #1b99fe;
+    display: flex;
+    align-items: center;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > .page-blog-content-second-points > ul > li > p {
+    color: #000;
+    margin-left: 15px;
+}
+
+
+
+/* ---------------responsive design for the page content and sidebar section of the mobile and tab screens------------------ */
+@media (min-width: 320px) and (max-width: 500px) {
+    .page-content-sidebar-section {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .page-content-sidebar-section > .page-content-section {
+        width: 100%;
+        padding: 0px 3vw;
+    }
+    .page-content-sidebar-section > .page-blog-sidebar {
+        width: 100%;
+        padding: 0;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-hero-image > .page-blog-content-hero-img {
+        height: auto;
+        width: 100%;
+        min-height: 350px;
+    }
+}
+@media (min-width: 501px) and (max-width: 600px) {
+    .page-content-sidebar-section {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+    .page-content-sidebar-section > .page-content-section {
+        width: 80%;
+        padding: 0px 3vw;
+    }
+    .page-content-sidebar-section > .page-blog-sidebar {
+        width: 80%;
+        padding: 0;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-hero-image > .page-blog-content-hero-img {
+        height: auto;
+        width: 100%;
+        min-height: 350px;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-first-info > p {
+        text-align: justify;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > p {
+        text-align: justify;
+    }
+}
+@media (min-width: 601px) and (max-width: 700px) {
+    .page-content-sidebar-section {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+    .page-content-sidebar-section > .page-content-section {
+        width: 70%;
+        padding: 0px 3vw;
+    }
+    .page-content-sidebar-section > .page-blog-sidebar {
+        width: 70%;
+        padding: 0;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-hero-image > .page-blog-content-hero-img {
+        height: auto;
+        width: 100%;
+        min-height: 400px;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-first-info > p {
+        text-align: justify;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > p {
+        text-align: justify;
+    }
+}
+@media (min-width: 701px) and (max-width: 800px) {
+    .page-content-sidebar-section {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+    .page-content-sidebar-section > .page-content-section {
+        width: 60%;
+        padding: 0px 3vw;
+    }
+    .page-content-sidebar-section > .page-blog-sidebar {
+        width: 60%;
+        padding: 0;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-hero-image > .page-blog-content-hero-img {
+        height: auto;
+        width: 100%;
+        min-height: 400px;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-first-info > p {
+        text-align: justify;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > p {
+        text-align: justify;
+    }
+}
+@media (min-width: 801px) and (max-width: 900px) {
+    .page-content-sidebar-section {
+        gap: 20px;
+    }
+    .page-content-sidebar-section > .page-content-section {
+        width: 60%;
+        padding: 0px;
+    }
+    .page-content-sidebar-section > .page-blog-sidebar {
+        width: 40%;
+        padding: 0;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-hero-image > .page-blog-content-hero-img {
+        height: auto;
+        width: 100%;
+        min-height: 400px;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-first-info > p {
+        text-align: justify;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > p {
+        text-align: justify;
+    }
+}
+@media (min-width: 901px) and (max-width: 1000px) {
+    .page-content-sidebar-section {
+        gap: 30px;
+    }
+    .page-content-sidebar-section > .page-content-section {
+        width: 60%;
+        padding: 0px;
+    }
+    .page-content-sidebar-section > .page-blog-sidebar {
+        width: 40%;
+        padding: 0;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-hero-image > .page-blog-content-hero-img {
+        height: auto;
+        width: 100%;
+        min-height: 500px;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-first-info > p {
+        text-align: justify;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > p {
+        text-align: justify;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1250px) {
+    .page-content-sidebar-section > .page-content-section {
+        width: 65%;
+        padding: 0px 3vw;
+    }
+    .page-content-sidebar-section > .page-blog-sidebar {
+        width: 35%;
+        padding: 0;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-hero-image > .page-blog-content-hero-img {
+        height: auto;
+        width: 100%;
+        min-height: 500px;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-first-info > p {
+        text-align: justify;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > p {
+        text-align: justify;
+    }
+}
+@media (min-width: 1251px) and (max-width: 1450px) {
+    .page-content-sidebar-section > .page-content-section {
+        width: 70%;
+        padding: 0px 3vw;
+    }
+    .page-content-sidebar-section > .page-blog-sidebar {
+        width: 30%;
+        padding: 0 20px;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-first-info > p {
+        text-align: justify;
+    }
+    .page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > p {
+        text-align: justify;
+    }
+}

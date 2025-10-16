@@ -131,6 +131,9 @@ body {
     flex-direction: column;
     gap: 20px;
 }
+.page-content-sidebar-section > .page-content-section > .page-blog-content-first-info > h1 {
+    color: #06268b;
+}
 .page-content-sidebar-section > .page-content-section > .page-blog-content-first-info > p {
     color: #666666;
 }
@@ -141,10 +144,13 @@ body {
     gap: 20px;
 }
 .page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > h2 {
-    color: #06268b;
+    color: #1b99fe;
 }
 .page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > p {
     color: #666666;
+}
+.page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > p > a {
+    color: #1b99fe;
 }
 .page-content-sidebar-section > .page-content-section > .page-blog-content-second-info > .page-blog-content-second-info-images {
     display: grid;

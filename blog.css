@@ -121,6 +121,8 @@ body {
 }
 .page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card {
     height: 400px; 
+    display: flex;
+    flex-direction: column;
 }
 .page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-img {
     height: 270px;
@@ -133,7 +135,8 @@ body {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    justify-content: space-between;
+    flex: 1;
 }
 .page-blog-section > .page-blog-cards-section > .page-blog-cards > .page-blog-card > .page-blog-card-info > h2 {
     color: #06268b;
