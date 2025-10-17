@@ -653,7 +653,7 @@
                     </div>
                     <div class="therapy-process-step-info">
                         <h3>Step 04</h3>
-                        <h2>What Psychotherapy Can Help With</h2>
+                        <h2>What Physiotherapy Can Help With</h2>
                         <p>A skilled and experienced who is certified to evaluate.</p>
                     </div>
                 </div>
