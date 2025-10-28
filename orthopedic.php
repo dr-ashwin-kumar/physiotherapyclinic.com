@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orthopedic Physiotherapy in Bangalore | Post-Surgery Rehab & Sports Injury Care</title>
-    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore specializes in orthopedic rehabilitation, post-surgery recovery, sports physiotherapy, and pain management. Serving Hebbal, Jalahalli, BEL Road, Yelahanka & nearby areas. Book your appointment today!">
+    <title>Orthopedic Physiotherapy in Vidyaranyapura, Bangalore | Post-Surgery Rehab & Sports Injury Care</title>
+    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura & Singapura, Bangalore offers expert orthopedic physiotherapy, post-surgery rehabilitation, and sports injury care. Serving Hebbal, Yelahanka, BEL Road, and Jalahalli. Book your session today!">
     <meta name="theme-color" content="#ffffff">
 
 
@@ -62,14 +62,21 @@
         {
             "@context": "https://schema.org",
             "@type": "PhysiotherapyClinic",
+            "@id": "https://physiotherapybangalore.com/#srisai-balaji-physiotherapy",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
             "logo": "https://physiotherapybangalore.com/assets/images/logo.webp",
-            "image": "https://physiotherapybangalore.com/assets/images/orthopedic.jpg",
+            "image": [
+                "https://physiotherapybangalore.com/assets/images/orthopedic.jpg",
+                "https://physiotherapybangalore.com/assets/images/clinic-interior.jpg",
+                "https://physiotherapybangalore.com/assets/images/physiotherapy-session.jpg"
+            ],
             "url": "https://physiotherapybangalore.com/orthopedic.php",
             "telephone": "+91-9663314071",
+            "priceRange": "₹₹",
+            "description": "Sri Sai Balaji Physiotherapy Clinic offers advanced orthopedic, sports injury, and post-surgery physiotherapy in Singapura and Vidyaranyapura, Bangalore. We help patients recover mobility and live pain-free through customized rehabilitation programs.",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "118, 3rd Cross Rd, Lakkappa Layout, Singapura Village, Singapura, Vidyaranyapura",
+                "streetAddress": "118, 3rd Cross Rd, Lakkappa Layout, Singapura Village, Vidyaranyapura",
                 "addressLocality": "Bangalore",
                 "addressRegion": "KA",
                 "postalCode": "560097",
@@ -95,11 +102,11 @@
             }],
             "areaServed": [{
                     "@type": "Place",
-                    "name": "Vidyaranyapura"
+                    "name": "Singapura"
                 },
                 {
                     "@type": "Place",
-                    "name": "Singapura"
+                    "name": "Vidyaranyapura"
                 },
                 {
                     "@type": "Place",
@@ -118,6 +125,48 @@
                     "name": "Yelahanka"
                 }
             ],
+            "department": {
+                "@type": "MedicalBusiness",
+                "name": "Orthopedic & Sports Rehabilitation",
+                "medicalSpecialty": [
+                    "OrthopedicPhysiotherapy",
+                    "SportsInjuryRehabilitation",
+                    "PostSurgeryRehabilitation"
+                ],
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "118, 3rd Cross Rd, Lakkappa Layout, Singapura Village, Vidyaranyapura",
+                    "addressLocality": "Bangalore",
+                    "addressRegion": "KA",
+                    "postalCode": "560097",
+                    "addressCountry": "IN"
+                }
+            },
+            "serviceType": [
+                "Orthopedic Physiotherapy",
+                "Sports Physiotherapy",
+                "Post-Surgery Rehabilitation",
+                "Manual Therapy",
+                "Pain Management",
+                "Exercise Therapy"
+            ],
+            "knowsAbout": [
+                "Knee pain treatment",
+                "Back pain relief",
+                "Shoulder rehabilitation",
+                "Fracture recovery",
+                "Joint replacement rehab",
+                "Sports injuries",
+                "Post-surgical physiotherapy"
+            ],
+            "founder": {
+                "@type": "Person",
+                "name": "Dr. [Your Physiotherapist’s Name]",
+                "jobTitle": "Senior Physiotherapist",
+                "sameAs": [
+                    "https://www.linkedin.com/in/[your-profile-if-available]"
+                ]
+            },
             "hasMap": "https://maps.app.goo.gl/arWrFPGx8EuqFx4D6",
             "sameAs": [
                 "https://www.facebook.com/yourpage",
@@ -210,20 +259,32 @@
 
             </div>
             <div class="page-content-info-title">
-                <h1>Orthopedic Rehabilitation in Vidyaranyapura, Bangalore</h1>
+                <h1>Orthopedic Physiotherapy in Vidyaranyapura, Bangalore</h1>
                 <p>
                     At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we specialize in
-                    <strong>orthopedic rehabilitation</strong> to help patients recover from
-                    <strong>post-surgery conditions, fractures, and joint injuries</strong>.
-                    Our goal is to restore mobility, reduce pain, and improve overall function
-                    so you can return to your active lifestyle.
+                    <strong>orthopedic physiotherapy and rehabilitation</strong> for patients in
+                    <strong>Vidyaranyapura and Singapura, Bangalore</strong>.
+                    Our clinic is dedicated to helping individuals recover from
+                    <strong>fractures, joint replacements, ligament injuries, spine problems, and post-surgery conditions</strong>.
+                    We focus on restoring strength, flexibility, and confidence so you can return to your normal activities without pain.
                 </p>
                 <p>
-                    Whether you’re recovering from knee replacement, spine surgery, or sports-related injuries,
-                    our experienced <strong>orthopedic physiotherapists in Vidyaranyapura, Bangalore</strong>
-                    provide personalized treatment plans tailored to your needs.
-                    We also offer <strong>sports physiotherapy</strong> to treat sports injuries
-                    and enhance athletic performance for long-term results.
+                    If you’re searching for a trusted <strong>orthopedic physiotherapist in Vidyaranyapura</strong>
+                    or nearby areas like <strong>Hebbal, Yelahanka, BEL Road, or Jalahalli</strong>,
+                    our clinic offers personalized and effective treatment programs.
+                    Each recovery plan is designed based on your condition, fitness level, and recovery goals — ensuring faster healing and long-term mobility.
+                </p>
+                <p>
+                    Our <strong>orthopedic physiotherapy clinic in Singapura, Bangalore</strong>
+                    combines advanced manual therapy, exercise rehabilitation, and pain management techniques
+                    to treat both <strong>post-surgical and sports-related injuries</strong>.
+                    Whether you’re recovering from a <strong>knee replacement</strong> or managing
+                    <strong>chronic back or shoulder pain</strong>, we’re here to guide you every step of the way.
+                </p>
+                <p>
+                    As one of the most recommended <strong>physiotherapy clinics in North Bangalore</strong>,
+                    we proudly serve patients from <strong>Vidyaranyapura, Singapura, Hebbal, BEL Road, Yelahanka, and Jalahalli</strong>.
+                    Visit us today to experience compassionate, professional care that helps you move better and live pain-free.
                 </p>
             </div>
             <div class="page-content-info-images">

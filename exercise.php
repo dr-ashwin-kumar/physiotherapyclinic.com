@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise Therapy in Bangalore | Stretching, Strengthening & Rehabilitation</title>
-    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura, Bangalore offers personalized exercise therapy including stretching, strengthening, free and therapeutic exercises for pain relief, recovery, and long-term mobility. Serving Hebbal, Jalahalli, Yelahanka & nearby areas.">
+    <title>Exercise Therapy in Vidyaranyapura, Singapura & Bangalore | Stretching & Rehabilitation</title>
+    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic offers expert exercise therapy in Vidyaranyapura, Singapura, and Bangalore — including stretching, strengthening, free and therapeutic exercises for pain relief, recovery, and long-term mobility.">
     <meta name="theme-color" content="#ffffff">
 
 
@@ -13,8 +13,8 @@
     <link rel="canonical" href="https://physiotherapybangalore.com/exercise.php">
 
 
-    <meta property="og:title" content="Exercise Therapy in Bangalore | Sri Sai Balaji Physiotherapy Clinic">
-    <meta property="og:description" content="Expert exercise therapy in Vidyaranyapura, Bangalore. Stretching, strengthening, free and therapeutic exercises for recovery, mobility, and rehabilitation.">
+    <meta property="og:title" content="Exercise Therapy in Vidyaranyapura, Singapura & Bangalore | Sri Sai Balaji Physiotherapy Clinic">
+    <meta property="og:description" content="Personalized exercise therapy including stretching, strengthening, and rehabilitation in Vidyaranyapura, Singapura, and across Bangalore.">
     <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/exercise.jpg">
     <meta property="og:url" content="https://physiotherapybangalore.com/exercise.php">
     <meta property="og:type" content="website">
@@ -55,15 +55,20 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "PhysiotherapyClinic",
+            "@type": ["PhysiotherapyClinic", "LocalBusiness"],
+            "@id": "https://physiotherapybangalore.com/#exercise-therapy",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
             "logo": "https://physiotherapybangalore.com/assets/images/logo.webp",
-            "image": "https://physiotherapybangalore.com/assets/images/exercise.jpg",
+            "image": [
+                "https://physiotherapybangalore.com/assets/images/exercise.jpg"
+            ],
             "url": "https://physiotherapybangalore.com/exercise.php",
             "telephone": "+91-9663314071",
+            "priceRange": "₹₹",
+            "description": "Sri Sai Balaji Physiotherapy Clinic provides professional exercise therapy in Vidyaranyapura, Singapura, and Bangalore — helping patients improve mobility, strength, and recovery through personalized rehabilitation programs.",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "118, 3rd Cross Rd, Lakkappa Layout, Singapura Village, Singapura, Vidyaranyapura",
+                "streetAddress": "118, 3rd Cross Rd, Lakkappa Layout, Singapura Village, Vidyaranyapura",
                 "addressLocality": "Bangalore",
                 "addressRegion": "KA",
                 "postalCode": "560097",
@@ -92,11 +97,11 @@
                 },
                 {
                     "@type": "Place",
-                    "name": "Hebbal"
+                    "name": "Bangalore"
                 },
                 {
                     "@type": "Place",
-                    "name": "BEL Road"
+                    "name": "Hebbal"
                 },
                 {
                     "@type": "Place",
@@ -107,6 +112,41 @@
                     "name": "Yelahanka"
                 }
             ],
+            "department": {
+                "@type": "MedicalBusiness",
+                "name": "Exercise & Rehabilitation Department",
+                "medicalSpecialty": [
+                    "ExerciseTherapy",
+                    "Rehabilitation",
+                    "StrengthTraining"
+                ],
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "118, 3rd Cross Rd, Lakkappa Layout, Singapura Village, Vidyaranyapura",
+                    "addressLocality": "Bangalore",
+                    "addressRegion": "KA",
+                    "postalCode": "560097",
+                    "addressCountry": "IN"
+                }
+            },
+            "serviceType": [
+                "Exercise Therapy",
+                "Stretching Exercises",
+                "Strengthening Exercises",
+                "Rehabilitation Programs",
+                "Post-Surgery Recovery"
+            ],
+            "knowsAbout": [
+                "Physiotherapy in Vidyaranyapura",
+                "Exercise therapy in Singapura",
+                "Rehabilitation in Bangalore",
+                "Strengthening and mobility recovery"
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "124"
+            },
             "hasMap": "https://maps.app.goo.gl/arWrFPGx8EuqFx4D6",
             "sameAs": [
                 "https://www.facebook.com/yourpage",
@@ -198,19 +238,21 @@
 
             </div>
             <div class="page-content-info-title">
-                <h1>Exercise Therapy in Vidyaranyapura, Bangalore</h1>
+                <h1>Exercise Therapy in Vidyaranyapura, Singapura & Bangalore</h1>
                 <p>
-                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, we provide
-                    <strong>exercise therapy</strong> programs tailored to individual needs.
-                    Our physiotherapists use a combination of <strong>free exercises, stretching,
-                        strengthening, and therapeutic exercises</strong> to improve mobility,
-                    restore function, and support long-term recovery.
+                    At <strong>Sri Sai Balaji Physiotherapy Clinic</strong>, located in <strong>Singapura near Vidyaranyapura, Bangalore</strong>,
+                    we provide customized <strong>exercise therapy</strong> programs designed to help you regain strength, mobility,
+                    and confidence. Our physiotherapists use a combination of <strong>free exercises, stretching,
+                        strengthening, and therapeutic techniques</strong> to promote recovery and enhance physical performance.
                 </p>
                 <p>
-                    Whether you are recovering from surgery, managing chronic pain,
-                    or aiming to prevent injuries, our <strong>exercise therapy in
-                        Vidyaranyapura, Bangalore</strong> is designed to enhance strength,
-                    flexibility, balance, and overall well-being.
+                    Whether you're recovering from surgery, managing chronic pain, or aiming to prevent injuries,
+                    our <strong>exercise therapy services in Vidyaranyapura, Singapura, and across North Bangalore</strong>
+                    focus on improving flexibility, balance, and long-term wellness.
+                </p>
+                <p>
+                    We proudly serve patients from <strong>Singapura, Vidyaranyapura, Hebbal, Jalahalli, Yelahanka</strong>,
+                    and surrounding areas of <strong>Bangalore</strong>.
                 </p>
             </div>
             <div class="page-content-info-images">
