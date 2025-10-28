@@ -218,7 +218,7 @@
                 <span><i class="fa-solid fa-angle-right"></i></span>
                 <a href="#">Services</a>
                 <span><i class="fa-solid fa-angle-right"></i></span>
-                <a href="#">Exercise</a>
+                <a href="./exercise.php">Exercise</a>
             </div>
         </div>
     </div>
