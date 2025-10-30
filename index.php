@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Physiotherapy in Bangalore – Vidyaranyapura, Hebbal & Nearby | Sri Sai Balaji Physiotherapy Clinic</title>
-    <meta name="description" content="Looking for physiotherapy near me in Bangalore? Sri Sai Balaji Physiotherapy Clinic in Vidyaranyapura provides expert care for pain relief, sports injuries, post-surgery rehab, and pediatric physiotherapy. Conveniently located near Hebbal, Jalahalli & BEL Road. Book your appointment today!">
+    <title>Best Physiotherapy in Vidyaranyapura & Singapura, Bangalore | Sri Sai Balaji Physiotherapy Clinic</title>
+    <meta name="description" content="Sri Sai Balaji Physiotherapy Clinic – Trusted physiotherapist in Vidyaranyapura & Singapura, Bangalore. Expert pain relief, sports injury rehab, and post-surgery physiotherapy near you. Book your appointment today!">
+    <meta name="keywords" content="physiotherapy in Vidyaranyapura, physiotherapy in Singapura, physiotherapy near me, best physiotherapy in Bangalore, physiotherapy clinic near Hebbal, pain relief physiotherapy, sports physiotherapy Bangalore, post-surgery rehabilitation, physiotherapist near BEL Road, Sri Sai Balaji Physiotherapy Clinic">
     <meta name="theme-color" content="#ffffff">
 
 
@@ -13,7 +14,7 @@
     <link rel="canonical" href="https://physiotherapybangalore.com/">
 
 
-    <meta property="og:title" content="Best Physiotherapy in Bangalore | Physiotherapy near me in Vidyaranyapura & Hebbal">
+    <meta property="og:title" content="Best Physiotherapy in Vidyaranyapura & Singapura, Bangalore | Sri Sai Balaji Physiotherapy Clinic">
     <meta property="og:description" content="Sri Sai Balaji Physiotherapy Clinic offers expert pain relief, sports injury recovery, and post-surgery rehab in Vidyaranyapura, Singapura, Hebbal, BEL Road & nearby areas. Book your appointment today!">
     <meta property="og:image" content="https://physiotherapybangalore.com/assets/images/clinic.jpg">
     <meta property="og:url" content="https://physiotherapybangalore.com/">
@@ -63,15 +64,72 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "PhysiotherapyClinic",
+            "@type": "MedicalBusiness",
             "name": "Sri Sai Balaji Physiotherapy Clinic",
+            "description": "Sri Sai Balaji Physiotherapy Clinic offers expert physiotherapy and rehabilitation in Vidyaranyapura & Singapura, Bangalore. Trusted for pain relief, injury recovery, and post-surgery rehab.",
+            "image": "https://physiotherapybangalore.com/assets/images/clinic.jpg",
             "logo": "https://physiotherapybangalore.com/assets/images/logo.webp",
+            "url": "https://physiotherapybangalore.com/",
+            "telephone": "+91-9663314071",
+            "priceRange": "₹₹",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "118, 3rd Cross Rd, Lakkappa Layout, Singapura Village, Vidyaranyapura",
+                "addressLocality": "Bangalore",
+                "addressRegion": "KA",
+                "postalCode": "560097",
+                "addressCountry": "IN"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 13.0802,
+                "longitude": 77.5368
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "opens": "09:00",
+                "closes": "20:00"
+            },
+            "areaServed": [
+                "Vidyaranyapura",
+                "Singapura",
+                "Hebbal",
+                "BEL Road",
+                "Jalahalli",
+                "Yelahanka",
+                "Bangalore"
+            ],
+            "hasMap": "https://maps.app.goo.gl/arWrFPGx8EuqFx4D6",
+            "sameAs": [
+                "https://www.facebook.com/yourrealpage",
+                "https://www.instagram.com/yourrealpage",
+                "https://g.page/your-google-business-link"
+            ]
+        }
+    </script>
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Sri Sai Balaji Physiotherapy Clinic",
             "image": "https://physiotherapybangalore.com/assets/images/clinic.jpg",
             "url": "https://physiotherapybangalore.com/",
             "telephone": "+91-9663314071",
+            "priceRange": "₹₹",
+            "description": "Sri Sai Balaji Physiotherapy Clinic provides advanced physiotherapy and pain management services in Vidyaranyapura & Singapura, Bangalore. We specialize in sports injury rehab, orthopedic physiotherapy, and post-surgery recovery.",
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "118, 3rd Cross Rd, Lakkappa Layout, Singapura Village, Singapura, Vidyaranyapura",
+                "streetAddress": "118, 3rd Cross Rd, Lakkappa Layout, Singapura Village, Vidyaranyapura",
                 "addressLocality": "Bangalore",
                 "addressRegion": "KA",
                 "postalCode": "560097",
@@ -95,40 +153,39 @@
                 "opens": "09:00",
                 "closes": "20:00"
             }],
-            "areaServed": [{
-                    "@type": "Place",
-                    "name": "Vidyaranyapura"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Singapura"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Hebbal"
-                },
-                {
-                    "@type": "Place",
-                    "name": "BEL Road"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Jalahalli"
-                },
-                {
-                    "@type": "Place",
-                    "name": "Yelahanka"
-                }
-            ],
-            "hasMap": "https://maps.app.goo.gl/arWrFPGx8EuqFx4D6",
             "sameAs": [
-                "https://www.facebook.com/yourpage",
-                "https://www.instagram.com/yourpage",
-                "https://g.page/your-google-business-link"
-            ]
+                "https://g.page/your-google-business-link",
+                "https://www.facebook.com/yourrealpage",
+                "https://www.instagram.com/yourrealpage"
+            ],
+            "areaServed": [
+                "Vidyaranyapura",
+                "Singapura",
+                "Hebbal",
+                "BEL Road",
+                "Jalahalli",
+                "Yelahanka"
+            ],
+            "department": [{
+                "@type": "MedicalBusiness",
+                "name": "Physiotherapy Department",
+                "serviceType": [
+                    "Physiotherapy",
+                    "Pain Relief Therapy",
+                    "Sports Injury Rehabilitation",
+                    "Post-Surgery Recovery"
+                ],
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "118, 3rd Cross Rd, Lakkappa Layout, Singapura Village, Vidyaranyapura",
+                    "addressLocality": "Bangalore",
+                    "addressRegion": "KA",
+                    "postalCode": "560097",
+                    "addressCountry": "IN"
+                }
+            }]
         }
     </script>
-
 
 </head>
 
