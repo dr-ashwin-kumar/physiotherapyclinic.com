@@ -98,15 +98,15 @@
                     </div>
                     <form class="form-inputs" id="contactForm">
                         <div class="input-name-and-email">
-                            <input type="text" placeholder="Name" name="name">
-                            <input type="email" placeholder="Email" name="email">
+                            <input type="text" placeholder="Name" name="name" required>
+                            <input type="email" placeholder="Email" name="email" required>
                         </div>
                         <div class="input-phone-and-subject">
-                            <input type="phone" placeholder="Phone" name="phone">
-                            <input type="text" placeholder="Subject" name="subject">
+                            <input type="phone" placeholder="Phone" name="phone" required>
+                            <input type="text" placeholder="Subject" name="subject" required>
                         </div>
                         <div class="input-textarea-message">
-                            <textarea name="message" id="" placeholder="Message"></textarea>
+                            <textarea name="message" id="" placeholder="Message" required></textarea>
                         </div>
                         <div class="input-submit-button">
                             <a href="#" id="submitBtn">Submit</a>
